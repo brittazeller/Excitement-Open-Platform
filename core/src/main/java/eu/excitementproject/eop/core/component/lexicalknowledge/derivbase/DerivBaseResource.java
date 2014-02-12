@@ -91,7 +91,7 @@ public class DerivBaseResource implements Component, LexicalResource<DerivBaseIn
 	 */
 	public DerivBaseResource(CommonConfig config) throws ConfigurationException, ComponentException {
 		this(Boolean.parseBoolean(config.getSection("DerivBaseResource").getString("useScores")),
-				config.getSection("DerivBaseResource").getInteger("derivatonSteps"));
+				config.getSection("DerivBaseResource").getString("derivationSteps"));
 	}
 	
 	
@@ -102,17 +102,50 @@ public class DerivBaseResource implements Component, LexicalResource<DerivBaseIn
 	 * 
 	 * @param useScores specifies if confidence scores for each lemma pair should be used 
 	 * @param derivSteps specifies the maximum amount of derivational steps that may be 
-	 *  proceeded between two lemmas to be considered
+	 *  proceeded between two lemmas to be considered (int number as String)
 	 * @throws ConfigurationException
 	 * @throws ComponentException
 	 */	
-	public DerivBaseResource(boolean useScores, Integer derivSteps) throws ConfigurationException, ComponentException {
-
-		// derivSteps = null is possible if configuration is not filled in completely
-		if (derivSteps == null) {
-			derivSteps = 10;
+	public DerivBaseResource(boolean useScores, String dSteps) throws ConfigurationException, ComponentException {
+		
+		/* 
+		 * Make some exception captions for bad configuration file settings,
+		 * and transform "derivationSteps" config information to Integer.
+		 */
+		if (dSteps == null) {
+			throw new ConfigurationException("Wrong configuration: didn't find the property 'derivationSteps' for DerivBaseResource.");
 		}
 		
+		int derivSteps;
+		
+		// unfilled 'derivationSteps' value in configuration are accepted, go then to default fall back 
+		if (dSteps.equals("")) {
+			derivSteps = -1;
+		}
+		
+		if (!useScores) {
+			System.out.println("Using DErivBase without derivation path info (useScores == false).");
+			derivSteps = 10;
+			
+		} else {
+			
+			// try parsing an Integer as #derivationSteps
+			try {
+				derivSteps = Integer.parseInt(dSteps);
+			} catch (NumberFormatException e) {
+				throw new ConfigurationException("Wrong configuation: didn't find Integer value 'derivationSteps' for DerivBaseResource.", e);
+			}
+			
+			if (derivSteps == -1) {
+				System.out.println("Using DErivBase with default derivation path length (derivationSteps == 10).");
+				// derivSteps = -1 is possible if configuration is not filled in completely
+				derivSteps = 10;
+			} else {
+				System.out.println("Using DErivBase with #derivationSteps = " + derivSteps + ".");
+			}		
+		}
+		
+
 		Double minScore = 1.0/derivSteps; 
 		
 		
@@ -120,7 +153,7 @@ public class DerivBaseResource implements Component, LexicalResource<DerivBaseIn
 			this.derivbase = new DerivBase(useScores, minScore);
 		}
 		catch (java.io.FileNotFoundException e) {
-			throw new DerivBaseNotInstalledException("Path to DErivBase is not correct.", e);
+			throw new DerivBaseNotInstalledException("Path to DErivBase is not correct. ", e);
 		}
 		catch (java.lang.Exception e) {
 			throw new ComponentException("Cannot initialize DErivBase"
