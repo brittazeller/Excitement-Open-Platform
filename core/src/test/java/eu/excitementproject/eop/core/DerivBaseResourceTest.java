@@ -258,7 +258,7 @@ public class DerivBaseResourceTest {
 		
 		DerivBaseResource dbWithScores = null;
 		try {
-			dbWithScores = new DerivBaseResource(true, 10);
+			dbWithScores = new DerivBaseResource(true, "10");
 		}
 		catch (DerivBaseNotInstalledException e) {
 			System.out.println("WARNING: DErivBase file was not found in the given path.");

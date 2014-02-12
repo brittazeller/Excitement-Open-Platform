@@ -95,7 +95,7 @@ public class BagOfWordsScoringTest {
 			bolexs = new BagOfLexesScoringDE(true, true, new String[]{"Causes","Entails","Has_Hypernym","Has_Synonym"}, "./src/main/resources/ontologies/germanet-7.0/GN_V70/GN_V70_XML/", false);
 			
 //			bolexposs = new BagOfLexesPosScoringDE(config);
-			bolexposs = new BagOfLexesPosScoringDE(true, true, new String[]{"Causes","Entails","Has_Hypernym","Has_Synonym"}, "./src/main/resources/ontologies/germanet-7.0/GN_V70/GN_V70_XML/", true, true, 10);
+			bolexposs = new BagOfLexesPosScoringDE(true, true, new String[]{"Causes","Entails","Has_Hypernym","Has_Synonym"}, "./src/main/resources/ontologies/germanet-7.0/GN_V70/GN_V70_XML/", true, true, "10");
 
 		} catch (ConfigurationException e) {
 			logger.warning(e.getMessage());
