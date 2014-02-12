@@ -1,6 +1,7 @@
 package eu.excitementproject.eop.util.runner;
 
 import java.io.BufferedReader;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.IOException;
@@ -30,8 +31,8 @@ import eu.excitementproject.eop.common.TEDecision;
 import eu.excitementproject.eop.common.configuration.CommonConfig;
 import eu.excitementproject.eop.common.exception.ComponentException;
 import eu.excitementproject.eop.common.exception.ConfigurationException;
+import eu.excitementproject.eop.common.utilities.configuration.ImplCommonConfig;
 import eu.excitementproject.eop.core.EditDistanceTEDecision;
-import eu.excitementproject.eop.core.ImplCommonConfig;
 import eu.excitementproject.eop.lap.LAPAccess;
 import eu.excitementproject.eop.lap.LAPException;
 import eu.excitementproject.eop.lap.PlatformCASProber;
@@ -326,20 +327,16 @@ public class EOPRunner {
 			
 			if (option.lap != null) 
 				lapRunner = new LAPRunner(option.lap);
+
+			if ((lapRunner == null) && (option.test || option.train))
+				lapRunner = new LAPRunner(configFile);
 			
 			if (option.trainFile != null) {
-				
-				logger.info("Trainnig file detecting, getting options and then initializing LAP");
-				
+								
 				String trainFile = getOptionValue(option.trainFile, "trainFile");
 				String trainDir = getOptionValue(option.trainDir, "trainDir");
 				
 				logger.info("\t training file: " + trainFile + "\n\t training dir: " + trainDir);
-				
-				if (lapRunner == null)
-					lapRunner = new LAPRunner(configFile);
-				
-				logger.info("\tLAP initialized");
 				
 				lapRunner.runLAPOnFile(trainFile, trainDir);
 			}
@@ -351,8 +348,7 @@ public class EOPRunner {
 				testFile = getOptionValue(option.testFile, "testFile");
 				testDir = getOptionValue(option.testDir, "testDir");
 
-				if (lapRunner == null)
-					lapRunner = new LAPRunner(configFile);
+				logger.info("\t testing file: " + testFile + "\n\t testing dir: " + testDir);
 				
 				lapRunner.runLAPOnFile(testFile, testDir);
 			}

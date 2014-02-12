@@ -235,6 +235,7 @@ public class BagOfLexesScoringDE extends BagOfLemmasScoring {
 			HashMap<String, Integer> hBag,
 			LexicalResource<? extends RuleInfo> lex)
 			throws ScoringComponentException {
+		
 		if (null == lex) {
 			throw new ScoringComponentException(
 					"WARNING: the specified lexical resource has not been properly initialized!");

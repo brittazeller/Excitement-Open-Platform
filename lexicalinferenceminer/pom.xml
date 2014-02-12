@@ -4,7 +4,7 @@
    	<parent>
 		<groupId>eu.excitementproject</groupId>
 	  	<artifactId>eop</artifactId>
-	    <version>1.0.3-SNAPSHOT</version>
+	    <version>1.1.2-SNAPSHOT</version>
 	</parent>
             
    	
@@ -14,17 +14,21 @@
 
   <dependencies>
       
- <dependency>
-	<groupId>xerces</groupId>
-	<artifactId>xercesImpl</artifactId>
-	<version>2.9.1</version>
-</dependency>
+	 <dependency>
+		<groupId>xerces</groupId>
+		<artifactId>xercesImpl</artifactId>
+		<version>2.9.1</version>
+	</dependency>
             
-      
+    <dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+	</dependency>
+	
     <dependency>
 		<groupId>eu.excitementproject</groupId>
   		<artifactId>common</artifactId>
-  		<version>1.0.3-SNAPSHOT</version>
+  		<version>1.1.2-SNAPSHOT</version>
   	</dependency>
       
           
@@ -37,7 +41,7 @@
      <dependency>
 	    	<groupId>eu.excitementproject</groupId>
     		<artifactId>lap</artifactId>
-    		<version>1.0.3-SNAPSHOT</version>
+    		<version>1.1.2-SNAPSHOT</version>
     	</dependency>
     	
          	 
@@ -80,12 +84,5 @@
 </dependency> 
 -->
 
-    		
-    	<dependency>
-	<groupId>mysql</groupId>
-	<artifactId>mysql-connector-java</artifactId>
-	<version>5.1.12</version>
-</dependency>
-               	
   </dependencies>
 </project>

@@ -138,7 +138,7 @@ public class ClassificationEDA implements EDABasic<ClassificationTEDecision> {
 
 		Vector<Double> featureVector = new Vector<Double>();
 		for (DistanceCalculation component : components) {
-			DistanceValue dValue = component.calculation(aCas);
+			DistanceValue dValue = component.calculation(aCas); //TODO BZ: what happens here if BoWSimilarity is not implemented? Or when is this called?
 			Vector<Double> distanceVector = component.calculateScores(aCas);
 			if (null == distanceVector || distanceVector.size() == 0) {
 				featureVector.add(dValue.getDistance());

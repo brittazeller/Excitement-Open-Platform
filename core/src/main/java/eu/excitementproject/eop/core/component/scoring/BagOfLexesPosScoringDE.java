@@ -67,7 +67,7 @@ public class BagOfLexesPosScoringDE extends BagOfLexesScoringDE {
 	 * @throws ConfigurationException
 	 * @throws LexicalResourceException
 	 */
-	public BagOfLexesPosScoringDE(boolean isDS, boolean isGN, String[] germaNetRelations, String germaNetFilePath, boolean isDB, boolean useScores, Integer derivSteps) throws ConfigurationException, LexicalResourceException{
+	public BagOfLexesPosScoringDE(boolean isDS, boolean isGN, String[] germaNetRelations, String germaNetFilePath, boolean isDB, boolean useScores, String derivSteps) throws ConfigurationException, LexicalResourceException{
 		super(isDS, isGN, germaNetRelations, germaNetFilePath, isDB);
 		numOfFeats = super.getNumOfFeats();
 		
@@ -207,6 +207,7 @@ public class BagOfLexesPosScoringDE extends BagOfLexesScoringDE {
 			HashMap<String, Integer> hBag,
 			LexicalResource<? extends RuleInfo> lex)
 			throws ScoringComponentException {
+
 		if (null == lex) {
 			throw new ScoringComponentException(
 					"WARNING: the specified lexical resource has not been properly initialized!");

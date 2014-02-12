@@ -53,6 +53,8 @@ import java.util.Scanner;
  * <li>balAPinc</li>
  * They can be used in combination or individually (all, cosine, balapinc).
  * 
+ * TODO: transDM contains information about nouns, verbs, and adjectives (no named entities).
+ * 
  * 
  * @author Britta Zeller <zeller@cl.uni-heidelberg.de> 
  * @since Nov. 2013 
@@ -220,6 +222,7 @@ public class GermanTransDmResource implements LexicalResource<GermanTransDmInfo>
 		// using a set makes the result unique
 		Set<LexicalRule<? extends GermanTransDmInfo>> result = new HashSet<LexicalRule<? extends GermanTransDmInfo>>();
       
+		//TODO: add "if pos != null", to accept null poses, and later loop over them?
 		// first check if we have a POS we can say something about with this resource,
 		// i.e., verbs, nouns, adjectives. Else, return emtpy list.
 		if (!isValidPos(pos)) {
@@ -232,9 +235,11 @@ public class GermanTransDmResource implements LexicalResource<GermanTransDmInfo>
 		if (pos.toString().equals("ADJ")) {
 			transDmPos = "j".intern();
 		} else {
+			//TODO: add "if pos != null"?
 			transDmPos = pos.toString().substring(0, 1).toLowerCase().intern();
 		}
-		lemma = lemma.intern();		
+		lemma = lemma.intern();
+		//TODO: build instead String[] lemmapos with three entries for pos==null, namely {word-j, word-n, word-v}?
 		String lemmapos = lemma.concat("-").concat(transDmPos);
 		lemmapos = lemmapos.intern();
 		

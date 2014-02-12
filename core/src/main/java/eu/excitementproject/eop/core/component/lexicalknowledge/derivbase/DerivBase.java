@@ -70,7 +70,7 @@ public class DerivBase {
 		if (useScores) { 
 			this.entries = new HashMap<Tuple<String>, ArrayList<Tuple<String>>>();
 	    	this.entryScores = new HashMap<Tuple<String>, ArrayList<HashMap<Tuple<String>, Double>>>();
-	        load("/derivbase/DErivBase-v1.3-pairs.txt", useScores, score);  
+	        load("/derivbase/DErivBase-v1.3-pairs.txt", useScores, score);  //TODO: change paths when 1.4 is incorporated
 	        
 		} else {
 			this.entries = new HashMap<Tuple<String>, ArrayList<Tuple<String>>>();

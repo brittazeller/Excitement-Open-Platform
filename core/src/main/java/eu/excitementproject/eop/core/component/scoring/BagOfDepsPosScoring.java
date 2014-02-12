@@ -76,12 +76,13 @@ public class BagOfDepsPosScoring extends BagOfDepsScoring {
 			final String dep = entry.getKey();
 			String[] childItems = dep.split(" ### ");
 			String child = childItems[1].toLowerCase() + " ### "
-					+ childItems[2].charAt(0);
+					+ childItems[2].charAt(0); //TODO BZ: this is the coarse-grained POS tag of child
 			String[] items = entry.getValue().split(" ## ");
 			String depRel = items[0];
 			String[] parentItems = items[1].split(" ### ");
 			String parent = parentItems[1].toLowerCase() + " ### "
 					+ parentItems[2].charAt(0);
+			//TODO BZ: format matchDep: dog###N##SUBJ##chase###V  
 			String matchDep = child + " ## " + depRel + " ## " + parent;
 			switch (matchType) {
 			case 1:
