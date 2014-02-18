@@ -166,7 +166,7 @@ public class BagOfDepsScoring extends BagOfWordsScoring {
 	protected Map<String, String> indexLemmaDepTree(JCas text) {
 		Map<String, String> depTree = new HashMap<String, String>();
 
-		//TODO BZ: format is the same as in indexDepTree, but containing lemmas, not tokens 
+		// BZ: format is the same as in indexDepTree, but containing lemmas, not tokens 
 		for (Dependency dep : JCasUtil.select(text, Dependency.class)) {
 			Token child = dep.getDependent();
 			Token parent = dep.getGovernor();
