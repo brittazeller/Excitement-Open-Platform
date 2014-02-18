@@ -119,7 +119,7 @@ public class MaxEntClassificationEDATest {
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_TS_DE.xml");
 //		0.58
 		
-		/* Basline + TS */
+		/* Baseline + TS */
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+TS_DE.xml");
 //		0.625
 		
@@ -146,6 +146,21 @@ public class MaxEntClassificationEDATest {
 		/* Baseline + GNPos + DS + DBPos + TPPos + TS */
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+GNPos+DS+DBPos+TPPos+TS_DE.xml");
 //		0.63
+		
+		/* Baseline ON VICO CORPUS -- REQUIRES PATH CHANGES IN testParser_DE() AND testLAP_DE() */
+//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_vico_Base_DE.xml");
+//		0.65 on balanced data
+//		0.622 on balanced data without SUM feature
+		
+		/* Baseline + DBPos ON VICO CORPUS */
+		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_vico_Base+DBPos_DE.xml");
+//		0.627 on balanced data, derivSteps=10|2|1
+//		0.65 on balanced data, derivSteps=1/10, POS matching in BOLexesPosS adapted
+
+		/* Baseline + DBPos + DS + GNPos + TPPos + TS ON VICO CORPUS */
+//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_vico_Base+DBPos+DS+TP+TPPos+TS_DE.xml");
+//		0.70 on balanced data
+		
 		
 		/** English */
 		/* Baseline */
@@ -204,8 +219,9 @@ public class MaxEntClassificationEDATest {
 //		0.64375
 		
 		/* Baseline + WN + VO + TP + TPPos + TS */
-		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+WN+VO+TP+TPPos+TS_EN.xml");
+//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+WN+VO+TP+TPPos+TS_EN.xml");
 //		0.645
+
 
 		Assume.assumeTrue(configFile.exists());
 		CommonConfig config = null;
@@ -217,14 +233,15 @@ public class MaxEntClassificationEDATest {
 		}
 		Assume.assumeNotNull(config);
 				
+
 		// Gil: testLAP_DE() is a very very long test. (More than build process itself) 
 		//German RTE tests
 		//testLAP_DE();
 		//testParser_DE();
-		//testTraining(config);
+		testTraining(config);
 		//testTesting_SingleTH(config); 
 		//testTesting_MultiTH(config); 
-		//testTesting_MultiTH_AND_Output(config);
+		testTesting_MultiTH_AND_Output(config);
 		
 		
 		// Rui: testLAP_EN(), testTraining_EN(), and testTesting_MultiTH_EN() also take long time
@@ -243,9 +260,11 @@ public class MaxEntClassificationEDATest {
 		File outputDir = null;
 		
 		// generate XMI files for the training data
-		inputFile = new File("./src/main/resources/data-set/German_dev.xml");
+		//inputFile = new File("./src/main/resources/data-set/German_dev.xml");
+		inputFile = new File("./src/main/resources/data-set/German_social-media_balanced_dev.xml");
 		assertTrue(inputFile.exists());
-		outputDir = new File("./target/DE/dev/");
+		//outputDir = new File("./target/DE/dev/");
+		outputDir = new File("./target/DE_social-media_balanced/dev/");
 		if (!outputDir.exists()) {
 			outputDir.mkdirs();
 		}
@@ -261,9 +280,11 @@ public class MaxEntClassificationEDATest {
 		}
 		
 		// generate XMI files for the testing data
-		inputFile = new File("./src/main/resources/data-set/German_test.xml");
+		//inputFile = new File("./src/main/resources/data-set/German_test.xml");
+		inputFile = new File("./src/main/resources/data-set/German_social-media_balanced_test.xml");
 		assertTrue(inputFile.exists());
-		outputDir = new File("./target/DE/test/");
+		//outputDir = new File("./target/DE/test/");
+		outputDir = new File("./target/DE_social-media_balanced/test/");
 		if (!outputDir.exists()) {
 			outputDir.mkdirs();
 		}
@@ -321,9 +342,11 @@ public class MaxEntClassificationEDATest {
 		File outputDir = null;
 		
 		// generate XMI files for the training data
-		inputFile = new File("./src/main/resources/data-set/German_dev.xml");
+		//inputFile = new File("./src/main/resources/data-set/German_dev.xml");
+		inputFile = new File("./src/main/resources/data-set/German_social-media_balanced_dev.xml");
 		assertTrue(inputFile.exists());
-		outputDir = new File("./target/DE/dev/");
+		//outputDir = new File("./target/DE/dev/");
+		outputDir = new File("./target/DE_social-media_balanced/dev/");
 		if (!outputDir.exists()) {
 			outputDir.mkdirs();
 		}
@@ -339,9 +362,11 @@ public class MaxEntClassificationEDATest {
 		}
 		
 		// generate XMI files for the testing data
-		inputFile = new File("./src/main/resources/data-set/German_test.xml");
+		//inputFile = new File("./src/main/resources/data-set/German_test.xml");
+		inputFile = new File("./src/main/resources/data-set/German_social-media_balanced_test.xml");
 		assertTrue(inputFile.exists());
-		outputDir = new File("./target/DE/test/");
+		//outputDir = new File("./target/DE/test/");
+		outputDir = new File("./target/DE_social-media_balanced/test/");
 		if (!outputDir.exists()) {
 			outputDir.mkdirs();
 		}

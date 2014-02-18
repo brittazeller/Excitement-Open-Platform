@@ -213,6 +213,12 @@ public class BagOfLexesPosScoringDE extends BagOfLexesScoringDE {
 					"WARNING: the specified lexical resource has not been properly initialized!");
 		}
 
+		/*HashMap<String, Integer> hWordBag = new HashMap<String, Integer>();
+		for (String hEntry : hBag.keySet()) {
+			hWordBag.put(hEntry.substring(0, hEntry.lastIndexOf("#") + 3), hBag.get(hEntry));
+			//System.out.println("hbag: " + hBag.toString() + ", \nhwordbag: " + hWordBag.toString());
+		}*/
+		
 		double score = 0.0d;
 		HashMap<String, Integer> tWordBag = new HashMap<String, Integer>();
 
@@ -222,17 +228,19 @@ public class BagOfLexesPosScoringDE extends BagOfLexesScoringDE {
 			final String word = entry.getKey();
 			final int counts = entry.getValue().intValue();
 			try {
-				tWordBag.put(word, counts);
+				tWordBag.put(word.substring(0, word.lastIndexOf("#") + 3), counts);
 				String POS = word.split(" ### ")[1];
+				//System.out.println("---tWordBag :" + tWordBag.toString());
 				for (LexicalRule<? extends RuleInfo> rule : lex
 						.getRulesForLeft(word.split(" ### ")[0],
 								new GermanPartOfSpeech(POS))) {
-					String tokenText = rule.getRLemma() + " ### " + POS;
+					String tokenText = rule.getRLemma() + " ### " + POS.substring(0, 1);
+					//System.out.println("tokenText: " + tokenText);
 					if (tWordBag.containsKey(tokenText)) {
 						int tmp = tWordBag.get(tokenText);
-						tWordBag.put(tokenText, tmp + counts);
+						tWordBag.put(tokenText.substring(0, tokenText.lastIndexOf("#") + 3), tmp + counts);
 					} else {
-						tWordBag.put(tokenText, counts);
+						tWordBag.put(tokenText.substring(0, tokenText.lastIndexOf("#") + 3), counts);
 					}
 				}
 			} catch (LexicalResourceException e) {
