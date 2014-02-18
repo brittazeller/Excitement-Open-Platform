@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entailment-corpus type="dev">
+<pair id="16_2OV1X3V0FK0CQMTI7ID7WKK9R5FMF8" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo Leute! Ein Bekannter von mir hat folgendes Problem: Immer wenn er mit Kaspersky seine Festplatte auf Viren überprüft bekommt er einen Blue Screen mit Error 77 bzw. 77a angezeigt. Er hat gehört das dieses auf eine defekte Festplatte hinweist. Allerdings erreicht sein Prozessor unter Last 67°C und das Problem tritt auch sporadisch bei Spielen und im Sommer wenn das Dachgeschoss ohnehin schon warm ist auf. Habt Ihr dort eine Idee bzw. Lösungsvorschlag um den Fehler zu beheben? Mfg wiesenpieper</t>
+  <h>Ich habe Schwierigkeiten mit der Festplatte bei hohen Temperaturen und Auslastungen.</h>
+</pair>
+<pair id="20_231TUHYW2GTPBT16LMNM869YY2XLQY" entailment="ENTAILMENT" task="SUM">
+  <t>hallo liebe mods, ich schreibe diesen beitrag extra in die mainboard kategorie, weil heute schon 4 mal beim aufrufen des p5q deluxe-sammelthreads mein trendmicro virenscanner angeschlagen hat! er meldete folgen virus: TSPY_ONLINEG.FXG laut trendmicro wird versucht, den virus über '' gehackte '' webseiten einzuschleusen... nachzulesen hier: (URL) könnt ihr mal der sache auf den grund gehen? viele grüsse t.</t>
+  <h>ich erhalte beim Öffnen des P5Q Deluxe-Sammelthreads eine Virenmeldung.</h>
+</pair>
+<pair id="14_2LNUUKQOYGNIY3ER1570807S1UTGYR" entailment="ENTAILMENT" task="SUM">
+  <t>Kann mir mal jemand erklären, wie das gehen soll z.B. Computer (RAM-Speicher) max EUR 6,00 Software (Virenschutz &amp; Datensicherheit) max EUR 5,00 Audio &amp; Hi-Fi (Kopfhörer) max EUR 6,00 wenn aber bei der Post der Versand per DHL (versichert) schon EUR 7,- kostet? Da zahlt also der Verkäufer allein an Portokosten an DHL mehr als der Käufer an ihn bezahlen muss? Von Kosten für den Weg zur Post (bei den heutigen Spritpreisen ja vernachlässigbar), Kosten für die Verpackung (Kartonage, Polstermaterial, Kleber) + Kosten, Zeit und Mühen für die Verpackerei ganz zu schweigen</t>
+  <h>Produkte mit 5 bis 6 Euro an Produktkosten scheinen bei Versandkosten von 7 Euro nicht Profitabel zu sein.</h>
+</pair>
+<pair id="2_2NCXFCD45XCEVP4RGABIU3TGVIIYW7" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo, ich habe Probleme mit dem Trojaner '' TR/Virtumod.WS '' . Antivir gibt mir circa alle 5 Minuten eine Trojanerwarnung, in der besagt wird, dass die Datei '' jkkjjgd.dll '' im System32-Ordner der besagte Trojaner ist. Löschen etc. hilft nicht. Der Trojaner bewirkt, dass sich ständig PopUps mit dem Internet Explorer öffnen, auch wenn die Seiten geblockt werden. Ich hoffe auf baldige Hilfe! MfG derknueppel</t>
+  <h>ich möchte einen von AntiVir gemeldeten Trojaner entfernen.</h>
+</pair>
+<pair id="10_2I7C6SK9RJ85Q19Y7YDAHPMOU4N4SD" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo Leute! Ich habe mir vor ein paar Tagen einen neuen PC gekauft. Hier einmal die Daten: Intel Core 2 Quad Q6600 4* 2,40 GhZ ASUS P5N-D Motherboard Geforce 9600 GT SLI 4 GB Ram Windows Vista 64 Bit und falls auch relevant: Kasoersky Internet Security 7.0 So und jetzt zu meinem Problem. Ich bin am Desktop und schau auf die Prozessorauslastung und bei allen 4 Kernen sind 2 Stellige Prozentbereiche obwohl ich nichts mache, ich bin nur am Desktop. Im Moment waren es gerade bei allen 4 Kernen mehr als 30% Egal was ich mache es ist nur am Stocken, selbst wenn ich nen Ordner öffne. So ich bitte um eure Hilfe und zahlreiche Antworten. MFG Sylar</t>
+  <h>Zweistellige Werte werden für das Scheduling des Prozessors bereits beim Booten erreicht.</h>
+</pair>
+<pair id="25_29UM6IAA2SEIWWLZT5HKRA4IO6RMMF" entailment="ENTAILMENT" task="SUM">
+  <t>Wie stelle ich es an dass das Board dauerhaft auf GB Lan schaltet? Ich brauche es zwar nur wenn das NAS läuft aber einmal am Tag mache ich das Backup und wenn ich das NAS nach dem PC einschalte,wird max. 100mps aktiviert. Unter Eigenschaften der Netzwerkkarte ist '' Auto Negotiation '' eingeschaltet. Oder muß ich da im Bios noch was einstellen? Gruß</t>
+  <h>ich möchte meinen Rechner dauerhaft auf GB-LAN einstellen.</h>
+</pair>
+<pair id="18_2XNTYMNCWYB4BH0RL98X81JOT6BLP7" entailment="ENTAILMENT" task="SUM">
+  <t>Hi, mich macht das EZ Backup und Raid Zeug ganz wirr ;-) Hab Sata 1, 3 und 4 belegt. Kann ich da nun noch eine 4. Sata Platte anklemmen? Der Brenner auf Sata 4 läuft auf Slave, für ein Firmwareupdate sollte er aber auf (Secondary) Master laufen, was macht man da? Danke Gruß Blondy</t>
+  <h>Wie kann ich SATA-Festplatten und Brenner anschließen?</h>
+</pair>
+<pair id="19_2H6UQIHPCGJ2F4SNWDWXO0JPV6171H" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo, habe mir ein Asus P5Q geholt und am Anfang lief alles prima. Hab mir direkt ausm Netz von der Asus Seite die neusten Chipsatztreiber geholt und installiert. Nach dem reboot sind die USB-Ports wie tot Beim hochfahren gehen sie, sprich Hardwaredefekt liegt keiner vor. Sobald der Windowsladebildschirm kommt. Geht die Maus aus und nichts geht mehr. Hab dann mit der Tastatur mal im Hardwaremanager geguckt und siehe da bei USB-Port-Hub sind überall Ausrufungszeichen. Wenn ich dann von dann die USB Treiber manuell installieren will steht nur da. Sie haben WinXP SP2 sie brauchen diese Treiber nicht. System: Asus P5Q E8400 Ati 3850 2 GB G-Data Vitesta Ram Hoffe jemand kann mir da helfen. Vielen Dank im vorarus!</t>
+  <h>ich habe Treiber installiert und nun funktioniert die Kontrolle des USB nicht mehr richtig.</h>
+</pair>
+<pair id="20_2ELV0FK0COK2LGSL06BKGLRWC2HIPQ" entailment="ENTAILMENT" task="SUM">
+  <t>hallo liebe mods, ich schreibe diesen beitrag extra in die mainboard kategorie, weil heute schon 4 mal beim aufrufen des p5q deluxe-sammelthreads mein trendmicro virenscanner angeschlagen hat! er meldete folgen virus: TSPY_ONLINEG.FXG laut trendmicro wird versucht, den virus über '' gehackte '' webseiten einzuschleusen... nachzulesen hier: (URL) könnt ihr mal der sache auf den grund gehen? viele grüsse t.</t>
+  <h>Sobald der P5Q Deluxe-Sammelthread gestartet wird, gibt der Virenscanner eine Alarmmeldung.</h>
+</pair>
+<pair id="3_2GFR24SMEZZ2OKBLGQL8W9Y3E7E2JZ" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo zusammen, Ich habe mir gestern ein paar Programme(OpenOffice, TuneUp,....) heruntergeladen, dann schalte ich den Computer aus. Heute am Morgen sehe ich eine Datei auf meinem Desktop, mit Namen dfljsdjfldjsfsdf.dll.exe , ich wollte sie löschen, aber ging nicht. So nach 3 Stunden sagte Avira plötzlich es sei ein TR/Dldr.Zlob.gzy Nun kann ich die Datei weder mit Avira noch selbständig löschen..... Nun brauche ich wieder mal eure Hilfe LG Crusader</t>
+  <h>Seit ich verschiedene Softwares auf meinem PC eingerichtet habe befindet sich auf meiner Nutzeroberfläche eine Datei, die sich nicht löschen lässt.</h>
+</pair>
+<pair id="10_2N633FDEY5COY2CFKGU8JRFLIKE1SY" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo Leute! Ich habe mir vor ein paar Tagen einen neuen PC gekauft. Hier einmal die Daten: Intel Core 2 Quad Q6600 4* 2,40 GhZ ASUS P5N-D Motherboard Geforce 9600 GT SLI 4 GB Ram Windows Vista 64 Bit und falls auch relevant: Kasoersky Internet Security 7.0 So und jetzt zu meinem Problem. Ich bin am Desktop und schau auf die Prozessorauslastung und bei allen 4 Kernen sind 2 Stellige Prozentbereiche obwohl ich nichts mache, ich bin nur am Desktop. Im Moment waren es gerade bei allen 4 Kernen mehr als 30% Egal was ich mache es ist nur am Stocken, selbst wenn ich nen Ordner öffne. So ich bitte um eure Hilfe und zahlreiche Antworten. MFG Sylar</t>
+  <h>Befindet sich der Computer im Ruhezustand ist die Auslastung zu stark.</h>
+</pair>
+<pair id="6_2KD0FK0COK2JG3D6I1B9SRW6UDTJQV" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo Folgendes Problem, der CPU ist bei 100%. Wo die Auslastung liegt, lässt sich nicht erkennen im Task. Spy und Virenprogramm AV lässt sich nicht starten. AVcenter ist keine zulässige win32 anwendung u.s.w. Soundkarte gibt keine Musik mehr von sich. Nur die Windows Töne. Treiber lässt sich auch nicht mehr installieren. Online Virenscan, wie hier beschrieben, geht nur in Zeitlupe, wegen des CPU. Bisher wurde der Beagle Virus gefunden. Tool installiert. Abgesicherter Modus geht aber nicht , trotz mehrerer Versuche. Was nun? Vielen Dank für die Antwort schon jetzt!</t>
+  <h>Prozessorauslastung ist am Limit und AntiVir kann nicht mehr gestartet werden.</h>
+</pair>
+<pair id="15_2ZQIUB2YU98JJUKK4KC0MBJ9O2U9L1" entailment="ENTAILMENT" task="SUM">
+  <t>hi, Mein pc ist eigentlich ganz in ordung funkioniert ganz gut auser das wenn ich defragmentieren moechte, er immer obstuerzt, und von alleine wider hoch faehrt. Was kann ich tun damit ich defragmentieren kann ohne das es bei der haelfte ab stuertzt? und warum stuerzt er immer ab . habe auch schon einene wirenscan durchgenomen und er sagt das ich keinen virus oder so was habe. vielen lieben dank schon mal im vorraus</t>
+  <h>Bei der Defragmentierung meines Rechners tauchen Schwierigkeiten auf.</h>
+</pair>
+<pair id="13_2PW4BLYHVI44QUTJEBZDUEZSHO81V3" entailment="ENTAILMENT" task="SUM">
+  <t>Es gibt bei m ir zwei Probleme bei der Ausführung des Tools unter Vista. 1) Vista blockiert die Ausführung mit dem Kommentar '' ...Sie verfügen eventuell nicht über ausreichende Berechtigungen... '' und 2) F-Secure gibt eine Malware-Warnung aus '' W32/Suspicious_U.gen '' Virus. Ist die Viruswarnung nur ein Fehlalarm? Wie umgehe ich die Blockierung durch Vista? Kann da jemand helfen? (URL)</t>
+  <h>Fehlende Windows Nutzerrechte verhindern das Starten eines Programmes.</h>
+</pair>
+<pair id="1_248Y2RCJK63ZXGUGKHBUPAQ9PZO6V6" entailment="ENTAILMENT" task="SUM">
+  <t>hi, wie mir counter spy sagt, habe ich mir anscheinend den virtumonde-virus eingefangen, bringe ihn aber damit nicht weg. mein problem äussert sich insofern, dass sich bei allen anwendungen der explorer alle paar sekunden aufhängt, alles verschwindet, einen schwarzen bildschirm zurücklässt und ich nur noch in dem fenster arbeiten kann, in dem ich mich gerade befinde. auch wenn ich den explorer im taskmanager starte, bleibt es nicht lang so.</t>
+  <h>Ein Virus hat meinen PC befallen.</h>
+</pair>
+<pair id="7_2CO6RLPHIT3HXY1UDZX2UJQ27LL9HU" entailment="ENTAILMENT" task="SUM">
+  <t>Hi Leute, Also wenn ich mein Pc starte kommt ganz normal alles wie es komme muss aufeinmal steht dann da. American Megatrends (das steht als überschrift da) 3rd Master Hard Disk: S.M.A.R.T. Status Bad, Backup and Replace Press F1 to Resume wenn ich dann F1 drücke fährt er sich wie gewohnt rauf zur auswahl der Benutzerkonten .. Was bedeutet das ? habe dieses Problem seit ein paar Tagen, liegt es vl dran da ich ein bischen an meine Pc gerüttelt habe ? denn irgend ein Kabel streifte irgend einen Ventilator ..</t>
+  <h>Schwierigkeiten beim Hochfahren des Betriebssystems</h>
+</pair>
+<pair id="7_2NSUC26DG67D3ZUUTWB0JOK2PSJD6D" entailment="ENTAILMENT" task="SUM">
+  <t>Hi Leute, Also wenn ich mein Pc starte kommt ganz normal alles wie es komme muss aufeinmal steht dann da. American Megatrends (das steht als überschrift da) 3rd Master Hard Disk: S.M.A.R.T. Status Bad, Backup and Replace Press F1 to Resume wenn ich dann F1 drücke fährt er sich wie gewohnt rauf zur auswahl der Benutzerkonten .. Was bedeutet das ? habe dieses Problem seit ein paar Tagen, liegt es vl dran da ich ein bischen an meine Pc gerüttelt habe ? denn irgend ein Kabel streifte irgend einen Ventilator ..</t>
+  <h>Während des Hochfahrens des Rechners gab es Schwierigkeiten.</h>
+</pair>
+<pair id="15_2H1G5TYMNCWYD60E29JSOX11P26JN8" entailment="ENTAILMENT" task="SUM">
+  <t>hi, Mein pc ist eigentlich ganz in ordung funkioniert ganz gut auser das wenn ich defragmentieren moechte, er immer obstuerzt, und von alleine wider hoch faehrt. Was kann ich tun damit ich defragmentieren kann ohne das es bei der haelfte ab stuertzt? und warum stuerzt er immer ab . habe auch schon einene wirenscan durchgenomen und er sagt das ich keinen virus oder so was habe. vielen lieben dank schon mal im vorraus</t>
+  <h>Bei der Defragmentierung meines virenfreien Rechners tauchen Schwierigkeiten auf.</h>
+</pair>
+<pair id="10_2YJXERSQV66RNR8HMK8V3AVKOKK2AJ" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo Leute! Ich habe mir vor ein paar Tagen einen neuen PC gekauft. Hier einmal die Daten: Intel Core 2 Quad Q6600 4* 2,40 GhZ ASUS P5N-D Motherboard Geforce 9600 GT SLI 4 GB Ram Windows Vista 64 Bit und falls auch relevant: Kasoersky Internet Security 7.0 So und jetzt zu meinem Problem. Ich bin am Desktop und schau auf die Prozessorauslastung und bei allen 4 Kernen sind 2 Stellige Prozentbereiche obwohl ich nichts mache, ich bin nur am Desktop. Im Moment waren es gerade bei allen 4 Kernen mehr als 30% Egal was ich mache es ist nur am Stocken, selbst wenn ich nen Ordner öffne. So ich bitte um eure Hilfe und zahlreiche Antworten. MFG Sylar</t>
+  <h>Die Prozessorauslastung ist sehr hoch und die gestarteten Programme ruckeln.</h>
+</pair>
+<pair id="16_292MT6YTWX4H5JTO4L49GGI6OXA1WD" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo Leute! Ein Bekannter von mir hat folgendes Problem: Immer wenn er mit Kaspersky seine Festplatte auf Viren überprüft bekommt er einen Blue Screen mit Error 77 bzw. 77a angezeigt. Er hat gehört das dieses auf eine defekte Festplatte hinweist. Allerdings erreicht sein Prozessor unter Last 67°C und das Problem tritt auch sporadisch bei Spielen und im Sommer wenn das Dachgeschoss ohnehin schon warm ist auf. Habt Ihr dort eine Idee bzw. Lösungsvorschlag um den Fehler zu beheben? Mfg wiesenpieper</t>
+  <h>Bei auftretenden Temperaturproblemen friert der Rechner ein.</h>
+</pair>
+<pair id="9_2UNNQYN5F3Q0LIWSR3EC3YB4FTRD9O" entailment="ENTAILMENT" task="SUM">
+  <t>CPU:Intel Q6600 Board:ASUS maximus extreme Ram:1gb osx Fp:Westerndigital 160gb s-ata Gk:Geforce 8800GTX Windows XP PS3 Ich habe heute alles zusammengebaut, aber aheb folgende probleme... 1.Der PC brauch ca 5-10min zum booten. 2.Nach dem Starten hängt der pc sich ständig auf. 3.Bei dem Prog Pobre2 wird angezeigt der die Dram &amp; Dram ref zu niedrig sind 4.beim booten wird ''Pri Master Hard Disk : S.M.A.R.T. Status BAD, Backup and Replace Press F1 to Resume.'' wenn ich denn F1 drücke fährt der pc weiter hoch. MFG (bitte um schnelle antwort)</t>
+  <h>Mein neuer Rechner bootet sehr langsam.</h>
+</pair>
+<pair id="21_2C18EBDPGFL6XEGVSQINKWIO1FBH2A" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo , da mein Pc (4200+ x², 4 Gb Ram) mit dem Catalyst 8.6 beim Starten oft Bluescreens verursachte, wollte ich mit dem @bios tool das f5 bios aufspielen. dabei brach das programm mit '' alloc kernel memory failure '' ab. ich habe darauf nod32 vollständig runtergeschmissen. (soll wohl das flashen nicht erlauben) nun lief das programm einmal langsam bis auf 100%, er hat also etwas geflasht. nach erreichen der 100% kommt nun selbiger fehler wie oben, sodass ich im moment etwas angst habe, den rechner neu zustarten. könnt ihr mir einen tip geben, was ich nun tun soll? mfg</t>
+  <h>Es wird bei einem BIOS-Update ein Fehler gemeldet.</h>
+</pair>
+<pair id="4_2WIOHOVR14IXMQTK2J8EJWA63HH76F" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo all e zusammen. Mein Virenprogramm AntiVir hat ein Trojanisches Pferd in meinem System entdeckt. Es fragt mich was ich damit machen will und wenn ich auf löschen klicke erscheint es das nächste Mal wieder. Auch wenn ich andere kostenlose Virenprogramme benutze, finde ich den Trojaner zwar, aber in diesem Moment kommt wieder dieses Fenster von AntiVir und fragt mich was ich damit machen will. Dann drücke ich löschen und das Virenprgramm sucht normal weiter, ohne den Trojaner zu beachten. Wer kann mir sagen wie ich diesen Trojaner löschen kann? Wo er ist weiß ich ja schon. Vielen Dank im Voraus Pedro</t>
+  <h>Ich möchte einen Virus endgültig löschen.</h>
+</pair>
+<pair id="17_2IMIXKO2L92HGEN9ZEUYVCCF6Q7DEY" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo, folgende Frage: Kann es passieren, dass ein Trojaner/Virus oder ähnliches Schadprogramm sich heimlich aufs Mainboard flasht (also eine veränderte Firmware), und selbst nach OS-Neuinstallation dann wieder das System infiziert ? Und falls das passieren kann: Ist es nur von Windows aus möglich (also ein Schadprogramm, dass von Windows aus agiert), oder könnte es auch über Ubuntu passieren (falls das Schadprogramm root-Rechte erlangt) ? Wenn man zu 100% sicher sein will, muss man dann sein das Mainboard austauschen ?</t>
+  <h>Meine Frage betrifft Viren auf dem Mainboard.</h>
+</pair>
+<pair id="1_294EZZ2MIKMNBWZO2FU80WWXOHAO7K" entailment="ENTAILMENT" task="SUM">
+  <t>hi, wie mir counter spy sagt, habe ich mir anscheinend den virtumonde-virus eingefangen, bringe ihn aber damit nicht weg. mein problem äussert sich insofern, dass sich bei allen anwendungen der explorer alle paar sekunden aufhängt, alles verschwindet, einen schwarzen bildschirm zurücklässt und ich nur noch in dem fenster arbeiten kann, in dem ich mich gerade befinde. auch wenn ich den explorer im taskmanager starte, bleibt es nicht lang so.</t>
+  <h>Der Virtumonde-Virus kann nicht gelöscht werden.</h>
+</pair>
+<pair id="20_27ZM8JIA0RYNLBTMC1D0CBMJZ8Z50W" entailment="ENTAILMENT" task="SUM">
+  <t>hallo liebe mods, ich schreibe diesen beitrag extra in die mainboard kategorie, weil heute schon 4 mal beim aufrufen des p5q deluxe-sammelthreads mein trendmicro virenscanner angeschlagen hat! er meldete folgen virus: TSPY_ONLINEG.FXG laut trendmicro wird versucht, den virus über '' gehackte '' webseiten einzuschleusen... nachzulesen hier: (URL) könnt ihr mal der sache auf den grund gehen? viele grüsse t.</t>
+  <h>Aus welchem Grund bekomme ich das Risiko von Computerviren auf manchen Seiten der Homepage von meinem Antivirenprogramm gemeldet?</h>
+</pair>
+<pair id="19_25F7H57DZKPFG65F6Y4M95L8ON6C2W" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo, habe mir ein Asus P5Q geholt und am Anfang lief alles prima. Hab mir direkt ausm Netz von der Asus Seite die neusten Chipsatztreiber geholt und installiert. Nach dem reboot sind die USB-Ports wie tot Beim hochfahren gehen sie, sprich Hardwaredefekt liegt keiner vor. Sobald der Windowsladebildschirm kommt. Geht die Maus aus und nichts geht mehr. Hab dann mit der Tastatur mal im Hardwaremanager geguckt und siehe da bei USB-Port-Hub sind überall Ausrufungszeichen. Wenn ich dann von dann die USB Treiber manuell installieren will steht nur da. Sie haben WinXP SP2 sie brauchen diese Treiber nicht. System: Asus P5Q E8400 Ati 3850 2 GB G-Data Vitesta Ram Hoffe jemand kann mir da helfen. Vielen Dank im vorarus!</t>
+  <h>Die USB-Anschlüsse gehen nicht mehr und der passende Treiber lässt sich nicht installieren.</h>
+</pair>
+<pair id="9_2OEGKCCVLL3CC5ULARGQBC9NW8PW65" entailment="ENTAILMENT" task="SUM">
+  <t>CPU:Intel Q6600 Board:ASUS maximus extreme Ram:1gb osx Fp:Westerndigital 160gb s-ata Gk:Geforce 8800GTX Windows XP PS3 Ich habe heute alles zusammengebaut, aber aheb folgende probleme... 1.Der PC brauch ca 5-10min zum booten. 2.Nach dem Starten hängt der pc sich ständig auf. 3.Bei dem Prog Pobre2 wird angezeigt der die Dram &amp; Dram ref zu niedrig sind 4.beim booten wird ''Pri Master Hard Disk : S.M.A.R.T. Status BAD, Backup and Replace Press F1 to Resume.'' wenn ich denn F1 drücke fährt der pc weiter hoch. MFG (bitte um schnelle antwort)</t>
+  <h>Das Starten meines Rechners dauert zu lange und ein Fehler wird gemeldet.</h>
+</pair>
+<pair id="23_2XXL6VCPWZ9RPFNHHCSSESN3J7Z9OI" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo Ich habe folgendes Problem. Wenn ich Daten von einer USB Festplatte auf die Interne Platte kopiere hängt der ganze PC. Die Interne Platte hängt am Asus EZ Backup Controller und ist gespiegelt. Als Betriebsystem kommt Windows 2003 zum einsatz. Kennt jemand das Problem Und kann ich die Platten einfach umstecken auf den Intel Kontroller.???? Oder verliere ich alle Daten??</t>
+  <h>Ich habe Probleme bei Kopieren von Dateien zwischen zwei Festplatten.</h>
+</pair>
+<pair id="15_2522JE1M7PKKBNIVZ5QAJ04L5B7QXP" entailment="ENTAILMENT" task="SUM">
+  <t>hi, Mein pc ist eigentlich ganz in ordung funkioniert ganz gut auser das wenn ich defragmentieren moechte, er immer obstuerzt, und von alleine wider hoch faehrt. Was kann ich tun damit ich defragmentieren kann ohne das es bei der haelfte ab stuertzt? und warum stuerzt er immer ab . habe auch schon einene wirenscan durchgenomen und er sagt das ich keinen virus oder so was habe. vielen lieben dank schon mal im vorraus</t>
+  <h>Mein Rechner startet bei der Deframentierung meines Rechners neu.</h>
+</pair>
+<pair id="4_2JZECWA6X3YOEE6Z56WK4PTITW1MNF" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo all e zusammen. Mein Virenprogramm AntiVir hat ein Trojanisches Pferd in meinem System entdeckt. Es fragt mich was ich damit machen will und wenn ich auf löschen klicke erscheint es das nächste Mal wieder. Auch wenn ich andere kostenlose Virenprogramme benutze, finde ich den Trojaner zwar, aber in diesem Moment kommt wieder dieses Fenster von AntiVir und fragt mich was ich damit machen will. Dann drücke ich löschen und das Virenprgramm sucht normal weiter, ohne den Trojaner zu beachten. Wer kann mir sagen wie ich diesen Trojaner löschen kann? Wo er ist weiß ich ja schon. Vielen Dank im Voraus Pedro</t>
+  <h>Ich möchte einen Trojaner löschen.</h>
+</pair>
+<pair id="2_236FXRDS4IC1G04MQ06M81A2O9GYVX" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo, ich habe Probleme mit dem Trojaner '' TR/Virtumod.WS '' . Antivir gibt mir circa alle 5 Minuten eine Trojanerwarnung, in der besagt wird, dass die Datei '' jkkjjgd.dll '' im System32-Ordner der besagte Trojaner ist. Löschen etc. hilft nicht. Der Trojaner bewirkt, dass sich ständig PopUps mit dem Internet Explorer öffnen, auch wenn die Seiten geblockt werden. Ich hoffe auf baldige Hilfe! MfG derknueppel</t>
+  <h>Ich möchte einen Trojaner mit Antivir löschen.</h>
+</pair>
+<pair id="3_2PI6UFBNFSVGWN622MJWDNG1L6M4IM" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo zusammen, Ich habe mir gestern ein paar Programme(OpenOffice, TuneUp,....) heruntergeladen, dann schalte ich den Computer aus. Heute am Morgen sehe ich eine Datei auf meinem Desktop, mit Namen dfljsdjfldjsfsdf.dll.exe , ich wollte sie löschen, aber ging nicht. So nach 3 Stunden sagte Avira plötzlich es sei ein TR/Dldr.Zlob.gzy Nun kann ich die Datei weder mit Avira noch selbständig löschen..... Nun brauche ich wieder mal eure Hilfe LG Crusader</t>
+  <h>ich möchte eine mir fremde Datei von meinem Desktop löschen, die nach der Installation von Programmen dort abgelegt wurde.</h>
+</pair>
+<pair id="10_25CQIHPCGJ2D43F2PMOH7JPPYWK28F" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo Leute! Ich habe mir vor ein paar Tagen einen neuen PC gekauft. Hier einmal die Daten: Intel Core 2 Quad Q6600 4* 2,40 GhZ ASUS P5N-D Motherboard Geforce 9600 GT SLI 4 GB Ram Windows Vista 64 Bit und falls auch relevant: Kasoersky Internet Security 7.0 So und jetzt zu meinem Problem. Ich bin am Desktop und schau auf die Prozessorauslastung und bei allen 4 Kernen sind 2 Stellige Prozentbereiche obwohl ich nichts mache, ich bin nur am Desktop. Im Moment waren es gerade bei allen 4 Kernen mehr als 30% Egal was ich mache es ist nur am Stocken, selbst wenn ich nen Ordner öffne. So ich bitte um eure Hilfe und zahlreiche Antworten. MFG Sylar</t>
+  <h>Mein Rechner hat im Leerlauf eine sehr hohe CPU-Auslastung und ruckelt.</h>
+</pair>
+<pair id="21_2QHJMJUNU8LZ8TYZ9MI9FD8J99XH1T" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo , da mein Pc (4200+ x², 4 Gb Ram) mit dem Catalyst 8.6 beim Starten oft Bluescreens verursachte, wollte ich mit dem @bios tool das f5 bios aufspielen. dabei brach das programm mit '' alloc kernel memory failure '' ab. ich habe darauf nod32 vollständig runtergeschmissen. (soll wohl das flashen nicht erlauben) nun lief das programm einmal langsam bis auf 100%, er hat also etwas geflasht. nach erreichen der 100% kommt nun selbiger fehler wie oben, sodass ich im moment etwas angst habe, den rechner neu zustarten. könnt ihr mir einen tip geben, was ich nun tun soll? mfg</t>
+  <h>Ich erhalte nach dem Update meines BIOS eine Fehlermeldung, soll ich den PC neu starten?</h>
+</pair>
+<pair id="10_241KM05BMJTUJ0N19AG9YA7SBA5EJE" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo Leute! Ich habe mir vor ein paar Tagen einen neuen PC gekauft. Hier einmal die Daten: Intel Core 2 Quad Q6600 4* 2,40 GhZ ASUS P5N-D Motherboard Geforce 9600 GT SLI 4 GB Ram Windows Vista 64 Bit und falls auch relevant: Kasoersky Internet Security 7.0 So und jetzt zu meinem Problem. Ich bin am Desktop und schau auf die Prozessorauslastung und bei allen 4 Kernen sind 2 Stellige Prozentbereiche obwohl ich nichts mache, ich bin nur am Desktop. Im Moment waren es gerade bei allen 4 Kernen mehr als 30% Egal was ich mache es ist nur am Stocken, selbst wenn ich nen Ordner öffne. So ich bitte um eure Hilfe und zahlreiche Antworten. MFG Sylar</t>
+  <h>Mein Rechner hat eine hohe CPU-Auslastung und Programme ruckeln nach dem Starten.</h>
+</pair>
+<pair id="3_2YVM25L8I9NZY88DSNFEBQW7ZMOIS6" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo zusammen, Ich habe mir gestern ein paar Programme(OpenOffice, TuneUp,....) heruntergeladen, dann schalte ich den Computer aus. Heute am Morgen sehe ich eine Datei auf meinem Desktop, mit Namen dfljsdjfldjsfsdf.dll.exe , ich wollte sie löschen, aber ging nicht. So nach 3 Stunden sagte Avira plötzlich es sei ein TR/Dldr.Zlob.gzy Nun kann ich die Datei weder mit Avira noch selbständig löschen..... Nun brauche ich wieder mal eure Hilfe LG Crusader</t>
+  <h>Ich möchte eine mir unbekannte Datei von meinem Desktop entfernen.</h>
+</pair>
+<pair id="5_2LISPW1INMHG0SVIW41BDBFMLT7H46" entailment="ENTAILMENT" task="SUM">
+  <t>System Error Fixer bietet ein Spywareprogramm an, es öffnen sich unerwünschte Seiten auf dem Mozilla Firefox Browser, z.B. QUELLE.de , aber auch Handy- und sogar Sex-Seiten. Habe diese Probleme seit ca. 2 Wochen; gestern große Reinigungsaktion gestartet: 1. Ad-Aware, 2. SpyBot-S &amp; D, 3. Bit-Defender, 4. Stinger, und jetzt bin ich beim HiJackThis angekommen. Kann mit den Log-Files nichts anfangen , werde sie versuchen zu posten und hoffe sehr auf Hilfe. Danke schon mal im Voraus! Logfile of Trend Micro HijackThis v2.0.2 [edit] bitte editiere zukünftig deine links, wie es dir u.a. hier angezeigt wird: Aktive Links und persönliche Informationen in HJT Log-Files danke GUA [LinkImg:(URL) [/edit]</t>
+  <h>Ich benötige Hilfe bei den Ergebnissen des Logs von HijackThis zum Thema System Error Fixer.</h>
+</pair>
+<pair id="21_2NFBAT2D5NQYP762JHAGCTYMTQF739" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo , da mein Pc (4200+ x², 4 Gb Ram) mit dem Catalyst 8.6 beim Starten oft Bluescreens verursachte, wollte ich mit dem @bios tool das f5 bios aufspielen. dabei brach das programm mit '' alloc kernel memory failure '' ab. ich habe darauf nod32 vollständig runtergeschmissen. (soll wohl das flashen nicht erlauben) nun lief das programm einmal langsam bis auf 100%, er hat also etwas geflasht. nach erreichen der 100% kommt nun selbiger fehler wie oben, sodass ich im moment etwas angst habe, den rechner neu zustarten. könnt ihr mir einen tip geben, was ich nun tun soll? mfg</t>
+  <h>Ein BIOS-Update wurde nicht richtig abgeschlossen.</h>
+</pair>
+<pair id="6_2BLK4F0OHOVR369WD5TLG2HEIAT23O" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo Folgendes Problem, der CPU ist bei 100%. Wo die Auslastung liegt, lässt sich nicht erkennen im Task. Spy und Virenprogramm AV lässt sich nicht starten. AVcenter ist keine zulässige win32 anwendung u.s.w. Soundkarte gibt keine Musik mehr von sich. Nur die Windows Töne. Treiber lässt sich auch nicht mehr installieren. Online Virenscan, wie hier beschrieben, geht nur in Zeitlupe, wegen des CPU. Bisher wurde der Beagle Virus gefunden. Tool installiert. Abgesicherter Modus geht aber nicht , trotz mehrerer Versuche. Was nun? Vielen Dank für die Antwort schon jetzt!</t>
+  <h>Mein PC meldet Viren und läuft nun mit höchster CPU-Auslastung.</h>
+</pair>
+<pair id="21_26QJVCNHMVHVMEAZUIB2E4J7FY920T" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo , da mein Pc (4200+ x², 4 Gb Ram) mit dem Catalyst 8.6 beim Starten oft Bluescreens verursachte, wollte ich mit dem @bios tool das f5 bios aufspielen. dabei brach das programm mit '' alloc kernel memory failure '' ab. ich habe darauf nod32 vollständig runtergeschmissen. (soll wohl das flashen nicht erlauben) nun lief das programm einmal langsam bis auf 100%, er hat also etwas geflasht. nach erreichen der 100% kommt nun selbiger fehler wie oben, sodass ich im moment etwas angst habe, den rechner neu zustarten. könnt ihr mir einen tip geben, was ich nun tun soll? mfg</t>
+  <h>Störungen beim Installieren von neuer BIOS--Firmware.</h>
+</pair>
+<pair id="9_28GNJ92NJKM07DDIMB8Y32GTVN9D8Z" entailment="ENTAILMENT" task="SUM">
+  <t>CPU:Intel Q6600 Board:ASUS maximus extreme Ram:1gb osx Fp:Westerndigital 160gb s-ata Gk:Geforce 8800GTX Windows XP PS3 Ich habe heute alles zusammengebaut, aber aheb folgende probleme... 1.Der PC brauch ca 5-10min zum booten. 2.Nach dem Starten hängt der pc sich ständig auf. 3.Bei dem Prog Pobre2 wird angezeigt der die Dram &amp; Dram ref zu niedrig sind 4.beim booten wird ''Pri Master Hard Disk : S.M.A.R.T. Status BAD, Backup and Replace Press F1 to Resume.'' wenn ich denn F1 drücke fährt der pc weiter hoch. MFG (bitte um schnelle antwort)</t>
+  <h>Das Booten dauert ewig beim gerade erst selbst gebauten Computer.</h>
+</pair>
+<pair id="4_25C3K4F0OHOVT3VHQ1F2S92HKQF21W" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo all e zusammen. Mein Virenprogramm AntiVir hat ein Trojanisches Pferd in meinem System entdeckt. Es fragt mich was ich damit machen will und wenn ich auf löschen klicke erscheint es das nächste Mal wieder. Auch wenn ich andere kostenlose Virenprogramme benutze, finde ich den Trojaner zwar, aber in diesem Moment kommt wieder dieses Fenster von AntiVir und fragt mich was ich damit machen will. Dann drücke ich löschen und das Virenprgramm sucht normal weiter, ohne den Trojaner zu beachten. Wer kann mir sagen wie ich diesen Trojaner löschen kann? Wo er ist weiß ich ja schon. Vielen Dank im Voraus Pedro</t>
+  <h>Computer von einem Trojaner infiziert.</h>
+</pair>
+<pair id="13_2K9Y0LWSBRI8KW21RB08QHSTRPMC0C" entailment="ENTAILMENT" task="SUM">
+  <t>Es gibt bei m ir zwei Probleme bei der Ausführung des Tools unter Vista. 1) Vista blockiert die Ausführung mit dem Kommentar '' ...Sie verfügen eventuell nicht über ausreichende Berechtigungen... '' und 2) F-Secure gibt eine Malware-Warnung aus '' W32/Suspicious_U.gen '' Virus. Ist die Viruswarnung nur ein Fehlalarm? Wie umgehe ich die Blockierung durch Vista? Kann da jemand helfen? (URL)</t>
+  <h>Wegen fehlenden Systemrechten des Anwenders in Windows kann die Datei nicht gestartet werden.</h>
+</pair>
+<pair id="8_2XNR98D8J3VE9YJRM4PCN3MCQMTGWS" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo PC-Freunde, ich habe letzte Woche XP neu installiert. Heute ist mir aufgefallen das die CPU-Auslastung immer zwischen 60% und 80% liegt obwohl im Taskmanager der Lerlaufprozess mit 90-99% angezeigt wird. Kann es vieleicht sein das im Taskmanager nicht alle Programme erfasst werden(währe mir neu) oder könnte vieleicht ein Virus, Trojaner sein der diese ununterbrochen hohe Auslastung bewirkt? Vobei mein Antivirusprogramm (Awast) keinen Virus oder ähnliches erkennt. Kann mir da vieleicht jemand helfen voran das liegen kann. Gruß Micha</t>
+  <h>Im Leerlauf habe ich eine hohe Prozessorauslastung.</h>
+</pair>
+<pair id="8_2N633FDEY5COY2CFKGU8JRFLIKE1SY" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo PC-Freunde, ich habe letzte Woche XP neu installiert. Heute ist mir aufgefallen das die CPU-Auslastung immer zwischen 60% und 80% liegt obwohl im Taskmanager der Lerlaufprozess mit 90-99% angezeigt wird. Kann es vieleicht sein das im Taskmanager nicht alle Programme erfasst werden(währe mir neu) oder könnte vieleicht ein Virus, Trojaner sein der diese ununterbrochen hohe Auslastung bewirkt? Vobei mein Antivirusprogramm (Awast) keinen Virus oder ähnliches erkennt. Kann mir da vieleicht jemand helfen voran das liegen kann. Gruß Micha</t>
+  <h>Befindet sich der Computer im Ruhezustand ist die Auslastung zu stark.</h>
+</pair>
+<pair id="4_2UQXMB3Q39Z0D8LSHNK4LVST152ITV" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo all e zusammen. Mein Virenprogramm AntiVir hat ein Trojanisches Pferd in meinem System entdeckt. Es fragt mich was ich damit machen will und wenn ich auf löschen klicke erscheint es das nächste Mal wieder. Auch wenn ich andere kostenlose Virenprogramme benutze, finde ich den Trojaner zwar, aber in diesem Moment kommt wieder dieses Fenster von AntiVir und fragt mich was ich damit machen will. Dann drücke ich löschen und das Virenprgramm sucht normal weiter, ohne den Trojaner zu beachten. Wer kann mir sagen wie ich diesen Trojaner löschen kann? Wo er ist weiß ich ja schon. Vielen Dank im Voraus Pedro</t>
+  <h>Mit Avira lässt sich eine Datei nicht löschen.</h>
+</pair>
+<pair id="4_2IBHV8ER9Y8TPM9LS9D5RFHS824R4C" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo all e zusammen. Mein Virenprogramm AntiVir hat ein Trojanisches Pferd in meinem System entdeckt. Es fragt mich was ich damit machen will und wenn ich auf löschen klicke erscheint es das nächste Mal wieder. Auch wenn ich andere kostenlose Virenprogramme benutze, finde ich den Trojaner zwar, aber in diesem Moment kommt wieder dieses Fenster von AntiVir und fragt mich was ich damit machen will. Dann drücke ich löschen und das Virenprgramm sucht normal weiter, ohne den Trojaner zu beachten. Wer kann mir sagen wie ich diesen Trojaner löschen kann? Wo er ist weiß ich ja schon. Vielen Dank im Voraus Pedro</t>
+  <h>Wie kann man ein Schadprogramme entfernen dass sich weder manuell noch mit einem Anti-Viren-Programm löschen läßt?</h>
+</pair>
+<pair id="4_27G2RCJK63ZVG58QT1LIHQ9JRJ9W74" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo all e zusammen. Mein Virenprogramm AntiVir hat ein Trojanisches Pferd in meinem System entdeckt. Es fragt mich was ich damit machen will und wenn ich auf löschen klicke erscheint es das nächste Mal wieder. Auch wenn ich andere kostenlose Virenprogramme benutze, finde ich den Trojaner zwar, aber in diesem Moment kommt wieder dieses Fenster von AntiVir und fragt mich was ich damit machen will. Dann drücke ich löschen und das Virenprgramm sucht normal weiter, ohne den Trojaner zu beachten. Wer kann mir sagen wie ich diesen Trojaner löschen kann? Wo er ist weiß ich ja schon. Vielen Dank im Voraus Pedro</t>
+  <h>Auf meinem Computer hat sich ein Virus eingenistet</h>
+</pair>
+<pair id="4_2U0PDOBDDP8PLYBT6UZXTB3Q9NH2DL" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo all e zusammen. Mein Virenprogramm AntiVir hat ein Trojanisches Pferd in meinem System entdeckt. Es fragt mich was ich damit machen will und wenn ich auf löschen klicke erscheint es das nächste Mal wieder. Auch wenn ich andere kostenlose Virenprogramme benutze, finde ich den Trojaner zwar, aber in diesem Moment kommt wieder dieses Fenster von AntiVir und fragt mich was ich damit machen will. Dann drücke ich löschen und das Virenprgramm sucht normal weiter, ohne den Trojaner zu beachten. Wer kann mir sagen wie ich diesen Trojaner löschen kann? Wo er ist weiß ich ja schon. Vielen Dank im Voraus Pedro</t>
+  <h>Der Virenscanner Antivir kann einen Trojaner nicht entfernen</h>
+</pair>
+<pair id="4_23I5BMJTUHYW4IKO2817Z5WM7KSMH6" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo all e zusammen. Mein Virenprogramm AntiVir hat ein Trojanisches Pferd in meinem System entdeckt. Es fragt mich was ich damit machen will und wenn ich auf löschen klicke erscheint es das nächste Mal wieder. Auch wenn ich andere kostenlose Virenprogramme benutze, finde ich den Trojaner zwar, aber in diesem Moment kommt wieder dieses Fenster von AntiVir und fragt mich was ich damit machen will. Dann drücke ich löschen und das Virenprgramm sucht normal weiter, ohne den Trojaner zu beachten. Wer kann mir sagen wie ich diesen Trojaner löschen kann? Wo er ist weiß ich ja schon. Vielen Dank im Voraus Pedro</t>
+  <h>Mein PC ist von einem Trojaner befallen.</h>
+</pair>
+<pair id="4_2P09NZW6HEZ6QGVPPOK8D9GUSGKOYM" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo all e zusammen. Mein Virenprogramm AntiVir hat ein Trojanisches Pferd in meinem System entdeckt. Es fragt mich was ich damit machen will und wenn ich auf löschen klicke erscheint es das nächste Mal wieder. Auch wenn ich andere kostenlose Virenprogramme benutze, finde ich den Trojaner zwar, aber in diesem Moment kommt wieder dieses Fenster von AntiVir und fragt mich was ich damit machen will. Dann drücke ich löschen und das Virenprgramm sucht normal weiter, ohne den Trojaner zu beachten. Wer kann mir sagen wie ich diesen Trojaner löschen kann? Wo er ist weiß ich ja schon. Vielen Dank im Voraus Pedro</t>
+  <h>Der Virenscanner zeigt einen Trojaner an, der sich nicht entfernen lässt.</h>
+</pair>
+<pair id="4_2NCXFCD45XCEVP4RGABIU3TGVIIYW7" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo all e zusammen. Mein Virenprogramm AntiVir hat ein Trojanisches Pferd in meinem System entdeckt. Es fragt mich was ich damit machen will und wenn ich auf löschen klicke erscheint es das nächste Mal wieder. Auch wenn ich andere kostenlose Virenprogramme benutze, finde ich den Trojaner zwar, aber in diesem Moment kommt wieder dieses Fenster von AntiVir und fragt mich was ich damit machen will. Dann drücke ich löschen und das Virenprgramm sucht normal weiter, ohne den Trojaner zu beachten. Wer kann mir sagen wie ich diesen Trojaner löschen kann? Wo er ist weiß ich ja schon. Vielen Dank im Voraus Pedro</t>
+  <h>ich möchte einen von AntiVir gemeldeten Trojaner entfernen.</h>
+</pair>
+<pair id="4_248Y2RCJK63ZXGUGKHBUPAQ9PZO6V6" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo all e zusammen. Mein Virenprogramm AntiVir hat ein Trojanisches Pferd in meinem System entdeckt. Es fragt mich was ich damit machen will und wenn ich auf löschen klicke erscheint es das nächste Mal wieder. Auch wenn ich andere kostenlose Virenprogramme benutze, finde ich den Trojaner zwar, aber in diesem Moment kommt wieder dieses Fenster von AntiVir und fragt mich was ich damit machen will. Dann drücke ich löschen und das Virenprgramm sucht normal weiter, ohne den Trojaner zu beachten. Wer kann mir sagen wie ich diesen Trojaner löschen kann? Wo er ist weiß ich ja schon. Vielen Dank im Voraus Pedro</t>
+  <h>Ein Virus hat meinen PC befallen.</h>
+</pair>
+<pair id="4_236FXRDS4IC1G04MQ06M81A2O9GYVX" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo all e zusammen. Mein Virenprogramm AntiVir hat ein Trojanisches Pferd in meinem System entdeckt. Es fragt mich was ich damit machen will und wenn ich auf löschen klicke erscheint es das nächste Mal wieder. Auch wenn ich andere kostenlose Virenprogramme benutze, finde ich den Trojaner zwar, aber in diesem Moment kommt wieder dieses Fenster von AntiVir und fragt mich was ich damit machen will. Dann drücke ich löschen und das Virenprgramm sucht normal weiter, ohne den Trojaner zu beachten. Wer kann mir sagen wie ich diesen Trojaner löschen kann? Wo er ist weiß ich ja schon. Vielen Dank im Voraus Pedro</t>
+  <h>Ich möchte einen Trojaner mit Antivir löschen.</h>
+</pair>
+<pair id="2_27G2RCJK63ZVG58QT1LIHQ9JRJ9W74" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo, ich habe Probleme mit dem Trojaner '' TR/Virtumod.WS '' . Antivir gibt mir circa alle 5 Minuten eine Trojanerwarnung, in der besagt wird, dass die Datei '' jkkjjgd.dll '' im System32-Ordner der besagte Trojaner ist. Löschen etc. hilft nicht. Der Trojaner bewirkt, dass sich ständig PopUps mit dem Internet Explorer öffnen, auch wenn die Seiten geblockt werden. Ich hoffe auf baldige Hilfe! MfG derknueppel</t>
+  <h>Auf meinem Computer hat sich ein Virus eingenistet</h>
+</pair>
+<pair id="2_2VHZ2MIKMN9UAR0XWPKW3XI3Y8H9QQ" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo, ich habe Probleme mit dem Trojaner '' TR/Virtumod.WS '' . Antivir gibt mir circa alle 5 Minuten eine Trojanerwarnung, in der besagt wird, dass die Datei '' jkkjjgd.dll '' im System32-Ordner der besagte Trojaner ist. Löschen etc. hilft nicht. Der Trojaner bewirkt, dass sich ständig PopUps mit dem Internet Explorer öffnen, auch wenn die Seiten geblockt werden. Ich hoffe auf baldige Hilfe! MfG derknueppel</t>
+  <h>Ein Trojaner soll von Antivir endgültig entfernt werden.</h>
+</pair>
+<pair id="2_248Y2RCJK63ZXGUGKHBUPAQ9PZO6V6" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo, ich habe Probleme mit dem Trojaner '' TR/Virtumod.WS '' . Antivir gibt mir circa alle 5 Minuten eine Trojanerwarnung, in der besagt wird, dass die Datei '' jkkjjgd.dll '' im System32-Ordner der besagte Trojaner ist. Löschen etc. hilft nicht. Der Trojaner bewirkt, dass sich ständig PopUps mit dem Internet Explorer öffnen, auch wenn die Seiten geblockt werden. Ich hoffe auf baldige Hilfe! MfG derknueppel</t>
+  <h>Ein Virus hat meinen PC befallen.</h>
+</pair>
+<pair id="2_2WIOHOVR14IXMQTK2J8EJWA63HH76F" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo, ich habe Probleme mit dem Trojaner '' TR/Virtumod.WS '' . Antivir gibt mir circa alle 5 Minuten eine Trojanerwarnung, in der besagt wird, dass die Datei '' jkkjjgd.dll '' im System32-Ordner der besagte Trojaner ist. Löschen etc. hilft nicht. Der Trojaner bewirkt, dass sich ständig PopUps mit dem Internet Explorer öffnen, auch wenn die Seiten geblockt werden. Ich hoffe auf baldige Hilfe! MfG derknueppel</t>
+  <h>Ich möchte einen Virus endgültig löschen.</h>
+</pair>
+<pair id="2_2JZECWA6X3YOEE6Z56WK4PTITW1MNF" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo, ich habe Probleme mit dem Trojaner '' TR/Virtumod.WS '' . Antivir gibt mir circa alle 5 Minuten eine Trojanerwarnung, in der besagt wird, dass die Datei '' jkkjjgd.dll '' im System32-Ordner der besagte Trojaner ist. Löschen etc. hilft nicht. Der Trojaner bewirkt, dass sich ständig PopUps mit dem Internet Explorer öffnen, auch wenn die Seiten geblockt werden. Ich hoffe auf baldige Hilfe! MfG derknueppel</t>
+  <h>Ich möchte einen Trojaner löschen.</h>
+</pair>
+<pair id="2_25C3K4F0OHOVT3VHQ1F2S92HKQF21W" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo, ich habe Probleme mit dem Trojaner '' TR/Virtumod.WS '' . Antivir gibt mir circa alle 5 Minuten eine Trojanerwarnung, in der besagt wird, dass die Datei '' jkkjjgd.dll '' im System32-Ordner der besagte Trojaner ist. Löschen etc. hilft nicht. Der Trojaner bewirkt, dass sich ständig PopUps mit dem Internet Explorer öffnen, auch wenn die Seiten geblockt werden. Ich hoffe auf baldige Hilfe! MfG derknueppel</t>
+  <h>Computer von einem Trojaner infiziert.</h>
+</pair>
+<pair id="22_2QKHECWA6X3YQE3ETTG5RXPTO11MLD" entailment="ENTAILMENT" task="SUM">
+  <t>hi folgendes problem: Hab im windows mit der nvidia software versucht ein bios update durchzuführen. Hab vorher natürlich ein bios backup gemacht. beim aufspieln des neuen bios kam dann eine fehlermeldung. Bios konnte nicht initalisiert werden. Ich hab dann noch 2 andere versionen versucht zu installieren jedoch ohne erfolg. Dann wollte ich das backup wieder aufspielen, doch auch das wurde verweigert. Dann hab ich neustart gemacht, ohne erfolg. cmos jumper... ohne erfolg ..,. batterie raus hilft auch nix... was nun ???????? Hilfe!!!!!!!!!!!!!!!!!!!!!!!!!! danke schonmal opa.oi</t>
+  <h>Ich bekomme den Hinweis auf einen Fehler, wenn ich BIOS aktualisieren will.</h>
+</pair>
+<pair id="22_214N9U8P9Y38VYNWBKJU5IM0P7SWF8" entailment="ENTAILMENT" task="SUM">
+  <t>hi folgendes problem: Hab im windows mit der nvidia software versucht ein bios update durchzuführen. Hab vorher natürlich ein bios backup gemacht. beim aufspieln des neuen bios kam dann eine fehlermeldung. Bios konnte nicht initalisiert werden. Ich hab dann noch 2 andere versionen versucht zu installieren jedoch ohne erfolg. Dann wollte ich das backup wieder aufspielen, doch auch das wurde verweigert. Dann hab ich neustart gemacht, ohne erfolg. cmos jumper... ohne erfolg ..,. batterie raus hilft auch nix... was nun ???????? Hilfe!!!!!!!!!!!!!!!!!!!!!!!!!! danke schonmal opa.oi</t>
+  <h>Beim Update meines BIOS kommt es zu Fehlern.</h>
+</pair>
+<pair id="22_2C18EBDPGFL6XEGVSQINKWIO1FBH2A" entailment="ENTAILMENT" task="SUM">
+  <t>hi folgendes problem: Hab im windows mit der nvidia software versucht ein bios update durchzuführen. Hab vorher natürlich ein bios backup gemacht. beim aufspieln des neuen bios kam dann eine fehlermeldung. Bios konnte nicht initalisiert werden. Ich hab dann noch 2 andere versionen versucht zu installieren jedoch ohne erfolg. Dann wollte ich das backup wieder aufspielen, doch auch das wurde verweigert. Dann hab ich neustart gemacht, ohne erfolg. cmos jumper... ohne erfolg ..,. batterie raus hilft auch nix... was nun ???????? Hilfe!!!!!!!!!!!!!!!!!!!!!!!!!! danke schonmal opa.oi</t>
+  <h>Es wird bei einem BIOS-Update ein Fehler gemeldet.</h>
+</pair>
+<pair id="22_2NFBAT2D5NQYP762JHAGCTYMTQF739" entailment="ENTAILMENT" task="SUM">
+  <t>hi folgendes problem: Hab im windows mit der nvidia software versucht ein bios update durchzuführen. Hab vorher natürlich ein bios backup gemacht. beim aufspieln des neuen bios kam dann eine fehlermeldung. Bios konnte nicht initalisiert werden. Ich hab dann noch 2 andere versionen versucht zu installieren jedoch ohne erfolg. Dann wollte ich das backup wieder aufspielen, doch auch das wurde verweigert. Dann hab ich neustart gemacht, ohne erfolg. cmos jumper... ohne erfolg ..,. batterie raus hilft auch nix... was nun ???????? Hilfe!!!!!!!!!!!!!!!!!!!!!!!!!! danke schonmal opa.oi</t>
+  <h>Ein BIOS-Update wurde nicht richtig abgeschlossen.</h>
+</pair>
+<pair id="22_26QJVCNHMVHVMEAZUIB2E4J7FY920T" entailment="ENTAILMENT" task="SUM">
+  <t>hi folgendes problem: Hab im windows mit der nvidia software versucht ein bios update durchzuführen. Hab vorher natürlich ein bios backup gemacht. beim aufspieln des neuen bios kam dann eine fehlermeldung. Bios konnte nicht initalisiert werden. Ich hab dann noch 2 andere versionen versucht zu installieren jedoch ohne erfolg. Dann wollte ich das backup wieder aufspielen, doch auch das wurde verweigert. Dann hab ich neustart gemacht, ohne erfolg. cmos jumper... ohne erfolg ..,. batterie raus hilft auch nix... was nun ???????? Hilfe!!!!!!!!!!!!!!!!!!!!!!!!!! danke schonmal opa.oi</t>
+  <h>Störungen beim Installieren von neuer BIOS--Firmware.</h>
+</pair>
+<pair id="3_26OAUC26DG67F3O2OH6K7COK8XXC5X" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo zusammen, Ich habe mir gestern ein paar Programme(OpenOffice, TuneUp,....) heruntergeladen, dann schalte ich den Computer aus. Heute am Morgen sehe ich eine Datei auf meinem Desktop, mit Namen dfljsdjfldjsfsdf.dll.exe , ich wollte sie löschen, aber ging nicht. So nach 3 Stunden sagte Avira plötzlich es sei ein TR/Dldr.Zlob.gzy Nun kann ich die Datei weder mit Avira noch selbständig löschen..... Nun brauche ich wieder mal eure Hilfe LG Crusader</t>
+  <h>Ein Trojaner kann nicht entfernt werden</h>
+</pair>
+<pair id="3_27G2RCJK63ZVG58QT1LIHQ9JRJ9W74" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo zusammen, Ich habe mir gestern ein paar Programme(OpenOffice, TuneUp,....) heruntergeladen, dann schalte ich den Computer aus. Heute am Morgen sehe ich eine Datei auf meinem Desktop, mit Namen dfljsdjfldjsfsdf.dll.exe , ich wollte sie löschen, aber ging nicht. So nach 3 Stunden sagte Avira plötzlich es sei ein TR/Dldr.Zlob.gzy Nun kann ich die Datei weder mit Avira noch selbständig löschen..... Nun brauche ich wieder mal eure Hilfe LG Crusader</t>
+  <h>Auf meinem Computer hat sich ein Virus eingenistet</h>
+</pair>
+<pair id="3_2U0PDOBDDP8PLYBT6UZXTB3Q9NH2DL" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo zusammen, Ich habe mir gestern ein paar Programme(OpenOffice, TuneUp,....) heruntergeladen, dann schalte ich den Computer aus. Heute am Morgen sehe ich eine Datei auf meinem Desktop, mit Namen dfljsdjfldjsfsdf.dll.exe , ich wollte sie löschen, aber ging nicht. So nach 3 Stunden sagte Avira plötzlich es sei ein TR/Dldr.Zlob.gzy Nun kann ich die Datei weder mit Avira noch selbständig löschen..... Nun brauche ich wieder mal eure Hilfe LG Crusader</t>
+  <h>Der Virenscanner Antivir kann einen Trojaner nicht entfernen</h>
+</pair>
+<pair id="3_23I5BMJTUHYW4IKO2817Z5WM7KSMH6" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo zusammen, Ich habe mir gestern ein paar Programme(OpenOffice, TuneUp,....) heruntergeladen, dann schalte ich den Computer aus. Heute am Morgen sehe ich eine Datei auf meinem Desktop, mit Namen dfljsdjfldjsfsdf.dll.exe , ich wollte sie löschen, aber ging nicht. So nach 3 Stunden sagte Avira plötzlich es sei ein TR/Dldr.Zlob.gzy Nun kann ich die Datei weder mit Avira noch selbständig löschen..... Nun brauche ich wieder mal eure Hilfe LG Crusader</t>
+  <h>Mein PC ist von einem Trojaner befallen.</h>
+</pair>
+<pair id="3_2P09NZW6HEZ6QGVPPOK8D9GUSGKOYM" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo zusammen, Ich habe mir gestern ein paar Programme(OpenOffice, TuneUp,....) heruntergeladen, dann schalte ich den Computer aus. Heute am Morgen sehe ich eine Datei auf meinem Desktop, mit Namen dfljsdjfldjsfsdf.dll.exe , ich wollte sie löschen, aber ging nicht. So nach 3 Stunden sagte Avira plötzlich es sei ein TR/Dldr.Zlob.gzy Nun kann ich die Datei weder mit Avira noch selbständig löschen..... Nun brauche ich wieder mal eure Hilfe LG Crusader</t>
+  <h>Der Virenscanner zeigt einen Trojaner an, der sich nicht entfernen lässt.</h>
+</pair>
+<pair id="3_2VHZ2MIKMN9UAR0XWPKW3XI3Y8H9QQ" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo zusammen, Ich habe mir gestern ein paar Programme(OpenOffice, TuneUp,....) heruntergeladen, dann schalte ich den Computer aus. Heute am Morgen sehe ich eine Datei auf meinem Desktop, mit Namen dfljsdjfldjsfsdf.dll.exe , ich wollte sie löschen, aber ging nicht. So nach 3 Stunden sagte Avira plötzlich es sei ein TR/Dldr.Zlob.gzy Nun kann ich die Datei weder mit Avira noch selbständig löschen..... Nun brauche ich wieder mal eure Hilfe LG Crusader</t>
+  <h>Ein Trojaner soll von Antivir endgültig entfernt werden.</h>
+</pair>
+<pair id="3_2NCXFCD45XCEVP4RGABIU3TGVIIYW7" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo zusammen, Ich habe mir gestern ein paar Programme(OpenOffice, TuneUp,....) heruntergeladen, dann schalte ich den Computer aus. Heute am Morgen sehe ich eine Datei auf meinem Desktop, mit Namen dfljsdjfldjsfsdf.dll.exe , ich wollte sie löschen, aber ging nicht. So nach 3 Stunden sagte Avira plötzlich es sei ein TR/Dldr.Zlob.gzy Nun kann ich die Datei weder mit Avira noch selbständig löschen..... Nun brauche ich wieder mal eure Hilfe LG Crusader</t>
+  <h>ich möchte einen von AntiVir gemeldeten Trojaner entfernen.</h>
+</pair>
+<pair id="3_248Y2RCJK63ZXGUGKHBUPAQ9PZO6V6" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo zusammen, Ich habe mir gestern ein paar Programme(OpenOffice, TuneUp,....) heruntergeladen, dann schalte ich den Computer aus. Heute am Morgen sehe ich eine Datei auf meinem Desktop, mit Namen dfljsdjfldjsfsdf.dll.exe , ich wollte sie löschen, aber ging nicht. So nach 3 Stunden sagte Avira plötzlich es sei ein TR/Dldr.Zlob.gzy Nun kann ich die Datei weder mit Avira noch selbständig löschen..... Nun brauche ich wieder mal eure Hilfe LG Crusader</t>
+  <h>Ein Virus hat meinen PC befallen.</h>
+</pair>
+<pair id="3_2WIOHOVR14IXMQTK2J8EJWA63HH76F" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo zusammen, Ich habe mir gestern ein paar Programme(OpenOffice, TuneUp,....) heruntergeladen, dann schalte ich den Computer aus. Heute am Morgen sehe ich eine Datei auf meinem Desktop, mit Namen dfljsdjfldjsfsdf.dll.exe , ich wollte sie löschen, aber ging nicht. So nach 3 Stunden sagte Avira plötzlich es sei ein TR/Dldr.Zlob.gzy Nun kann ich die Datei weder mit Avira noch selbständig löschen..... Nun brauche ich wieder mal eure Hilfe LG Crusader</t>
+  <h>Ich möchte einen Virus endgültig löschen.</h>
+</pair>
+<pair id="3_2JZECWA6X3YOEE6Z56WK4PTITW1MNF" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo zusammen, Ich habe mir gestern ein paar Programme(OpenOffice, TuneUp,....) heruntergeladen, dann schalte ich den Computer aus. Heute am Morgen sehe ich eine Datei auf meinem Desktop, mit Namen dfljsdjfldjsfsdf.dll.exe , ich wollte sie löschen, aber ging nicht. So nach 3 Stunden sagte Avira plötzlich es sei ein TR/Dldr.Zlob.gzy Nun kann ich die Datei weder mit Avira noch selbständig löschen..... Nun brauche ich wieder mal eure Hilfe LG Crusader</t>
+  <h>Ich möchte einen Trojaner löschen.</h>
+</pair>
+<pair id="3_236FXRDS4IC1G04MQ06M81A2O9GYVX" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo zusammen, Ich habe mir gestern ein paar Programme(OpenOffice, TuneUp,....) heruntergeladen, dann schalte ich den Computer aus. Heute am Morgen sehe ich eine Datei auf meinem Desktop, mit Namen dfljsdjfldjsfsdf.dll.exe , ich wollte sie löschen, aber ging nicht. So nach 3 Stunden sagte Avira plötzlich es sei ein TR/Dldr.Zlob.gzy Nun kann ich die Datei weder mit Avira noch selbständig löschen..... Nun brauche ich wieder mal eure Hilfe LG Crusader</t>
+  <h>Ich möchte einen Trojaner mit Antivir löschen.</h>
+</pair>
+<pair id="3_25C3K4F0OHOVT3VHQ1F2S92HKQF21W" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo zusammen, Ich habe mir gestern ein paar Programme(OpenOffice, TuneUp,....) heruntergeladen, dann schalte ich den Computer aus. Heute am Morgen sehe ich eine Datei auf meinem Desktop, mit Namen dfljsdjfldjsfsdf.dll.exe , ich wollte sie löschen, aber ging nicht. So nach 3 Stunden sagte Avira plötzlich es sei ein TR/Dldr.Zlob.gzy Nun kann ich die Datei weder mit Avira noch selbständig löschen..... Nun brauche ich wieder mal eure Hilfe LG Crusader</t>
+  <h>Computer von einem Trojaner infiziert.</h>
+</pair>
+<pair id="9_2ORKQW618N46WZ6B6LWXJETNJ66MOU" entailment="ENTAILMENT" task="SUM">
+  <t>CPU:Intel Q6600 Board:ASUS maximus extreme Ram:1gb osx Fp:Westerndigital 160gb s-ata Gk:Geforce 8800GTX Windows XP PS3 Ich habe heute alles zusammengebaut, aber aheb folgende probleme... 1.Der PC brauch ca 5-10min zum booten. 2.Nach dem Starten hängt der pc sich ständig auf. 3.Bei dem Prog Pobre2 wird angezeigt der die Dram &amp; Dram ref zu niedrig sind 4.beim booten wird ''Pri Master Hard Disk : S.M.A.R.T. Status BAD, Backup and Replace Press F1 to Resume.'' wenn ich denn F1 drücke fährt der pc weiter hoch. MFG (bitte um schnelle antwort)</t>
+  <h>Wenn ich beim Hochfahren vom S.M.A.R.T die Anzeige "Bad, Backup and Replace bekomme, was soll mir das sagen?</h>
+</pair>
+<pair id="9_2TEYB49F9SSSJZS0C5ES05H5LM2RVP" entailment="ENTAILMENT" task="SUM">
+  <t>CPU:Intel Q6600 Board:ASUS maximus extreme Ram:1gb osx Fp:Westerndigital 160gb s-ata Gk:Geforce 8800GTX Windows XP PS3 Ich habe heute alles zusammengebaut, aber aheb folgende probleme... 1.Der PC brauch ca 5-10min zum booten. 2.Nach dem Starten hängt der pc sich ständig auf. 3.Bei dem Prog Pobre2 wird angezeigt der die Dram &amp; Dram ref zu niedrig sind 4.beim booten wird ''Pri Master Hard Disk : S.M.A.R.T. Status BAD, Backup and Replace Press F1 to Resume.'' wenn ich denn F1 drücke fährt der pc weiter hoch. MFG (bitte um schnelle antwort)</t>
+  <h>Was bedeutet eine bestimmte SMART-Meldung beim Booten?</h>
+</pair>
+<pair id="9_22X395SW6NG1HUUMR4AB5F1F56IGUT" entailment="ENTAILMENT" task="SUM">
+  <t>CPU:Intel Q6600 Board:ASUS maximus extreme Ram:1gb osx Fp:Westerndigital 160gb s-ata Gk:Geforce 8800GTX Windows XP PS3 Ich habe heute alles zusammengebaut, aber aheb folgende probleme... 1.Der PC brauch ca 5-10min zum booten. 2.Nach dem Starten hängt der pc sich ständig auf. 3.Bei dem Prog Pobre2 wird angezeigt der die Dram &amp; Dram ref zu niedrig sind 4.beim booten wird ''Pri Master Hard Disk : S.M.A.R.T. Status BAD, Backup and Replace Press F1 to Resume.'' wenn ich denn F1 drücke fährt der pc weiter hoch. MFG (bitte um schnelle antwort)</t>
+  <h>Während dem Hochfahren des Computers, zeigt dieser einen Fehler an.</h>
+</pair>
+<pair id="9_23H9O9Z6KW4ZOCQGA8ILMQ0OT1E4DK" entailment="ENTAILMENT" task="SUM">
+  <t>CPU:Intel Q6600 Board:ASUS maximus extreme Ram:1gb osx Fp:Westerndigital 160gb s-ata Gk:Geforce 8800GTX Windows XP PS3 Ich habe heute alles zusammengebaut, aber aheb folgende probleme... 1.Der PC brauch ca 5-10min zum booten. 2.Nach dem Starten hängt der pc sich ständig auf. 3.Bei dem Prog Pobre2 wird angezeigt der die Dram &amp; Dram ref zu niedrig sind 4.beim booten wird ''Pri Master Hard Disk : S.M.A.R.T. Status BAD, Backup and Replace Press F1 to Resume.'' wenn ich denn F1 drücke fährt der pc weiter hoch. MFG (bitte um schnelle antwort)</t>
+  <h>Mein Rechner startet das System fehlerhaft.</h>
+</pair>
+<pair id="9_2CO6RLPHIT3HXY1UDZX2UJQ27LL9HU" entailment="ENTAILMENT" task="SUM">
+  <t>CPU:Intel Q6600 Board:ASUS maximus extreme Ram:1gb osx Fp:Westerndigital 160gb s-ata Gk:Geforce 8800GTX Windows XP PS3 Ich habe heute alles zusammengebaut, aber aheb folgende probleme... 1.Der PC brauch ca 5-10min zum booten. 2.Nach dem Starten hängt der pc sich ständig auf. 3.Bei dem Prog Pobre2 wird angezeigt der die Dram &amp; Dram ref zu niedrig sind 4.beim booten wird ''Pri Master Hard Disk : S.M.A.R.T. Status BAD, Backup and Replace Press F1 to Resume.'' wenn ich denn F1 drücke fährt der pc weiter hoch. MFG (bitte um schnelle antwort)</t>
+  <h>Schwierigkeiten beim Hochfahren des Betriebssystems</h>
+</pair>
+<pair id="9_2NSUC26DG67D3ZUUTWB0JOK2PSJD6D" entailment="ENTAILMENT" task="SUM">
+  <t>CPU:Intel Q6600 Board:ASUS maximus extreme Ram:1gb osx Fp:Westerndigital 160gb s-ata Gk:Geforce 8800GTX Windows XP PS3 Ich habe heute alles zusammengebaut, aber aheb folgende probleme... 1.Der PC brauch ca 5-10min zum booten. 2.Nach dem Starten hängt der pc sich ständig auf. 3.Bei dem Prog Pobre2 wird angezeigt der die Dram &amp; Dram ref zu niedrig sind 4.beim booten wird ''Pri Master Hard Disk : S.M.A.R.T. Status BAD, Backup and Replace Press F1 to Resume.'' wenn ich denn F1 drücke fährt der pc weiter hoch. MFG (bitte um schnelle antwort)</t>
+  <h>Während des Hochfahrens des Rechners gab es Schwierigkeiten.</h>
+</pair>
+<pair id="21_24ASCXKNQY2RELB5WGMEAHR0Q81P03" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo , da mein Pc (4200+ x², 4 Gb Ram) mit dem Catalyst 8.6 beim Starten oft Bluescreens verursachte, wollte ich mit dem @bios tool das f5 bios aufspielen. dabei brach das programm mit '' alloc kernel memory failure '' ab. ich habe darauf nod32 vollständig runtergeschmissen. (soll wohl das flashen nicht erlauben) nun lief das programm einmal langsam bis auf 100%, er hat also etwas geflasht. nach erreichen der 100% kommt nun selbiger fehler wie oben, sodass ich im moment etwas angst habe, den rechner neu zustarten. könnt ihr mir einen tip geben, was ich nun tun soll? mfg</t>
+  <h>Es treten Fehler auf bei dem Versuch das BIOS zu aktualisieren</h>
+</pair>
+<pair id="21_2LWGDHDM25L8KBEYPN8E66OEA4EOE6" entailment="ENTAILMENT" task="SUM">
+  <t>Hallo , da mein Pc (4200+ x², 4 Gb Ram) mit dem Catalyst 8.6 beim Starten oft Bluescreens verursachte, wollte ich mit dem @bios tool das f5 bios aufspielen. dabei brach das programm mit '' alloc kernel memory failure '' ab. ich habe darauf nod32 vollständig runtergeschmissen. (soll wohl das flashen nicht erlauben) nun lief das programm einmal langsam bis auf 100%, er hat also etwas geflasht. nach erreichen der 100% kommt nun selbiger fehler wie oben, sodass ich im moment etwas angst habe, den rechner neu zustarten. könnt ihr mir einen tip geben, was ich nun tun soll? mfg</t>
+  <h>Es tauchen Fehler beim Update meines BIOS auf.</h>
+</pair>
+<pair id="23_23I5BMJTUHYW4IKO2817Z5WM7KSMH6" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo Ich habe folgendes Problem. Wenn ich Daten von einer USB Festplatte auf die Interne Platte kopiere hängt der ganze PC. Die Interne Platte hängt am Asus EZ Backup Controller und ist gespiegelt. Als Betriebsystem kommt Windows 2003 zum einsatz. Kennt jemand das Problem Und kann ich die Platten einfach umstecken auf den Intel Kontroller.???? Oder verliere ich alle Daten??</t>
+  <h>Mein PC ist von einem Trojaner befallen.</h>
+</pair>
+<pair id="6_24NF3Q0JG5TYOP3VRSV9M9SSYVGEI2" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo Folgendes Problem, der CPU ist bei 100%. Wo die Auslastung liegt, lässt sich nicht erkennen im Task. Spy und Virenprogramm AV lässt sich nicht starten. AVcenter ist keine zulässige win32 anwendung u.s.w. Soundkarte gibt keine Musik mehr von sich. Nur die Windows Töne. Treiber lässt sich auch nicht mehr installieren. Online Virenscan, wie hier beschrieben, geht nur in Zeitlupe, wegen des CPU. Bisher wurde der Beagle Virus gefunden. Tool installiert. Abgesicherter Modus geht aber nicht , trotz mehrerer Versuche. Was nun? Vielen Dank für die Antwort schon jetzt!</t>
+  <h>Auch bei einem neuen PC sind ohne geöffnete Fenster alle CPUs ausgelastet und der Computer stockt.</h>
+</pair>
+<pair id="13_2YJXERSQV66RNR8HMK8V3AVKOKK2AJ" entailment="NONENTAILMENT" task="SUM">
+  <t>Es gibt bei m ir zwei Probleme bei der Ausführung des Tools unter Vista. 1) Vista blockiert die Ausführung mit dem Kommentar '' ...Sie verfügen eventuell nicht über ausreichende Berechtigungen... '' und 2) F-Secure gibt eine Malware-Warnung aus '' W32/Suspicious_U.gen '' Virus. Ist die Viruswarnung nur ein Fehlalarm? Wie umgehe ich die Blockierung durch Vista? Kann da jemand helfen? (URL)</t>
+  <h>Die Prozessorauslastung ist sehr hoch und die gestarteten Programme ruckeln.</h>
+</pair>
+<pair id="21_2K9Y0LWSBRI8KW21RB08QHSTRPMC0C" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo , da mein Pc (4200+ x², 4 Gb Ram) mit dem Catalyst 8.6 beim Starten oft Bluescreens verursachte, wollte ich mit dem @bios tool das f5 bios aufspielen. dabei brach das programm mit '' alloc kernel memory failure '' ab. ich habe darauf nod32 vollständig runtergeschmissen. (soll wohl das flashen nicht erlauben) nun lief das programm einmal langsam bis auf 100%, er hat also etwas geflasht. nach erreichen der 100% kommt nun selbiger fehler wie oben, sodass ich im moment etwas angst habe, den rechner neu zustarten. könnt ihr mir einen tip geben, was ich nun tun soll? mfg</t>
+  <h>Wegen fehlenden Systemrechten des Anwenders in Windows kann die Datei nicht gestartet werden.</h>
+</pair>
+<pair id="13_25CQIHPCGJ2D43F2PMOH7JPPYWK28F" entailment="NONENTAILMENT" task="SUM">
+  <t>Es gibt bei m ir zwei Probleme bei der Ausführung des Tools unter Vista. 1) Vista blockiert die Ausführung mit dem Kommentar '' ...Sie verfügen eventuell nicht über ausreichende Berechtigungen... '' und 2) F-Secure gibt eine Malware-Warnung aus '' W32/Suspicious_U.gen '' Virus. Ist die Viruswarnung nur ein Fehlalarm? Wie umgehe ich die Blockierung durch Vista? Kann da jemand helfen? (URL)</t>
+  <h>Mein Rechner hat im Leerlauf eine sehr hohe CPU-Auslastung und ruckelt.</h>
+</pair>
+<pair id="15_2TOSK9RJ85OZK15GFR1PTOOQBSF6UH" entailment="NONENTAILMENT" task="SUM">
+  <t>hi, Mein pc ist eigentlich ganz in ordung funkioniert ganz gut auser das wenn ich defragmentieren moechte, er immer obstuerzt, und von alleine wider hoch faehrt. Was kann ich tun damit ich defragmentieren kann ohne das es bei der haelfte ab stuertzt? und warum stuerzt er immer ab . habe auch schon einene wirenscan durchgenomen und er sagt das ich keinen virus oder so was habe. vielen lieben dank schon mal im vorraus</t>
+  <h>Die Prozessorauslastung ist sehr hoch nach der Neuinstallation von Windows XP.</h>
+</pair>
+<pair id="25_23WC1PC6SK9RLAWNSZQEOMAAV071PI" entailment="NONENTAILMENT" task="SUM">
+  <t>Wie stelle ich es an dass das Board dauerhaft auf GB Lan schaltet? Ich brauche es zwar nur wenn das NAS läuft aber einmal am Tag mache ich das Backup und wenn ich das NAS nach dem PC einschalte,wird max. 100mps aktiviert. Unter Eigenschaften der Netzwerkkarte ist '' Auto Negotiation '' eingeschaltet. Oder muß ich da im Bios noch was einstellen? Gruß</t>
+  <h>Micha möchte wissen, ob ein nicht angezeigtes Programm oder ein Virus/Trojaner Schuld an einer hohen CPU-Auslastung bei über 90% Leerlauf sein kann.</h>
+</pair>
+<pair id="18_243VWJ5OPB0YXIQ7R3NBEEP90HJ4WS" entailment="NONENTAILMENT" task="SUM">
+  <t>Hi, mich macht das EZ Backup und Raid Zeug ganz wirr ;-) Hab Sata 1, 3 und 4 belegt. Kann ich da nun noch eine 4. Sata Platte anklemmen? Der Brenner auf Sata 4 läuft auf Slave, für ein Firmwareupdate sollte er aber auf (Secondary) Master laufen, was macht man da? Danke Gruß Blondy</t>
+  <h>Können sich Viren im BIOS einnisten und wenn ja, gibt es solche für Windows und auch für Linux?</h>
+</pair>
+<pair id="18_2UZJHP4BDDKG60ZQLE0XAG35DAU6Z6" entailment="NONENTAILMENT" task="SUM">
+  <t>Hi, mich macht das EZ Backup und Raid Zeug ganz wirr ;-) Hab Sata 1, 3 und 4 belegt. Kann ich da nun noch eine 4. Sata Platte anklemmen? Der Brenner auf Sata 4 läuft auf Slave, für ein Firmwareupdate sollte er aber auf (Secondary) Master laufen, was macht man da? Danke Gruß Blondy</t>
+  <h>Bei der Defragmentierung meines Rechners stürzt dieser ab.</h>
+</pair>
+<pair id="8_23I5BMJTUHYW4IKO2817Z5WM7KSMH6" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo PC-Freunde, ich habe letzte Woche XP neu installiert. Heute ist mir aufgefallen das die CPU-Auslastung immer zwischen 60% und 80% liegt obwohl im Taskmanager der Lerlaufprozess mit 90-99% angezeigt wird. Kann es vieleicht sein das im Taskmanager nicht alle Programme erfasst werden(währe mir neu) oder könnte vieleicht ein Virus, Trojaner sein der diese ununterbrochen hohe Auslastung bewirkt? Vobei mein Antivirusprogramm (Awast) keinen Virus oder ähnliches erkennt. Kann mir da vieleicht jemand helfen voran das liegen kann. Gruß Micha</t>
+  <h>Mein PC ist von einem Trojaner befallen.</h>
+</pair>
+<pair id="2_2JP4J79KQW61APV5NE6CK45XISBIKP" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo, ich habe Probleme mit dem Trojaner '' TR/Virtumod.WS '' . Antivir gibt mir circa alle 5 Minuten eine Trojanerwarnung, in der besagt wird, dass die Datei '' jkkjjgd.dll '' im System32-Ordner der besagte Trojaner ist. Löschen etc. hilft nicht. Der Trojaner bewirkt, dass sich ständig PopUps mit dem Internet Explorer öffnen, auch wenn die Seiten geblockt werden. Ich hoffe auf baldige Hilfe! MfG derknueppel</t>
+  <h>Das Betriebssystem lässt die Darstellung der Anwendung nicht zu und es wird vor Malware gewarnt.</h>
+</pair>
+<pair id="1_2L179KQW618N68LW8T44CXCEZ1WMKA" entailment="NONENTAILMENT" task="SUM">
+  <t>hi, wie mir counter spy sagt, habe ich mir anscheinend den virtumonde-virus eingefangen, bringe ihn aber damit nicht weg. mein problem äussert sich insofern, dass sich bei allen anwendungen der explorer alle paar sekunden aufhängt, alles verschwindet, einen schwarzen bildschirm zurücklässt und ich nur noch in dem fenster arbeiten kann, in dem ich mich gerade befinde. auch wenn ich den explorer im taskmanager starte, bleibt es nicht lang so.</t>
+  <h>Die Entfernung des Schadprogrammes TR/Virtumod.WS ist nicht möglich.</h>
+</pair>
+<pair id="6_2YZRRLFQ0ONNXT80DYF9LGRBDK5IRI" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo Folgendes Problem, der CPU ist bei 100%. Wo die Auslastung liegt, lässt sich nicht erkennen im Task. Spy und Virenprogramm AV lässt sich nicht starten. AVcenter ist keine zulässige win32 anwendung u.s.w. Soundkarte gibt keine Musik mehr von sich. Nur die Windows Töne. Treiber lässt sich auch nicht mehr installieren. Online Virenscan, wie hier beschrieben, geht nur in Zeitlupe, wegen des CPU. Bisher wurde der Beagle Virus gefunden. Tool installiert. Abgesicherter Modus geht aber nicht , trotz mehrerer Versuche. Was nun? Vielen Dank für die Antwort schon jetzt!</t>
+  <h>Bei der Datenübertragen von einem externen USB-Festplatte auf den internen Speicher friert der Computer ein.</h>
+</pair>
+<pair id="2_26ZIT3HVWAVKK8TMC7T1E2Z9F40EMI" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo, ich habe Probleme mit dem Trojaner '' TR/Virtumod.WS '' . Antivir gibt mir circa alle 5 Minuten eine Trojanerwarnung, in der besagt wird, dass die Datei '' jkkjjgd.dll '' im System32-Ordner der besagte Trojaner ist. Löschen etc. hilft nicht. Der Trojaner bewirkt, dass sich ständig PopUps mit dem Internet Explorer öffnen, auch wenn die Seiten geblockt werden. Ich hoffe auf baldige Hilfe! MfG derknueppel</t>
+  <h>Fragstellung zu einem Virenbefall der Hauptplatine / des Motherboards.</h>
+</pair>
+<pair id="14_22G58B727M0IIHBG6IXYMSVFA90WBQ" entailment="NONENTAILMENT" task="SUM">
+  <t>Kann mir mal jemand erklären, wie das gehen soll z.B. Computer (RAM-Speicher) max EUR 6,00 Software (Virenschutz &amp; Datensicherheit) max EUR 5,00 Audio &amp; Hi-Fi (Kopfhörer) max EUR 6,00 wenn aber bei der Post der Versand per DHL (versichert) schon EUR 7,- kostet? Da zahlt also der Verkäufer allein an Portokosten an DHL mehr als der Käufer an ihn bezahlen muss? Von Kosten für den Weg zur Post (bei den heutigen Spritpreisen ja vernachlässigbar), Kosten für die Verpackung (Kartonage, Polstermaterial, Kleber) + Kosten, Zeit und Mühen für die Verpackerei ganz zu schweigen</t>
+  <h>Der Rechner stürzt bei zu hoher Erwärmung ab und zeigt einen Bluescreen</h>
+</pair>
+<pair id="25_27ZM8JIA0RYNLBTMC1D0CBMJZ8Z50W" entailment="NONENTAILMENT" task="SUM">
+  <t>Wie stelle ich es an dass das Board dauerhaft auf GB Lan schaltet? Ich brauche es zwar nur wenn das NAS läuft aber einmal am Tag mache ich das Backup und wenn ich das NAS nach dem PC einschalte,wird max. 100mps aktiviert. Unter Eigenschaften der Netzwerkkarte ist '' Auto Negotiation '' eingeschaltet. Oder muß ich da im Bios noch was einstellen? Gruß</t>
+  <h>Aus welchem Grund bekomme ich das Risiko von Computerviren auf manchen Seiten der Homepage von meinem Antivirenprogramm gemeldet?</h>
+</pair>
+<pair id="23_2BLK4F0OHOVR369WD5TLG2HEIAT23O" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo Ich habe folgendes Problem. Wenn ich Daten von einer USB Festplatte auf die Interne Platte kopiere hängt der ganze PC. Die Interne Platte hängt am Asus EZ Backup Controller und ist gespiegelt. Als Betriebsystem kommt Windows 2003 zum einsatz. Kennt jemand das Problem Und kann ich die Platten einfach umstecken auf den Intel Kontroller.???? Oder verliere ich alle Daten??</t>
+  <h>Mein PC meldet Viren und läuft nun mit höchster CPU-Auslastung.</h>
+</pair>
+<pair id="1_2MFH0JPPSI2K0GGKL6Y5RLM62XLIO9" entailment="NONENTAILMENT" task="SUM">
+  <t>hi, wie mir counter spy sagt, habe ich mir anscheinend den virtumonde-virus eingefangen, bringe ihn aber damit nicht weg. mein problem äussert sich insofern, dass sich bei allen anwendungen der explorer alle paar sekunden aufhängt, alles verschwindet, einen schwarzen bildschirm zurücklässt und ich nur noch in dem fenster arbeiten kann, in dem ich mich gerade befinde. auch wenn ich den explorer im taskmanager starte, bleibt es nicht lang so.</t>
+  <h>Ich erhalte beim Öffnen des p5q deluxe Sammelthreads eine Meldung über Viren.</h>
+</pair>
+<pair id="5_2LWGDHDM25L8KBEYPN8E66OEA4FEOX" entailment="NONENTAILMENT" task="SUM">
+  <t>System Error Fixer bietet ein Spywareprogramm an, es öffnen sich unerwünschte Seiten auf dem Mozilla Firefox Browser, z.B. QUELLE.de , aber auch Handy- und sogar Sex-Seiten. Habe diese Probleme seit ca. 2 Wochen; gestern große Reinigungsaktion gestartet: 1. Ad-Aware, 2. SpyBot-S &amp; D, 3. Bit-Defender, 4. Stinger, und jetzt bin ich beim HiJackThis angekommen. Kann mit den Log-Files nichts anfangen , werde sie versuchen zu posten und hoffe sehr auf Hilfe. Danke schon mal im Voraus! Logfile of Trend Micro HijackThis v2.0.2 [edit] bitte editiere zukünftig deine links, wie es dir u.a. hier angezeigt wird: Aktive Links und persönliche Informationen in HJT Log-Files danke GUA [LinkImg:(URL) [/edit]</t>
+  <h>Bei der Installation eines neuen BIOS auf meiner Grafikkarte taucht unerwartet eine Schwierigkeit auf.</h>
+</pair>
+<pair id="22_2PWBDPGFL6VCRYQ8K44WPOV1YLB4JY" entailment="NONENTAILMENT" task="SUM">
+  <t>hi folgendes problem: Hab im windows mit der nvidia software versucht ein bios update durchzuführen. Hab vorher natürlich ein bios backup gemacht. beim aufspieln des neuen bios kam dann eine fehlermeldung. Bios konnte nicht initalisiert werden. Ich hab dann noch 2 andere versionen versucht zu installieren jedoch ohne erfolg. Dann wollte ich das backup wieder aufspielen, doch auch das wurde verweigert. Dann hab ich neustart gemacht, ohne erfolg. cmos jumper... ohne erfolg ..,. batterie raus hilft auch nix... was nun ???????? Hilfe!!!!!!!!!!!!!!!!!!!!!!!!!! danke schonmal opa.oi</t>
+  <h>Ich habe ein Spywareprogramm installiert und nun tauchen Schwierigkeiten mit dem Webbrowser auf.</h>
+</pair>
+<pair id="15_243VWJ5OPB0YXIQ7R3NBEEP90HJ4WS" entailment="NONENTAILMENT" task="SUM">
+  <t>hi, Mein pc ist eigentlich ganz in ordung funkioniert ganz gut auser das wenn ich defragmentieren moechte, er immer obstuerzt, und von alleine wider hoch faehrt. Was kann ich tun damit ich defragmentieren kann ohne das es bei der haelfte ab stuertzt? und warum stuerzt er immer ab . habe auch schon einene wirenscan durchgenomen und er sagt das ich keinen virus oder so was habe. vielen lieben dank schon mal im vorraus</t>
+  <h>Können sich Viren im BIOS einnisten und wenn ja, gibt es solche für Windows und auch für Linux?</h>
+</pair>
+<pair id="18_29UM6IAA2SEIWWLZT5HKRA4IO6RMMF" entailment="NONENTAILMENT" task="SUM">
+  <t>Hi, mich macht das EZ Backup und Raid Zeug ganz wirr ;-) Hab Sata 1, 3 und 4 belegt. Kann ich da nun noch eine 4. Sata Platte anklemmen? Der Brenner auf Sata 4 läuft auf Slave, für ein Firmwareupdate sollte er aber auf (Secondary) Master laufen, was macht man da? Danke Gruß Blondy</t>
+  <h>ich möchte meinen Rechner dauerhaft auf GB-LAN einstellen.</h>
+</pair>
+<pair id="15_22X395SW6NG1HUUMR4AB5F1F56IGUT" entailment="NONENTAILMENT" task="SUM">
+  <t>hi, Mein pc ist eigentlich ganz in ordung funkioniert ganz gut auser das wenn ich defragmentieren moechte, er immer obstuerzt, und von alleine wider hoch faehrt. Was kann ich tun damit ich defragmentieren kann ohne das es bei der haelfte ab stuertzt? und warum stuerzt er immer ab . habe auch schon einene wirenscan durchgenomen und er sagt das ich keinen virus oder so was habe. vielen lieben dank schon mal im vorraus</t>
+  <h>Während dem Hochfahren des Computers, zeigt dieser einen Fehler an.</h>
+</pair>
+<pair id="3_2XNR98D8J3VE9YJRM4PCN3MCQMTGWS" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo zusammen, Ich habe mir gestern ein paar Programme(OpenOffice, TuneUp,....) heruntergeladen, dann schalte ich den Computer aus. Heute am Morgen sehe ich eine Datei auf meinem Desktop, mit Namen dfljsdjfldjsfsdf.dll.exe , ich wollte sie löschen, aber ging nicht. So nach 3 Stunden sagte Avira plötzlich es sei ein TR/Dldr.Zlob.gzy Nun kann ich die Datei weder mit Avira noch selbständig löschen..... Nun brauche ich wieder mal eure Hilfe LG Crusader</t>
+  <h>Im Leerlauf habe ich eine hohe Prozessorauslastung.</h>
+</pair>
+<pair id="6_2GOKW4ZMAZHHTTCEJHFNUVRH7Y09IN" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo Folgendes Problem, der CPU ist bei 100%. Wo die Auslastung liegt, lässt sich nicht erkennen im Task. Spy und Virenprogramm AV lässt sich nicht starten. AVcenter ist keine zulässige win32 anwendung u.s.w. Soundkarte gibt keine Musik mehr von sich. Nur die Windows Töne. Treiber lässt sich auch nicht mehr installieren. Online Virenscan, wie hier beschrieben, geht nur in Zeitlupe, wegen des CPU. Bisher wurde der Beagle Virus gefunden. Tool installiert. Abgesicherter Modus geht aber nicht , trotz mehrerer Versuche. Was nun? Vielen Dank für die Antwort schon jetzt!</t>
+  <h>Der Virtumonde - Virus bringt alle Anwendungen, bis auf das derzeit geöffnete Fenster, dazu nur noch einen Schwarzen Hintergrund anzuzeigen.</h>
+</pair>
+<pair id="16_28185OZIZEHMCCGLH5H5LWPXRB5BZW" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo Leute! Ein Bekannter von mir hat folgendes Problem: Immer wenn er mit Kaspersky seine Festplatte auf Viren überprüft bekommt er einen Blue Screen mit Error 77 bzw. 77a angezeigt. Er hat gehört das dieses auf eine defekte Festplatte hinweist. Allerdings erreicht sein Prozessor unter Last 67°C und das Problem tritt auch sporadisch bei Spielen und im Sommer wenn das Dachgeschoss ohnehin schon warm ist auf. Habt Ihr dort eine Idee bzw. Lösungsvorschlag um den Fehler zu beheben? Mfg wiesenpieper</t>
+  <h>Schwierigkeiten mit einer zu großen Auslastung der CPU unter Windows Vista 64bit.</h>
+</pair>
+<pair id="6_231TUHYW2GTPBT16LMNM869YY2XLQY" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo Folgendes Problem, der CPU ist bei 100%. Wo die Auslastung liegt, lässt sich nicht erkennen im Task. Spy und Virenprogramm AV lässt sich nicht starten. AVcenter ist keine zulässige win32 anwendung u.s.w. Soundkarte gibt keine Musik mehr von sich. Nur die Windows Töne. Treiber lässt sich auch nicht mehr installieren. Online Virenscan, wie hier beschrieben, geht nur in Zeitlupe, wegen des CPU. Bisher wurde der Beagle Virus gefunden. Tool installiert. Abgesicherter Modus geht aber nicht , trotz mehrerer Versuche. Was nun? Vielen Dank für die Antwort schon jetzt!</t>
+  <h>ich erhalte beim Öffnen des P5Q Deluxe-Sammelthreads eine Virenmeldung.</h>
+</pair>
+<pair id="20_2DSVKI62NJQ239TY2QHHDBKLI9WLTC" entailment="NONENTAILMENT" task="SUM">
+  <t>hallo liebe mods, ich schreibe diesen beitrag extra in die mainboard kategorie, weil heute schon 4 mal beim aufrufen des p5q deluxe-sammelthreads mein trendmicro virenscanner angeschlagen hat! er meldete folgen virus: TSPY_ONLINEG.FXG laut trendmicro wird versucht, den virus über '' gehackte '' webseiten einzuschleusen... nachzulesen hier: (URL) könnt ihr mal der sache auf den grund gehen? viele grüsse t.</t>
+  <h>Der Löschvorgang einer unbekannten Anwendung auf dem Desktop ist nicht erfolgreich.</h>
+</pair>
+<pair id="25_2OMJ79KQW618P6XTQW3DB5XCK75LJ7" entailment="NONENTAILMENT" task="SUM">
+  <t>Wie stelle ich es an dass das Board dauerhaft auf GB Lan schaltet? Ich brauche es zwar nur wenn das NAS läuft aber einmal am Tag mache ich das Backup und wenn ich das NAS nach dem PC einschalte,wird max. 100mps aktiviert. Unter Eigenschaften der Netzwerkkarte ist '' Auto Negotiation '' eingeschaltet. Oder muß ich da im Bios noch was einstellen? Gruß</t>
+  <h>Ich kann einen Virus mit dem Namen Virtumonde nicht löschen.</h>
+</pair>
+<pair id="4_24ASCXKNQY2RELB5WGMEAHR0Q81P03" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo all e zusammen. Mein Virenprogramm AntiVir hat ein Trojanisches Pferd in meinem System entdeckt. Es fragt mich was ich damit machen will und wenn ich auf löschen klicke erscheint es das nächste Mal wieder. Auch wenn ich andere kostenlose Virenprogramme benutze, finde ich den Trojaner zwar, aber in diesem Moment kommt wieder dieses Fenster von AntiVir und fragt mich was ich damit machen will. Dann drücke ich löschen und das Virenprgramm sucht normal weiter, ohne den Trojaner zu beachten. Wer kann mir sagen wie ich diesen Trojaner löschen kann? Wo er ist weiß ich ja schon. Vielen Dank im Voraus Pedro</t>
+  <h>Es treten Fehler auf bei dem Versuch das BIOS zu aktualisieren</h>
+</pair>
+<pair id="18_231TUHYW2GTPBT16LMNM869YY2XLQY" entailment="NONENTAILMENT" task="SUM">
+  <t>Hi, mich macht das EZ Backup und Raid Zeug ganz wirr ;-) Hab Sata 1, 3 und 4 belegt. Kann ich da nun noch eine 4. Sata Platte anklemmen? Der Brenner auf Sata 4 läuft auf Slave, für ein Firmwareupdate sollte er aber auf (Secondary) Master laufen, was macht man da? Danke Gruß Blondy</t>
+  <h>ich erhalte beim Öffnen des P5Q Deluxe-Sammelthreads eine Virenmeldung.</h>
+</pair>
+<pair id="14_2I7C6SK9RJ85Q19Y7YDAHPMOU4N4SD" entailment="NONENTAILMENT" task="SUM">
+  <t>Kann mir mal jemand erklären, wie das gehen soll z.B. Computer (RAM-Speicher) max EUR 6,00 Software (Virenschutz &amp; Datensicherheit) max EUR 5,00 Audio &amp; Hi-Fi (Kopfhörer) max EUR 6,00 wenn aber bei der Post der Versand per DHL (versichert) schon EUR 7,- kostet? Da zahlt also der Verkäufer allein an Portokosten an DHL mehr als der Käufer an ihn bezahlen muss? Von Kosten für den Weg zur Post (bei den heutigen Spritpreisen ja vernachlässigbar), Kosten für die Verpackung (Kartonage, Polstermaterial, Kleber) + Kosten, Zeit und Mühen für die Verpackerei ganz zu schweigen</t>
+  <h>Zweistellige Werte werden für das Scheduling des Prozessors bereits beim Booten erreicht.</h>
+</pair>
+<pair id="8_2HXK0COK2JE1O9GJDQCR36OZGQILSN" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo PC-Freunde, ich habe letzte Woche XP neu installiert. Heute ist mir aufgefallen das die CPU-Auslastung immer zwischen 60% und 80% liegt obwohl im Taskmanager der Lerlaufprozess mit 90-99% angezeigt wird. Kann es vieleicht sein das im Taskmanager nicht alle Programme erfasst werden(währe mir neu) oder könnte vieleicht ein Virus, Trojaner sein der diese ununterbrochen hohe Auslastung bewirkt? Vobei mein Antivirusprogramm (Awast) keinen Virus oder ähnliches erkennt. Kann mir da vieleicht jemand helfen voran das liegen kann. Gruß Micha</t>
+  <h>Mein Computer hängt sich auf wenn ich Dateien von der externen Festplatte auf die eingebaute an die Datensicherungskontrolle übertragen will.</h>
+</pair>
+<pair id="4_26L6XBAT2D5NS0E48KH0QG5T40551Z" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo all e zusammen. Mein Virenprogramm AntiVir hat ein Trojanisches Pferd in meinem System entdeckt. Es fragt mich was ich damit machen will und wenn ich auf löschen klicke erscheint es das nächste Mal wieder. Auch wenn ich andere kostenlose Virenprogramme benutze, finde ich den Trojaner zwar, aber in diesem Moment kommt wieder dieses Fenster von AntiVir und fragt mich was ich damit machen will. Dann drücke ich löschen und das Virenprgramm sucht normal weiter, ohne den Trojaner zu beachten. Wer kann mir sagen wie ich diesen Trojaner löschen kann? Wo er ist weiß ich ja schon. Vielen Dank im Voraus Pedro</t>
+  <h>Beim Aufrufen des p5q deluxe Sammelthreads bekomme ich eine Virenmeldung.</h>
+</pair>
+<pair id="2_231TUHYW2GTPBT16LMNM869YY2XLQY" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo, ich habe Probleme mit dem Trojaner '' TR/Virtumod.WS '' . Antivir gibt mir circa alle 5 Minuten eine Trojanerwarnung, in der besagt wird, dass die Datei '' jkkjjgd.dll '' im System32-Ordner der besagte Trojaner ist. Löschen etc. hilft nicht. Der Trojaner bewirkt, dass sich ständig PopUps mit dem Internet Explorer öffnen, auch wenn die Seiten geblockt werden. Ich hoffe auf baldige Hilfe! MfG derknueppel</t>
+  <h>ich erhalte beim Öffnen des P5Q Deluxe-Sammelthreads eine Virenmeldung.</h>
+</pair>
+<pair id="16_2TK6DG67D1X3X26JTTFK9JE1SL7G91" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo Leute! Ein Bekannter von mir hat folgendes Problem: Immer wenn er mit Kaspersky seine Festplatte auf Viren überprüft bekommt er einen Blue Screen mit Error 77 bzw. 77a angezeigt. Er hat gehört das dieses auf eine defekte Festplatte hinweist. Allerdings erreicht sein Prozessor unter Last 67°C und das Problem tritt auch sporadisch bei Spielen und im Sommer wenn das Dachgeschoss ohnehin schon warm ist auf. Habt Ihr dort eine Idee bzw. Lösungsvorschlag um den Fehler zu beheben? Mfg wiesenpieper</t>
+  <h>Unter dem Betriebssystem Windows Vista 64Bit kommt es zu einer hohen Auslastung der CPU.</h>
+</pair>
+<pair id="10_248Y2RCJK63ZXGUGKHBUPAQ9PZO6V6" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo Leute! Ich habe mir vor ein paar Tagen einen neuen PC gekauft. Hier einmal die Daten: Intel Core 2 Quad Q6600 4* 2,40 GhZ ASUS P5N-D Motherboard Geforce 9600 GT SLI 4 GB Ram Windows Vista 64 Bit und falls auch relevant: Kasoersky Internet Security 7.0 So und jetzt zu meinem Problem. Ich bin am Desktop und schau auf die Prozessorauslastung und bei allen 4 Kernen sind 2 Stellige Prozentbereiche obwohl ich nichts mache, ich bin nur am Desktop. Im Moment waren es gerade bei allen 4 Kernen mehr als 30% Egal was ich mache es ist nur am Stocken, selbst wenn ich nen Ordner öffne. So ich bitte um eure Hilfe und zahlreiche Antworten. MFG Sylar</t>
+  <h>Ein Virus hat meinen PC befallen.</h>
+</pair>
+<pair id="17_2G2PFE4EGDHDO4WK1Z0N6W6HKDP9JZ" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo, folgende Frage: Kann es passieren, dass ein Trojaner/Virus oder ähnliches Schadprogramm sich heimlich aufs Mainboard flasht (also eine veränderte Firmware), und selbst nach OS-Neuinstallation dann wieder das System infiziert ? Und falls das passieren kann: Ist es nur von Windows aus möglich (also ein Schadprogramm, dass von Windows aus agiert), oder könnte es auch über Ubuntu passieren (falls das Schadprogramm root-Rechte erlangt) ? Wenn man zu 100% sicher sein will, muss man dann sein das Mainboard austauschen ?</t>
+  <h>Vista warnt mich bei der Ausführung eines Programmes vor schädlicher Software.</h>
+</pair>
+<pair id="10_2K9Y0LWSBRI8KW21RB08QHSTRPMC0C" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo Leute! Ich habe mir vor ein paar Tagen einen neuen PC gekauft. Hier einmal die Daten: Intel Core 2 Quad Q6600 4* 2,40 GhZ ASUS P5N-D Motherboard Geforce 9600 GT SLI 4 GB Ram Windows Vista 64 Bit und falls auch relevant: Kasoersky Internet Security 7.0 So und jetzt zu meinem Problem. Ich bin am Desktop und schau auf die Prozessorauslastung und bei allen 4 Kernen sind 2 Stellige Prozentbereiche obwohl ich nichts mache, ich bin nur am Desktop. Im Moment waren es gerade bei allen 4 Kernen mehr als 30% Egal was ich mache es ist nur am Stocken, selbst wenn ich nen Ordner öffne. So ich bitte um eure Hilfe und zahlreiche Antworten. MFG Sylar</t>
+  <h>Wegen fehlenden Systemrechten des Anwenders in Windows kann die Datei nicht gestartet werden.</h>
+</pair>
+<pair id="10_236FXRDS4IC1G04MQ06M81A2O9GYVX" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo Leute! Ich habe mir vor ein paar Tagen einen neuen PC gekauft. Hier einmal die Daten: Intel Core 2 Quad Q6600 4* 2,40 GhZ ASUS P5N-D Motherboard Geforce 9600 GT SLI 4 GB Ram Windows Vista 64 Bit und falls auch relevant: Kasoersky Internet Security 7.0 So und jetzt zu meinem Problem. Ich bin am Desktop und schau auf die Prozessorauslastung und bei allen 4 Kernen sind 2 Stellige Prozentbereiche obwohl ich nichts mache, ich bin nur am Desktop. Im Moment waren es gerade bei allen 4 Kernen mehr als 30% Egal was ich mache es ist nur am Stocken, selbst wenn ich nen Ordner öffne. So ich bitte um eure Hilfe und zahlreiche Antworten. MFG Sylar</t>
+  <h>Ich möchte einen Trojaner mit Antivir löschen.</h>
+</pair>
+<pair id="14_2LISPW1INMHG0SVIW41BDBFMLT7H46" entailment="NONENTAILMENT" task="SUM">
+  <t>Kann mir mal jemand erklären, wie das gehen soll z.B. Computer (RAM-Speicher) max EUR 6,00 Software (Virenschutz &amp; Datensicherheit) max EUR 5,00 Audio &amp; Hi-Fi (Kopfhörer) max EUR 6,00 wenn aber bei der Post der Versand per DHL (versichert) schon EUR 7,- kostet? Da zahlt also der Verkäufer allein an Portokosten an DHL mehr als der Käufer an ihn bezahlen muss? Von Kosten für den Weg zur Post (bei den heutigen Spritpreisen ja vernachlässigbar), Kosten für die Verpackung (Kartonage, Polstermaterial, Kleber) + Kosten, Zeit und Mühen für die Verpackerei ganz zu schweigen</t>
+  <h>Ich benötige Hilfe bei den Ergebnissen des Logs von HijackThis zum Thema System Error Fixer.</h>
+</pair>
+<pair id="25_20P9KQW618N48WOE5UV54CETTRALNB" entailment="NONENTAILMENT" task="SUM">
+  <t>Wie stelle ich es an dass das Board dauerhaft auf GB Lan schaltet? Ich brauche es zwar nur wenn das NAS läuft aber einmal am Tag mache ich das Backup und wenn ich das NAS nach dem PC einschalte,wird max. 100mps aktiviert. Unter Eigenschaften der Netzwerkkarte ist '' Auto Negotiation '' eingeschaltet. Oder muß ich da im Bios noch was einstellen? Gruß</t>
+  <h>Mein PC hat bei der Suche nach Viren und bei hohen Temperaturn Systemabstürze.</h>
+</pair>
+<pair id="23_26QJVCNHMVHVMEAZUIB2E4J7FY920T" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo Ich habe folgendes Problem. Wenn ich Daten von einer USB Festplatte auf die Interne Platte kopiere hängt der ganze PC. Die Interne Platte hängt am Asus EZ Backup Controller und ist gespiegelt. Als Betriebsystem kommt Windows 2003 zum einsatz. Kennt jemand das Problem Und kann ich die Platten einfach umstecken auf den Intel Kontroller.???? Oder verliere ich alle Daten??</t>
+  <h>Störungen beim Installieren von neuer BIOS--Firmware.</h>
+</pair>
+<pair id="20_2LISPW1INMHG0SVIW41BDBFMLT74HT" entailment="NONENTAILMENT" task="SUM">
+  <t>hallo liebe mods, ich schreibe diesen beitrag extra in die mainboard kategorie, weil heute schon 4 mal beim aufrufen des p5q deluxe-sammelthreads mein trendmicro virenscanner angeschlagen hat! er meldete folgen virus: TSPY_ONLINEG.FXG laut trendmicro wird versucht, den virus über '' gehackte '' webseiten einzuschleusen... nachzulesen hier: (URL) könnt ihr mal der sache auf den grund gehen? viele grüsse t.</t>
+  <h>Die zentrale Platine des Computers soll permanent auf Gigabit Ethernet gestellt werden.</h>
+</pair>
+<pair id="23_241KM05BMJTUJ0N19AG9YA7SBA5EJE" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo Ich habe folgendes Problem. Wenn ich Daten von einer USB Festplatte auf die Interne Platte kopiere hängt der ganze PC. Die Interne Platte hängt am Asus EZ Backup Controller und ist gespiegelt. Als Betriebsystem kommt Windows 2003 zum einsatz. Kennt jemand das Problem Und kann ich die Platten einfach umstecken auf den Intel Kontroller.???? Oder verliere ich alle Daten??</t>
+  <h>Mein Rechner hat eine hohe CPU-Auslastung und Programme ruckeln nach dem Starten.</h>
+</pair>
+<pair id="18_2H1G5TYMNCWYD60E29JSOX11P26JN8" entailment="NONENTAILMENT" task="SUM">
+  <t>Hi, mich macht das EZ Backup und Raid Zeug ganz wirr ;-) Hab Sata 1, 3 und 4 belegt. Kann ich da nun noch eine 4. Sata Platte anklemmen? Der Brenner auf Sata 4 läuft auf Slave, für ein Firmwareupdate sollte er aber auf (Secondary) Master laufen, was macht man da? Danke Gruß Blondy</t>
+  <h>Bei der Defragmentierung meines virenfreien Rechners tauchen Schwierigkeiten auf.</h>
+</pair>
+<pair id="19_2P0UB2YU98JHUVCAW2RFIJ9IUP2MAV" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo, habe mir ein Asus P5Q geholt und am Anfang lief alles prima. Hab mir direkt ausm Netz von der Asus Seite die neusten Chipsatztreiber geholt und installiert. Nach dem reboot sind die USB-Ports wie tot Beim hochfahren gehen sie, sprich Hardwaredefekt liegt keiner vor. Sobald der Windowsladebildschirm kommt. Geht die Maus aus und nichts geht mehr. Hab dann mit der Tastatur mal im Hardwaremanager geguckt und siehe da bei USB-Port-Hub sind überall Ausrufungszeichen. Wenn ich dann von dann die USB Treiber manuell installieren will steht nur da. Sie haben WinXP SP2 sie brauchen diese Treiber nicht. System: Asus P5Q E8400 Ati 3850 2 GB G-Data Vitesta Ram Hoffe jemand kann mir da helfen. Vielen Dank im vorarus!</t>
+  <h>Nach der Neuinstallation von Windows XP ist die Auslastung der CPU ungewöhnlich hoch.</h>
+</pair>
+<pair id="18_2YJXERSQV66RNR8HMK8V3AVKOKK2AJ" entailment="NONENTAILMENT" task="SUM">
+  <t>Hi, mich macht das EZ Backup und Raid Zeug ganz wirr ;-) Hab Sata 1, 3 und 4 belegt. Kann ich da nun noch eine 4. Sata Platte anklemmen? Der Brenner auf Sata 4 läuft auf Slave, für ein Firmwareupdate sollte er aber auf (Secondary) Master laufen, was macht man da? Danke Gruß Blondy</t>
+  <h>Die Prozessorauslastung ist sehr hoch und die gestarteten Programme ruckeln.</h>
+</pair>
+<pair id="8_27ZM8JIA0RYNLBTMC1D0CBMJZ8Z50W" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo PC-Freunde, ich habe letzte Woche XP neu installiert. Heute ist mir aufgefallen das die CPU-Auslastung immer zwischen 60% und 80% liegt obwohl im Taskmanager der Lerlaufprozess mit 90-99% angezeigt wird. Kann es vieleicht sein das im Taskmanager nicht alle Programme erfasst werden(währe mir neu) oder könnte vieleicht ein Virus, Trojaner sein der diese ununterbrochen hohe Auslastung bewirkt? Vobei mein Antivirusprogramm (Awast) keinen Virus oder ähnliches erkennt. Kann mir da vieleicht jemand helfen voran das liegen kann. Gruß Micha</t>
+  <h>Aus welchem Grund bekomme ich das Risiko von Computerviren auf manchen Seiten der Homepage von meinem Antivirenprogramm gemeldet?</h>
+</pair>
+<pair id="7_294EZZ2MIKMNBWZO2FU80WWXOHAO7K" entailment="NONENTAILMENT" task="SUM">
+  <t>Hi Leute, Also wenn ich mein Pc starte kommt ganz normal alles wie es komme muss aufeinmal steht dann da. American Megatrends (das steht als überschrift da) 3rd Master Hard Disk: S.M.A.R.T. Status Bad, Backup and Replace Press F1 to Resume wenn ich dann F1 drücke fährt er sich wie gewohnt rauf zur auswahl der Benutzerkonten .. Was bedeutet das ? habe dieses Problem seit ein paar Tagen, liegt es vl dran da ich ein bischen an meine Pc gerüttelt habe ? denn irgend ein Kabel streifte irgend einen Ventilator ..</t>
+  <h>Der Virtumonde-Virus kann nicht gelöscht werden.</h>
+</pair>
+<pair id="21_2OEGKCCVLL3CC5ULARGQBC9NW8PW65" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo , da mein Pc (4200+ x², 4 Gb Ram) mit dem Catalyst 8.6 beim Starten oft Bluescreens verursachte, wollte ich mit dem @bios tool das f5 bios aufspielen. dabei brach das programm mit '' alloc kernel memory failure '' ab. ich habe darauf nod32 vollständig runtergeschmissen. (soll wohl das flashen nicht erlauben) nun lief das programm einmal langsam bis auf 100%, er hat also etwas geflasht. nach erreichen der 100% kommt nun selbiger fehler wie oben, sodass ich im moment etwas angst habe, den rechner neu zustarten. könnt ihr mir einen tip geben, was ich nun tun soll? mfg</t>
+  <h>Das Starten meines Rechners dauert zu lange und ein Fehler wird gemeldet.</h>
+</pair>
+<pair id="25_2KZVWAVKI62NLST00JQ9GQH6HY3IQH" entailment="NONENTAILMENT" task="SUM">
+  <t>Wie stelle ich es an dass das Board dauerhaft auf GB Lan schaltet? Ich brauche es zwar nur wenn das NAS läuft aber einmal am Tag mache ich das Backup und wenn ich das NAS nach dem PC einschalte,wird max. 100mps aktiviert. Unter Eigenschaften der Netzwerkkarte ist '' Auto Negotiation '' eingeschaltet. Oder muß ich da im Bios noch was einstellen? Gruß</t>
+  <h>Bei eigentlich nicht infizierten Webseiten, schlägt der Trendmicro Virenscanner Alarm.</h>
+</pair>
+<pair id="19_256GQSCM6IAA4U5HNBL07OQKQOMIIE" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo, habe mir ein Asus P5Q geholt und am Anfang lief alles prima. Hab mir direkt ausm Netz von der Asus Seite die neusten Chipsatztreiber geholt und installiert. Nach dem reboot sind die USB-Ports wie tot Beim hochfahren gehen sie, sprich Hardwaredefekt liegt keiner vor. Sobald der Windowsladebildschirm kommt. Geht die Maus aus und nichts geht mehr. Hab dann mit der Tastatur mal im Hardwaremanager geguckt und siehe da bei USB-Port-Hub sind überall Ausrufungszeichen. Wenn ich dann von dann die USB Treiber manuell installieren will steht nur da. Sie haben WinXP SP2 sie brauchen diese Treiber nicht. System: Asus P5Q E8400 Ati 3850 2 GB G-Data Vitesta Ram Hoffe jemand kann mir da helfen. Vielen Dank im vorarus!</t>
+  <h>Meinen Computer benötig für das Hochfahren sehr lange und zeigt mir dann eine Meldung für einen Fehler an.</h>
+</pair>
+<pair id="18_2LNUUKQOYGNIY3ER1570807S1UTGYR" entailment="NONENTAILMENT" task="SUM">
+  <t>Hi, mich macht das EZ Backup und Raid Zeug ganz wirr ;-) Hab Sata 1, 3 und 4 belegt. Kann ich da nun noch eine 4. Sata Platte anklemmen? Der Brenner auf Sata 4 läuft auf Slave, für ein Firmwareupdate sollte er aber auf (Secondary) Master laufen, was macht man da? Danke Gruß Blondy</t>
+  <h>Produkte mit 5 bis 6 Euro an Produktkosten scheinen bei Versandkosten von 7 Euro nicht Profitabel zu sein.</h>
+</pair>
+<pair id="7_2NFBAT2D5NQYP762JHAGCTYMTQF739" entailment="NONENTAILMENT" task="SUM">
+  <t>Hi Leute, Also wenn ich mein Pc starte kommt ganz normal alles wie es komme muss aufeinmal steht dann da. American Megatrends (das steht als überschrift da) 3rd Master Hard Disk: S.M.A.R.T. Status Bad, Backup and Replace Press F1 to Resume wenn ich dann F1 drücke fährt er sich wie gewohnt rauf zur auswahl der Benutzerkonten .. Was bedeutet das ? habe dieses Problem seit ein paar Tagen, liegt es vl dran da ich ein bischen an meine Pc gerüttelt habe ? denn irgend ein Kabel streifte irgend einen Ventilator ..</t>
+  <h>Ein BIOS-Update wurde nicht richtig abgeschlossen.</h>
+</pair>
+<pair id="6_2TOSK9RJ85OZK15GFR1PTOOQBSF6UH" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo Folgendes Problem, der CPU ist bei 100%. Wo die Auslastung liegt, lässt sich nicht erkennen im Task. Spy und Virenprogramm AV lässt sich nicht starten. AVcenter ist keine zulässige win32 anwendung u.s.w. Soundkarte gibt keine Musik mehr von sich. Nur die Windows Töne. Treiber lässt sich auch nicht mehr installieren. Online Virenscan, wie hier beschrieben, geht nur in Zeitlupe, wegen des CPU. Bisher wurde der Beagle Virus gefunden. Tool installiert. Abgesicherter Modus geht aber nicht , trotz mehrerer Versuche. Was nun? Vielen Dank für die Antwort schon jetzt!</t>
+  <h>Die Prozessorauslastung ist sehr hoch nach der Neuinstallation von Windows XP.</h>
+</pair>
+<pair id="18_2YQMZ9O9Z6KW61D9SY8RYLFQ6252BE" entailment="NONENTAILMENT" task="SUM">
+  <t>Hi, mich macht das EZ Backup und Raid Zeug ganz wirr ;-) Hab Sata 1, 3 und 4 belegt. Kann ich da nun noch eine 4. Sata Platte anklemmen? Der Brenner auf Sata 4 läuft auf Slave, für ein Firmwareupdate sollte er aber auf (Secondary) Master laufen, was macht man da? Danke Gruß Blondy</t>
+  <h>Wenn schon der Versand 7 Euro kostet lohnt sich der Verkauf der Ware für 5 oder 6 Euro nicht.</h>
+</pair>
+<pair id="5_292MT6YTWX4H5JTO4L49GGI6OXA1WD" entailment="NONENTAILMENT" task="SUM">
+  <t>System Error Fixer bietet ein Spywareprogramm an, es öffnen sich unerwünschte Seiten auf dem Mozilla Firefox Browser, z.B. QUELLE.de , aber auch Handy- und sogar Sex-Seiten. Habe diese Probleme seit ca. 2 Wochen; gestern große Reinigungsaktion gestartet: 1. Ad-Aware, 2. SpyBot-S &amp; D, 3. Bit-Defender, 4. Stinger, und jetzt bin ich beim HiJackThis angekommen. Kann mit den Log-Files nichts anfangen , werde sie versuchen zu posten und hoffe sehr auf Hilfe. Danke schon mal im Voraus! Logfile of Trend Micro HijackThis v2.0.2 [edit] bitte editiere zukünftig deine links, wie es dir u.a. hier angezeigt wird: Aktive Links und persönliche Informationen in HJT Log-Files danke GUA [LinkImg:(URL) [/edit]</t>
+  <h>Bei auftretenden Temperaturproblemen friert der Rechner ein.</h>
+</pair>
+<pair id="21_2WIOHOVR14IXMQTK2J8EJWA63HH76F" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo , da mein Pc (4200+ x², 4 Gb Ram) mit dem Catalyst 8.6 beim Starten oft Bluescreens verursachte, wollte ich mit dem @bios tool das f5 bios aufspielen. dabei brach das programm mit '' alloc kernel memory failure '' ab. ich habe darauf nod32 vollständig runtergeschmissen. (soll wohl das flashen nicht erlauben) nun lief das programm einmal langsam bis auf 100%, er hat also etwas geflasht. nach erreichen der 100% kommt nun selbiger fehler wie oben, sodass ich im moment etwas angst habe, den rechner neu zustarten. könnt ihr mir einen tip geben, was ich nun tun soll? mfg</t>
+  <h>Ich möchte einen Virus endgültig löschen.</h>
+</pair>
+<pair id="1_2JP4J79KQW61APV5NE6CK45XISBIKP" entailment="NONENTAILMENT" task="SUM">
+  <t>hi, wie mir counter spy sagt, habe ich mir anscheinend den virtumonde-virus eingefangen, bringe ihn aber damit nicht weg. mein problem äussert sich insofern, dass sich bei allen anwendungen der explorer alle paar sekunden aufhängt, alles verschwindet, einen schwarzen bildschirm zurücklässt und ich nur noch in dem fenster arbeiten kann, in dem ich mich gerade befinde. auch wenn ich den explorer im taskmanager starte, bleibt es nicht lang so.</t>
+  <h>Das Betriebssystem lässt die Darstellung der Anwendung nicht zu und es wird vor Malware gewarnt.</h>
+</pair>
+<pair id="1_2LNUUKQOYGNIY3ER1570807S1UTGYR" entailment="NONENTAILMENT" task="SUM">
+  <t>hi, wie mir counter spy sagt, habe ich mir anscheinend den virtumonde-virus eingefangen, bringe ihn aber damit nicht weg. mein problem äussert sich insofern, dass sich bei allen anwendungen der explorer alle paar sekunden aufhängt, alles verschwindet, einen schwarzen bildschirm zurücklässt und ich nur noch in dem fenster arbeiten kann, in dem ich mich gerade befinde. auch wenn ich den explorer im taskmanager starte, bleibt es nicht lang so.</t>
+  <h>Produkte mit 5 bis 6 Euro an Produktkosten scheinen bei Versandkosten von 7 Euro nicht Profitabel zu sein.</h>
+</pair>
+<pair id="23_2CO6RLPHIT3HXY1UDZX2UJQ27LL9HU" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo Ich habe folgendes Problem. Wenn ich Daten von einer USB Festplatte auf die Interne Platte kopiere hängt der ganze PC. Die Interne Platte hängt am Asus EZ Backup Controller und ist gespiegelt. Als Betriebsystem kommt Windows 2003 zum einsatz. Kennt jemand das Problem Und kann ich die Platten einfach umstecken auf den Intel Kontroller.???? Oder verliere ich alle Daten??</t>
+  <h>Schwierigkeiten beim Hochfahren des Betriebssystems</h>
+</pair>
+<pair id="2_2IBHV8ER9Y8TPM9LS9D5RFHS824R4C" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo, ich habe Probleme mit dem Trojaner '' TR/Virtumod.WS '' . Antivir gibt mir circa alle 5 Minuten eine Trojanerwarnung, in der besagt wird, dass die Datei '' jkkjjgd.dll '' im System32-Ordner der besagte Trojaner ist. Löschen etc. hilft nicht. Der Trojaner bewirkt, dass sich ständig PopUps mit dem Internet Explorer öffnen, auch wenn die Seiten geblockt werden. Ich hoffe auf baldige Hilfe! MfG derknueppel</t>
+  <h>Wie kann man ein Schadprogramme entfernen dass sich weder manuell noch mit einem Anti-Viren-Programm löschen läßt?</h>
+</pair>
+<pair id="21_2J845UUKQOYGPKN0G9ZON010D6DWEQ" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo , da mein Pc (4200+ x², 4 Gb Ram) mit dem Catalyst 8.6 beim Starten oft Bluescreens verursachte, wollte ich mit dem @bios tool das f5 bios aufspielen. dabei brach das programm mit '' alloc kernel memory failure '' ab. ich habe darauf nod32 vollständig runtergeschmissen. (soll wohl das flashen nicht erlauben) nun lief das programm einmal langsam bis auf 100%, er hat also etwas geflasht. nach erreichen der 100% kommt nun selbiger fehler wie oben, sodass ich im moment etwas angst habe, den rechner neu zustarten. könnt ihr mir einen tip geben, was ich nun tun soll? mfg</t>
+  <h>Ich habe auf meinem Asus P5Q neue Treiber installiert und nun funktioniert mein Betriebssystem nicht mehr.</h>
+</pair>
+<pair id="1_2ORKQW618N46WZ6B6LWXJETNJ66MOU" entailment="NONENTAILMENT" task="SUM">
+  <t>hi, wie mir counter spy sagt, habe ich mir anscheinend den virtumonde-virus eingefangen, bringe ihn aber damit nicht weg. mein problem äussert sich insofern, dass sich bei allen anwendungen der explorer alle paar sekunden aufhängt, alles verschwindet, einen schwarzen bildschirm zurücklässt und ich nur noch in dem fenster arbeiten kann, in dem ich mich gerade befinde. auch wenn ich den explorer im taskmanager starte, bleibt es nicht lang so.</t>
+  <h>Wenn ich beim Hochfahren vom S.M.A.R.T die Anzeige "Bad, Backup and Replace bekomme, was soll mir das sagen?</h>
+</pair>
+<pair id="20_22M2J1LY58B749DZBX6KOD164TAR6X" entailment="NONENTAILMENT" task="SUM">
+  <t>hallo liebe mods, ich schreibe diesen beitrag extra in die mainboard kategorie, weil heute schon 4 mal beim aufrufen des p5q deluxe-sammelthreads mein trendmicro virenscanner angeschlagen hat! er meldete folgen virus: TSPY_ONLINEG.FXG laut trendmicro wird versucht, den virus über '' gehackte '' webseiten einzuschleusen... nachzulesen hier: (URL) könnt ihr mal der sache auf den grund gehen? viele grüsse t.</t>
+  <h>Die Prozessorauslastung ist bei 100% und Antivirenprogramme funktionieren nicht.</h>
+</pair>
+<pair id="22_2LISPW1INMHG0SVIW41BDBFMLT7H46" entailment="NONENTAILMENT" task="SUM">
+  <t>hi folgendes problem: Hab im windows mit der nvidia software versucht ein bios update durchzuführen. Hab vorher natürlich ein bios backup gemacht. beim aufspieln des neuen bios kam dann eine fehlermeldung. Bios konnte nicht initalisiert werden. Ich hab dann noch 2 andere versionen versucht zu installieren jedoch ohne erfolg. Dann wollte ich das backup wieder aufspielen, doch auch das wurde verweigert. Dann hab ich neustart gemacht, ohne erfolg. cmos jumper... ohne erfolg ..,. batterie raus hilft auch nix... was nun ???????? Hilfe!!!!!!!!!!!!!!!!!!!!!!!!!! danke schonmal opa.oi</t>
+  <h>Ich benötige Hilfe bei den Ergebnissen des Logs von HijackThis zum Thema System Error Fixer.</h>
+</pair>
+<pair id="22_2OV1X3V0FK0CQMTI7ID7WKK9R5FMF8" entailment="NONENTAILMENT" task="SUM">
+  <t>hi folgendes problem: Hab im windows mit der nvidia software versucht ein bios update durchzuführen. Hab vorher natürlich ein bios backup gemacht. beim aufspieln des neuen bios kam dann eine fehlermeldung. Bios konnte nicht initalisiert werden. Ich hab dann noch 2 andere versionen versucht zu installieren jedoch ohne erfolg. Dann wollte ich das backup wieder aufspielen, doch auch das wurde verweigert. Dann hab ich neustart gemacht, ohne erfolg. cmos jumper... ohne erfolg ..,. batterie raus hilft auch nix... was nun ???????? Hilfe!!!!!!!!!!!!!!!!!!!!!!!!!! danke schonmal opa.oi</t>
+  <h>Ich habe Schwierigkeiten mit der Festplatte bei hohen Temperaturen und Auslastungen.</h>
+</pair>
+<pair id="4_2FILWSBRI8IUD4PT2PAHZTLB9ZI2EE" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo all e zusammen. Mein Virenprogramm AntiVir hat ein Trojanisches Pferd in meinem System entdeckt. Es fragt mich was ich damit machen will und wenn ich auf löschen klicke erscheint es das nächste Mal wieder. Auch wenn ich andere kostenlose Virenprogramme benutze, finde ich den Trojaner zwar, aber in diesem Moment kommt wieder dieses Fenster von AntiVir und fragt mich was ich damit machen will. Dann drücke ich löschen und das Virenprgramm sucht normal weiter, ohne den Trojaner zu beachten. Wer kann mir sagen wie ich diesen Trojaner löschen kann? Wo er ist weiß ich ja schon. Vielen Dank im Voraus Pedro</t>
+  <h>Antivir meldet einen Trojander und Webseiten öffnen sich selbstständig.</h>
+</pair>
+<pair id="8_2U0PDOBDDP8PLYBT6UZXTB3Q9NH2DL" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo PC-Freunde, ich habe letzte Woche XP neu installiert. Heute ist mir aufgefallen das die CPU-Auslastung immer zwischen 60% und 80% liegt obwohl im Taskmanager der Lerlaufprozess mit 90-99% angezeigt wird. Kann es vieleicht sein das im Taskmanager nicht alle Programme erfasst werden(währe mir neu) oder könnte vieleicht ein Virus, Trojaner sein der diese ununterbrochen hohe Auslastung bewirkt? Vobei mein Antivirusprogramm (Awast) keinen Virus oder ähnliches erkennt. Kann mir da vieleicht jemand helfen voran das liegen kann. Gruß Micha</t>
+  <h>Der Virenscanner Antivir kann einen Trojaner nicht entfernen</h>
+</pair>
+<pair id="16_2UQXMB3Q39Z0D8LSHNK4LVST152ITV" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo Leute! Ein Bekannter von mir hat folgendes Problem: Immer wenn er mit Kaspersky seine Festplatte auf Viren überprüft bekommt er einen Blue Screen mit Error 77 bzw. 77a angezeigt. Er hat gehört das dieses auf eine defekte Festplatte hinweist. Allerdings erreicht sein Prozessor unter Last 67°C und das Problem tritt auch sporadisch bei Spielen und im Sommer wenn das Dachgeschoss ohnehin schon warm ist auf. Habt Ihr dort eine Idee bzw. Lösungsvorschlag um den Fehler zu beheben? Mfg wiesenpieper</t>
+  <h>Mit Avira lässt sich eine Datei nicht löschen.</h>
+</pair>
+<pair id="19_2P09NZW6HEZ6QGVPPOK8D9GUSGKOYM" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo, habe mir ein Asus P5Q geholt und am Anfang lief alles prima. Hab mir direkt ausm Netz von der Asus Seite die neusten Chipsatztreiber geholt und installiert. Nach dem reboot sind die USB-Ports wie tot Beim hochfahren gehen sie, sprich Hardwaredefekt liegt keiner vor. Sobald der Windowsladebildschirm kommt. Geht die Maus aus und nichts geht mehr. Hab dann mit der Tastatur mal im Hardwaremanager geguckt und siehe da bei USB-Port-Hub sind überall Ausrufungszeichen. Wenn ich dann von dann die USB Treiber manuell installieren will steht nur da. Sie haben WinXP SP2 sie brauchen diese Treiber nicht. System: Asus P5Q E8400 Ati 3850 2 GB G-Data Vitesta Ram Hoffe jemand kann mir da helfen. Vielen Dank im vorarus!</t>
+  <h>Der Virenscanner zeigt einen Trojaner an, der sich nicht entfernen lässt.</h>
+</pair>
+<pair id="14_2X4MEGOOGQSCO8993JJEPUUU6E6DD5" entailment="NONENTAILMENT" task="SUM">
+  <t>Kann mir mal jemand erklären, wie das gehen soll z.B. Computer (RAM-Speicher) max EUR 6,00 Software (Virenschutz &amp; Datensicherheit) max EUR 5,00 Audio &amp; Hi-Fi (Kopfhörer) max EUR 6,00 wenn aber bei der Post der Versand per DHL (versichert) schon EUR 7,- kostet? Da zahlt also der Verkäufer allein an Portokosten an DHL mehr als der Käufer an ihn bezahlen muss? Von Kosten für den Weg zur Post (bei den heutigen Spritpreisen ja vernachlässigbar), Kosten für die Verpackung (Kartonage, Polstermaterial, Kleber) + Kosten, Zeit und Mühen für die Verpackerei ganz zu schweigen</t>
+  <h>Wie erklärt sich die Differenz bei Versandkosten zwischen Käufer und Verkäufer, da erster mehr zahlt?</h>
+</pair>
+<pair id="18_2F55F3Q0JG5T0OEBPF24GF9SY6ZDHE" entailment="NONENTAILMENT" task="SUM">
+  <t>Hi, mich macht das EZ Backup und Raid Zeug ganz wirr ;-) Hab Sata 1, 3 und 4 belegt. Kann ich da nun noch eine 4. Sata Platte anklemmen? Der Brenner auf Sata 4 läuft auf Slave, für ein Firmwareupdate sollte er aber auf (Secondary) Master laufen, was macht man da? Danke Gruß Blondy</t>
+  <h>LAN-Karte dauerhaft auf Datenübertragung von 1Gbit/s umstellen</h>
+</pair>
+<pair id="5_2C18EBDPGFL6XEGVSQINKWIO1FBH2A" entailment="NONENTAILMENT" task="SUM">
+  <t>System Error Fixer bietet ein Spywareprogramm an, es öffnen sich unerwünschte Seiten auf dem Mozilla Firefox Browser, z.B. QUELLE.de , aber auch Handy- und sogar Sex-Seiten. Habe diese Probleme seit ca. 2 Wochen; gestern große Reinigungsaktion gestartet: 1. Ad-Aware, 2. SpyBot-S &amp; D, 3. Bit-Defender, 4. Stinger, und jetzt bin ich beim HiJackThis angekommen. Kann mit den Log-Files nichts anfangen , werde sie versuchen zu posten und hoffe sehr auf Hilfe. Danke schon mal im Voraus! Logfile of Trend Micro HijackThis v2.0.2 [edit] bitte editiere zukünftig deine links, wie es dir u.a. hier angezeigt wird: Aktive Links und persönliche Informationen in HJT Log-Files danke GUA [LinkImg:(URL) [/edit]</t>
+  <h>Es wird bei einem BIOS-Update ein Fehler gemeldet.</h>
+</pair>
+<pair id="9_2WIOHOVR14IXMQTK2J8EJWA63HH76F" entailment="NONENTAILMENT" task="SUM">
+  <t>CPU:Intel Q6600 Board:ASUS maximus extreme Ram:1gb osx Fp:Westerndigital 160gb s-ata Gk:Geforce 8800GTX Windows XP PS3 Ich habe heute alles zusammengebaut, aber aheb folgende probleme... 1.Der PC brauch ca 5-10min zum booten. 2.Nach dem Starten hängt der pc sich ständig auf. 3.Bei dem Prog Pobre2 wird angezeigt der die Dram &amp; Dram ref zu niedrig sind 4.beim booten wird ''Pri Master Hard Disk : S.M.A.R.T. Status BAD, Backup and Replace Press F1 to Resume.'' wenn ich denn F1 drücke fährt der pc weiter hoch. MFG (bitte um schnelle antwort)</t>
+  <h>Ich möchte einen Virus endgültig löschen.</h>
+</pair>
+<pair id="18_2P09NZW6HEZ6QGVPPOK8D9GUSGKOYM" entailment="NONENTAILMENT" task="SUM">
+  <t>Hi, mich macht das EZ Backup und Raid Zeug ganz wirr ;-) Hab Sata 1, 3 und 4 belegt. Kann ich da nun noch eine 4. Sata Platte anklemmen? Der Brenner auf Sata 4 läuft auf Slave, für ein Firmwareupdate sollte er aber auf (Secondary) Master laufen, was macht man da? Danke Gruß Blondy</t>
+  <h>Der Virenscanner zeigt einen Trojaner an, der sich nicht entfernen lässt.</h>
+</pair>
+<pair id="5_248Y2RCJK63ZXGUGKHBUPAQ9PZO6V6" entailment="NONENTAILMENT" task="SUM">
+  <t>System Error Fixer bietet ein Spywareprogramm an, es öffnen sich unerwünschte Seiten auf dem Mozilla Firefox Browser, z.B. QUELLE.de , aber auch Handy- und sogar Sex-Seiten. Habe diese Probleme seit ca. 2 Wochen; gestern große Reinigungsaktion gestartet: 1. Ad-Aware, 2. SpyBot-S &amp; D, 3. Bit-Defender, 4. Stinger, und jetzt bin ich beim HiJackThis angekommen. Kann mit den Log-Files nichts anfangen , werde sie versuchen zu posten und hoffe sehr auf Hilfe. Danke schon mal im Voraus! Logfile of Trend Micro HijackThis v2.0.2 [edit] bitte editiere zukünftig deine links, wie es dir u.a. hier angezeigt wird: Aktive Links und persönliche Informationen in HJT Log-Files danke GUA [LinkImg:(URL) [/edit]</t>
+  <h>Ein Virus hat meinen PC befallen.</h>
+</pair>
+<pair id="2_2KZVWAVKI62NLST00JQ9GQH6HY3IQH" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo, ich habe Probleme mit dem Trojaner '' TR/Virtumod.WS '' . Antivir gibt mir circa alle 5 Minuten eine Trojanerwarnung, in der besagt wird, dass die Datei '' jkkjjgd.dll '' im System32-Ordner der besagte Trojaner ist. Löschen etc. hilft nicht. Der Trojaner bewirkt, dass sich ständig PopUps mit dem Internet Explorer öffnen, auch wenn die Seiten geblockt werden. Ich hoffe auf baldige Hilfe! MfG derknueppel</t>
+  <h>Bei eigentlich nicht infizierten Webseiten, schlägt der Trendmicro Virenscanner Alarm.</h>
+</pair>
+<pair id="17_2UZJHP4BDDKG60ZQLE0XAG35DAU6Z6" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo, folgende Frage: Kann es passieren, dass ein Trojaner/Virus oder ähnliches Schadprogramm sich heimlich aufs Mainboard flasht (also eine veränderte Firmware), und selbst nach OS-Neuinstallation dann wieder das System infiziert ? Und falls das passieren kann: Ist es nur von Windows aus möglich (also ein Schadprogramm, dass von Windows aus agiert), oder könnte es auch über Ubuntu passieren (falls das Schadprogramm root-Rechte erlangt) ? Wenn man zu 100% sicher sein will, muss man dann sein das Mainboard austauschen ?</t>
+  <h>Bei der Defragmentierung meines Rechners stürzt dieser ab.</h>
+</pair>
+<pair id="14_25CQIHPCGJ2D43F2PMOH7JPPYWK28F" entailment="NONENTAILMENT" task="SUM">
+  <t>Kann mir mal jemand erklären, wie das gehen soll z.B. Computer (RAM-Speicher) max EUR 6,00 Software (Virenschutz &amp; Datensicherheit) max EUR 5,00 Audio &amp; Hi-Fi (Kopfhörer) max EUR 6,00 wenn aber bei der Post der Versand per DHL (versichert) schon EUR 7,- kostet? Da zahlt also der Verkäufer allein an Portokosten an DHL mehr als der Käufer an ihn bezahlen muss? Von Kosten für den Weg zur Post (bei den heutigen Spritpreisen ja vernachlässigbar), Kosten für die Verpackung (Kartonage, Polstermaterial, Kleber) + Kosten, Zeit und Mühen für die Verpackerei ganz zu schweigen</t>
+  <h>Mein Rechner hat im Leerlauf eine sehr hohe CPU-Auslastung und ruckelt.</h>
+</pair>
+<pair id="18_2P0UB2YU98JHUVCAW2RFIJ9IUP2MAV" entailment="NONENTAILMENT" task="SUM">
+  <t>Hi, mich macht das EZ Backup und Raid Zeug ganz wirr ;-) Hab Sata 1, 3 und 4 belegt. Kann ich da nun noch eine 4. Sata Platte anklemmen? Der Brenner auf Sata 4 läuft auf Slave, für ein Firmwareupdate sollte er aber auf (Secondary) Master laufen, was macht man da? Danke Gruß Blondy</t>
+  <h>Nach der Neuinstallation von Windows XP ist die Auslastung der CPU ungewöhnlich hoch.</h>
+</pair>
+<pair id="21_2H6UQIHPCGJ2F4SNWDWXO0JPV6171H" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo , da mein Pc (4200+ x², 4 Gb Ram) mit dem Catalyst 8.6 beim Starten oft Bluescreens verursachte, wollte ich mit dem @bios tool das f5 bios aufspielen. dabei brach das programm mit '' alloc kernel memory failure '' ab. ich habe darauf nod32 vollständig runtergeschmissen. (soll wohl das flashen nicht erlauben) nun lief das programm einmal langsam bis auf 100%, er hat also etwas geflasht. nach erreichen der 100% kommt nun selbiger fehler wie oben, sodass ich im moment etwas angst habe, den rechner neu zustarten. könnt ihr mir einen tip geben, was ich nun tun soll? mfg</t>
+  <h>ich habe Treiber installiert und nun funktioniert die Kontrolle des USB nicht mehr richtig.</h>
+</pair>
+<pair id="1_2G4AZHHRRLFQ2QEMO881RHO9KUAENI" entailment="NONENTAILMENT" task="SUM">
+  <t>hi, wie mir counter spy sagt, habe ich mir anscheinend den virtumonde-virus eingefangen, bringe ihn aber damit nicht weg. mein problem äussert sich insofern, dass sich bei allen anwendungen der explorer alle paar sekunden aufhängt, alles verschwindet, einen schwarzen bildschirm zurücklässt und ich nur noch in dem fenster arbeiten kann, in dem ich mich gerade befinde. auch wenn ich den explorer im taskmanager starte, bleibt es nicht lang so.</t>
+  <h>Der Virenscanner Antivir bringt laufend Fehlermeldungen wegen erkannter Trojaner, und der Internet Explorer zeigt am laufenden Band Popup Fenster.</h>
+</pair>
+<pair id="3_2J845UUKQOYGPKN0G9ZON010D6DWEQ" entailment="NONENTAILMENT" task="SUM">
+  <t>Hallo zusammen, Ich habe mir gestern ein paar Programme(OpenOffice, TuneUp,....) heruntergeladen, dann schalte ich den Computer aus. Heute am Morgen sehe ich eine Datei auf meinem Desktop, mit Namen dfljsdjfldjsfsdf.dll.exe , ich wollte sie löschen, aber ging nicht. So nach 3 Stunden sagte Avira plötzlich es sei ein TR/Dldr.Zlob.gzy Nun kann ich die Datei weder mit Avira noch selbständig löschen..... Nun brauche ich wieder mal eure Hilfe LG Crusader</t>
+  <h>Ich habe auf meinem Asus P5Q neue Treiber installiert und nun funktioniert mein Betriebssystem nicht mehr.</h>
+</pair>
+<pair id="1_283FQ0ONNVRH3M8N2V7RI76N1N3LU3" entailment="NONENTAILMENT" task="SUM">
+  <t>hi, wie mir counter spy sagt, habe ich mir anscheinend den virtumonde-virus eingefangen, bringe ihn aber damit nicht weg. mein problem äussert sich insofern, dass sich bei allen anwendungen der explorer alle paar sekunden aufhängt, alles verschwindet, einen schwarzen bildschirm zurücklässt und ich nur noch in dem fenster arbeiten kann, in dem ich mich gerade befinde. auch wenn ich den explorer im taskmanager starte, bleibt es nicht lang so.</t>
+  <h>Der Hauptprozessor arbeitet im Maximum, die Antirvirenprogramme starten nicht und mein Betriebssystem ist mit Viren infiziert.</h>
+</pair>
+</entailment-corpus>
