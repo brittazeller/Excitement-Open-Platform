@@ -47,8 +47,20 @@ public class MaxEntClassificationEDATest {
 	public void test() {		
 
 		/** German */
+		
+		/*
+		 * reported by Ido on Feb 18, 2014:
+		 * 
+		 * Base + GN + DS + DB + TP + TPPos + TS: 63.75
+		 * Base      + DS + DB + TP + TPPos + TS: 62.83
+		 * Base + GN +      DB + TP + TPPos + TS: 63.13
+		 * Base + GN + DS +      TP + TPPos + TS: 63.13
+		 * Base + GN + DS + DB +              TS: 62.50
+		 * Base + GN + DS + DB + TP + TPPos     : 62.63 
+		 */
+		
 		/* Baseline: BagOfWords, BagOfLemmas */
-		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base_DE.xml");
+//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base_DE.xml");
 //		0.61125
 		
 		/* GermaNet: GermaNet without POS */
@@ -74,6 +86,7 @@ public class MaxEntClassificationEDATest {
 		/* Baseline + DistSim */
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+DS_DE.xml");
 //		0.6125
+		// Rui's POS variant: 0.6125; my POS variant: 0.61125
 		
 		/* DBPos: DerivBase with POS */
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_DBPos_DE.xml");
@@ -82,6 +95,7 @@ public class MaxEntClassificationEDATest {
 		/* Baseline + DBPos */
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+DBPos_DE.xml");
 //		0.61375
+		// Rui's POS variant: 0.61375; my POS variant: 0.61125  
 		
 		/* Baseline + GermaNet + DistSim */
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+GN+DS_DE.xml");
@@ -98,6 +112,7 @@ public class MaxEntClassificationEDATest {
 		/* Baseline + GermaNetPos + DistSim + DBPos */
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+GNPos+DS+DBPos_DE.xml");
 //		0.61625
+		// Rui's POS variant: 0.61625; my POS variant: 0.61125
 		
 		/* TP: dependency triples without POS */
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_TP_DE.xml");
@@ -168,15 +183,15 @@ public class MaxEntClassificationEDATest {
 //		0.65 on balanced data
 //		0.622 on balanced data without SUM feature
 		
-		/* Baseline + DBPos ON VICO CORPUS */
+		/* Baseline + DBPos ON VICO CORPUS -- REQUIRES PATH CHANGES IN testParser_DE() AND testLAP_DE()  */
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_vico_Base+DBPos_DE.xml");
 //		0.627 on balanced data, derivSteps=10|2|1
 //		0.65 on balanced data, derivSteps=1/10, POS matching in BOLexesPosS adapted
 
-		/* Baseline + DBPos + DS + GNPos + TPPos + TS ON VICO CORPUS */
+		/* Baseline + DBPos + DS + GNPos + TPPos + TS ON VICO CORPUS -- REQUIRES PATH CHANGES IN testParser_DE() AND testLAP_DE()  */
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_vico_Base+DBPos+DS+TP+TPPos+TS_DE.xml");
 //		0.70 on balanced data
-		
+
 		
 		/* Baseline + TransDm with POS + TP + TPPOS */
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+TransDmPos+TP+TPPos_DE.xml");
@@ -209,6 +224,49 @@ public class MaxEntClassificationEDATest {
 		/* Baseline + DistSim + TP + TPPOS + TS */
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+DS+TP+TPPos+TS_DE.xml");
 //		0.6275
+		
+		/**
+		 * START evaluation settings for deliverable in M27 
+		 */
+
+		/* Baseline + GNPos8 */
+//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+GNPos8_DE.xml");
+		// Rui's POS variant: 61.5; my POS variant: 61.125
+		
+		
+		/* Baseline + TDMPOS + DB1.3 + TP + TPPOS + TS */
+//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+TDMPos+DB13+TP+TPPos+TS_DE.xml");
+//		0.63
+		
+		/* Baseline + TDMPOS + DB1.4 + TP + TPPOS + TS */ // CHANGE PATH IN DERIVBASE INTERNALLY !!!
+//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+TDMPos+DB13+TP+TPPos+TS_DE.xml");
+		
+		
+		/* Baseline + TDMPOS + TP + TPPOS + TS */
+//	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+TDMPos+TP+TPPos+TS_DE.xml");
+//		0.635
+		
+		/* Baseline + DB1.3 + TP + TPPOS + TS */
+//	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+DB13+TP+TPPos+TS_DE.xml");
+//		0.625
+		
+		/* Baseline + DB1.4 + TP + TPPOS + TS */  // CHANGE PATH IN DERIVBASE INTERNALLY !!!
+//	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+DB13+TP+TPPos+TS_DE.xml");
+		
+		
+		/* Baseline + GNPos8 + DS + TDMPOS + DB1.3 + TP + TPPOS + TS */
+	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+GNPos8+DS+TDMPos+DB13+TP+TPPos+TS_DE.xml");
+//	 	0.6325
+		
+		/* Baseline + GNPos8 + DS + TDMPOS + DB1.4 + TP + TPPOS + TS */  // CHANGE PATH IN DERIVBASE INTERNALLY !!!
+//	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+GNPos8+DS+TDMPos+DB13+TP+TPPos+TS_DE.xml");
+		
+		
+		/**
+		 * END evaluation settings for deliverable in M27 
+		 */				
+			
+		
 				
 		/** English */
 		/* Baseline */
@@ -270,6 +328,8 @@ public class MaxEntClassificationEDATest {
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+WN+VO+TP+TPPos+TS_EN.xml");
 //		0.645
 
+		
+		
 
 		Assume.assumeTrue(configFile.exists());
 		CommonConfig config = null;
@@ -286,10 +346,10 @@ public class MaxEntClassificationEDATest {
 		//German RTE tests
 //		testLAP_DE();
 //		testParser_DE();
-//		testTraining(config);
+		testTraining(config);
 //		testTesting_SingleTH(config); 
 //		testTesting_MultiTH(config); 
-//		testTesting_MultiTH_AND_Output(config);
+		testTesting_MultiTH_AND_Output(config);
 		
 		
 		// Rui: testLAP_EN(), testTraining_EN(), and testTesting_MultiTH_EN() also take long time
@@ -308,11 +368,11 @@ public class MaxEntClassificationEDATest {
 		File outputDir = null;
 		
 		// generate XMI files for the training data
-		//inputFile = new File("./src/main/resources/data-set/German_dev.xml");
-		inputFile = new File("./src/main/resources/data-set/German_social-media_balanced_dev.xml");
+		inputFile = new File("./src/main/resources/data-set/German_dev.xml");
+		//inputFile = new File("./src/main/resources/data-set/German_social-media_balanced_dev.xml");
 		assertTrue(inputFile.exists());
-		//outputDir = new File("./target/DE/dev/");
-		outputDir = new File("./target/DE_social-media_balanced/dev/");
+		outputDir = new File("./target/DE/dev/");
+		//outputDir = new File("./target/DE_social-media_balanced/dev/");
 		if (!outputDir.exists()) {
 			outputDir.mkdirs();
 		}
@@ -328,11 +388,11 @@ public class MaxEntClassificationEDATest {
 		}
 		
 		// generate XMI files for the testing data
-		//inputFile = new File("./src/main/resources/data-set/German_test.xml");
-		inputFile = new File("./src/main/resources/data-set/German_social-media_balanced_test.xml");
+		inputFile = new File("./src/main/resources/data-set/German_test.xml");
+		//inputFile = new File("./src/main/resources/data-set/German_social-media_balanced_test.xml");
 		assertTrue(inputFile.exists());
-		//outputDir = new File("./target/DE/test/");
-		outputDir = new File("./target/DE_social-media_balanced/test/");
+		outputDir = new File("./target/DE/test/");
+		//outputDir = new File("./target/DE_social-media_balanced/test/");
 		if (!outputDir.exists()) {
 			outputDir.mkdirs();
 		}
@@ -390,11 +450,11 @@ public class MaxEntClassificationEDATest {
 		File outputDir = null;
 		
 		// generate XMI files for the training data
-		//inputFile = new File("./src/main/resources/data-set/German_dev.xml");
-		inputFile = new File("./src/main/resources/data-set/German_social-media_balanced_dev.xml");
+		inputFile = new File("./src/main/resources/data-set/German_dev.xml");
+		//inputFile = new File("./src/main/resources/data-set/German_social-media_balanced_dev.xml");
 		assertTrue(inputFile.exists());
-		//outputDir = new File("./target/DE/dev/");
-		outputDir = new File("./target/DE_social-media_balanced/dev/");
+		outputDir = new File("./target/DE/dev/");
+		//outputDir = new File("./target/DE_social-media_balanced/dev/");
 		if (!outputDir.exists()) {
 			outputDir.mkdirs();
 		}
@@ -410,11 +470,11 @@ public class MaxEntClassificationEDATest {
 		}
 		
 		// generate XMI files for the testing data
-		//inputFile = new File("./src/main/resources/data-set/German_test.xml");
-		inputFile = new File("./src/main/resources/data-set/German_social-media_balanced_test.xml");
+		inputFile = new File("./src/main/resources/data-set/German_test.xml");
+		//inputFile = new File("./src/main/resources/data-set/German_social-media_balanced_test.xml");
 		assertTrue(inputFile.exists());
-		//outputDir = new File("./target/DE/test/");
-		outputDir = new File("./target/DE_social-media_balanced/test/");
+		outputDir = new File("./target/DE/test/");
+		//outputDir = new File("./target/DE_social-media_balanced/test/");
 		if (!outputDir.exists()) {
 			outputDir.mkdirs();
 		}
