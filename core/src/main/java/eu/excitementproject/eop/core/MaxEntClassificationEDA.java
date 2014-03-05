@@ -407,7 +407,7 @@ public class MaxEntClassificationEDA implements
 		String[] context = constructContext(aCas);
 		logger.info(Arrays.asList(context).toString());
 		float[] values = RealValueFileEventStream.parseContexts(context);
-		double[] ocs = model.eval(context, values);  //TODO BZ: ocs sums up to 1; two entries due to binary decision (ENT, NONENT)
+		double[] ocs = model.eval(context, values);  // BZ: ocs sums up to 1; two entries due to binary decision (ENT, NONENT)
 		int numOutcomes = ocs.length;
 		DoubleStringPair[] result = new DoubleStringPair[numOutcomes];
 		for (int i = 0; i < numOutcomes; i++) {
@@ -556,7 +556,7 @@ public class MaxEntClassificationEDA implements
 	 * @return return the instance of the input, represented in
 	 *         <code>Event</code>
 	 */
-	protected final Event casToEvent(JCas cas) throws ConfigurationException { //TODO BZ: an Event = simply 3 parms: decision, context, value
+	protected final Event casToEvent(JCas cas) throws ConfigurationException { // BZ: an Event = simply 3 parms: decision, context, value
 		String goldAnswer = getGoldLabel(cas);
 		if (null == goldAnswer) {
 			goldAnswer = DecisionLabel.Abstain.toString();
@@ -564,7 +564,7 @@ public class MaxEntClassificationEDA implements
 		try {
 			String[] contexts = constructContext(cas);
 			float[] values = RealValueFileEventStream.parseContexts(contexts);
-			return new Event(goldAnswer, contexts, values); //TODO BZ: training, by combining gold answer and context features+values
+			return new Event(goldAnswer, contexts, values); // BZ: training, by combining gold answer and context features+values
 		} catch (ScoringComponentException e) {
 			throw new ConfigurationException(e.getMessage());
 		}
