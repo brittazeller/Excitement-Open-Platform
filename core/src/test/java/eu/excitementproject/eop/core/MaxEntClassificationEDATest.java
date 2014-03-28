@@ -60,7 +60,7 @@ public class MaxEntClassificationEDATest {
 		 */
 		
 		/* Baseline: BagOfWords, BagOfLemmas */
-//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base_DE.xml");
+		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base_DE.xml");
 //		0.61125
 		
 		/* GermaNet: GermaNet without POS */
@@ -95,6 +95,7 @@ public class MaxEntClassificationEDATest {
 		/* Baseline + DBPos */
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+DBPos_DE.xml");
 //		0.61375
+		// *****
 		// Rui's POS variant: 0.61375; my POS variant: 0.61125  
 		
 		/* Baseline + GermaNet + DistSim */
@@ -161,7 +162,11 @@ public class MaxEntClassificationEDATest {
 		/* Baseline + GNPos + DS + DBPos + TPPos + TS */
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+GNPos+DS+DBPos+TPPos+TS_DE.xml");
 //		0.63125
-				
+		
+		/* Baseline + GNPos + DS + DBPos + TP + TPPos + TS */
+//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+GNPos+DS+DBPos+TP+TPPos+TS_DE.xml");
+//		0.63125
+		
 		/* TransDm */
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_TransDm_DE.xml");
 //		0.51125
@@ -177,6 +182,7 @@ public class MaxEntClassificationEDATest {
 		/* Baseline + TransDm with POS */
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+TransDmPos_DE.xml");
 //		0.62
+		// *****	
 		
 		/* Baseline ON VICO CORPUS -- REQUIRES PATH CHANGES IN testParser_DE() AND testLAP_DE() */
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_vico_Base_DE.xml");
@@ -227,40 +233,79 @@ public class MaxEntClassificationEDATest {
 		
 		/**
 		 * START evaluation settings for deliverable in M27 
-		 */
-
-		/* Baseline + GNPos8 */
-//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+GNPos8_DE.xml");
-		// Rui's POS variant: 61.5; my POS variant: 61.125
+		 */		
 		
-		
-		/* Baseline + TDMPOS + DB1.3 + TP + TPPOS + TS */
-//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+TDMPos+DB13+TP+TPPos+TS_DE.xml");
-//		0.63
-		
-		/* Baseline + TDMPOS + DB1.4 + TP + TPPOS + TS */ // CHANGE PATH IN DERIVBASE INTERNALLY !!!
-//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+TDMPos+DB13+TP+TPPos+TS_DE.xml");
-		
-		
-		/* Baseline + TDMPOS + TP + TPPOS + TS */
-//	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+TDMPos+TP+TPPos+TS_DE.xml");
-//		0.635
-		
-		/* Baseline + DB1.3 + TP + TPPOS + TS */
+		/* Baseline + TP + TPPOS + TS + DB1.3 */
 //	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+DB13+TP+TPPos+TS_DE.xml");
 //		0.625
 		
-		/* Baseline + DB1.4 + TP + TPPOS + TS */  // CHANGE PATH IN DERIVBASE INTERNALLY !!!
-//	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+DB13+TP+TPPos+TS_DE.xml");
+		/* Baseline + TP + TPPOS + TS + TDMPOS */
+//	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+TDMPos+TP+TPPos+TS_DE.xml");
+//		0.635
+
+		/* Baseline + TP + TPPOS + TS + TDMPOS + DB1.3 */
+//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+TDMPos+DB13+TP+TPPos+TS_DE.xml");
+//		0.63
 		
-		
+	 	/* Baseline + TP + TPPOS + TS + DB1.3 + DS */
+//	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+DS+DB13+TP+TPPos+TS_DE.xml");
+//		0.62875
+	 	
 		/* Baseline + GNPos8 + DS + TDMPOS + DB1.3 + TP + TPPOS + TS */
-	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+GNPos8+DS+TDMPos+DB13+TP+TPPos+TS_DE.xml");
-//	 	0.6325
-		
-		/* Baseline + GNPos8 + DS + TDMPOS + DB1.4 + TP + TPPOS + TS */  // CHANGE PATH IN DERIVBASE INTERNALLY !!!
 //	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+GNPos8+DS+TDMPos+DB13+TP+TPPos+TS_DE.xml");
+//	 	0.6325
+
+	 	/* GermanBap */
+//	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Bap_DE.xml");
+//		409/800 = .51125
+	 	
+	 	/* GermanLinDep */
+//	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_LinDep_DE.xml");	 	
+//		409/800. = .51125
 		
+	 	/* GermanLinProx */
+//	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_LinProx_DE.xml");	 	
+//		409/800. = .51125
+	
+	 	/* Baseline + GermanBap */
+//	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+Bap_DE.xml");	 	
+//		490/800 = .6125
+		
+	 	/* Baseline + GermanLinDep */
+//	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+LinDep_DE.xml");	 	
+//		491/800. = .61375
+		
+	 	/* Baseline + GermanLinProx */
+//	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+LinProx_DE.xml");	 	
+//		496/800. = .62
+		
+	 	/* Baseline + GermanBapPOS */
+//	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+BapPOS_DE.xml");	 	
+//		493/800. = .61625
+		
+	 	/* Baseline + GermanLinDepPOS */
+//	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+LinDepPOS_DE.xml");	 	
+//		490/800. = .6125
+		
+	 	/* Baseline + GermanLinProxPOS */
+//	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+LinProxPOS_DE.xml");	 	
+//		490/800. = .6125
+		
+	 	/* Baseline + GNPos8 + DB1.3 + TP + TPPOS + TS + GermanBapPOS */
+//	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+GNPos8+DB13+TP+TPPos+TS+Bap_DE.xml");	 	
+//		500/800. = .625
+	 	
+	 	/* Baseline + GNPos8 + DS + TDMPOS + DB1.3 + TP + TPPOS + TS + GermanBapPOS */
+//	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+GNPos8+DS+TDMPos+DB13+TP+TPPos+TS+Bap_DE.xml");	 	
+//		503/800. = 0.62875
+		
+	 	/* Baseline + GNPos8 + DS + TDMPOS + DB1.3 + TP + TPPOS + TS + GermanLinDepPOS */
+//		 File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+GNPos8+DS+TDMPos+DB13+TP+TPPos+TS+LinDep_DE.xml");	 	
+//	 	505/800. = .63125 This one is VERY slow!
+		
+	 	/* Baseline + GNPos8 + DS + TDMPOS + DB1.3 + TP + TPPOS + TS + GermanLinProxPOS */
+//	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+GNPos8+DS+TDMPos+DB13+TP+TPPos+TS+LinProx_DE.xml");
+//		504/800. = .63
 		
 		/**
 		 * END evaluation settings for deliverable in M27 
@@ -344,12 +389,12 @@ public class MaxEntClassificationEDATest {
 
 		// Gil: testLAP_DE() is a very very long test. (More than build process itself) 
 		//German RTE tests
-//		testLAP_DE();
-//		testParser_DE();
-//		testTraining(config);
+		//testLAP_DE();
+		//testParser_DE();
+		//testTraining(config);
 //		testTesting_SingleTH(config); 
 //		testTesting_MultiTH(config); 
-//		testTesting_MultiTH_AND_Output(config);
+		//testTesting_MultiTH_AND_Output(config);
 		
 		
 		// Rui: testLAP_EN(), testTraining_EN(), and testTesting_MultiTH_EN() also take long time

@@ -33,7 +33,8 @@ import eu.excitementproject.eop.core.component.lexicalknowledge.germanet.GermaNe
  * 
  * It adds POS tags into the queries to the lexical resources.
  * 
- * Both GermaNetWrapper and GermanTransDmResource can be used with or without POS information. 
+ * GermaNetWrapper, GermanTransDmResource, GermanBap, GermanLinDep,
+ * and GermanLinProx can be used with or without POS information. 
  * 
  * @author Rui Wang
  * @since January 2013
@@ -71,8 +72,14 @@ public class BagOfLexesPosScoringDE extends BagOfLexesScoringDE {
 	 * @throws ConfigurationException
 	 * @throws LexicalResourceException
 	 */
-	public BagOfLexesPosScoringDE(boolean isDS, boolean isTdm, String simMeasure, boolean isGN, String[] germaNetRelations, String germaNetFilePath, boolean isDB, boolean useScores, String derivSteps) throws ConfigurationException, LexicalResourceException{
-		super(isDS, isTdm, simMeasure, isGN, germaNetRelations, germaNetFilePath, isDB);
+	public BagOfLexesPosScoringDE(boolean isDS, 
+			boolean isTdm, String simMeasure, 
+			boolean isGN, String[] germaNetRelations, String germaNetFilePath, 
+			boolean isDB, boolean useScores, String derivSteps,
+			boolean isGBap, //TODO: add parameter maxNumOfRetrievedRules x3 later?
+			boolean isGLinDep,
+			boolean isGLinProx) throws ConfigurationException, LexicalResourceException{
+		super(isDS, isTdm, simMeasure, isGN, germaNetRelations, germaNetFilePath, isDB, isGBap, isGLinDep, isGLinProx);
 		numOfFeats = super.getNumOfFeats();
 		
 		for (int i = 0; i < moduleFlags.length; i++) {
@@ -172,6 +179,15 @@ public class BagOfLexesPosScoringDE extends BagOfLexesScoringDE {
 			}
 			if (super.moduleFlags[2]) {
 				scoresVector.add(calculateSingleLexScore(tBag, hBag, gtdm));
+			}
+			if (super.moduleFlags[3]) {
+				scoresVector.add(calculateSingleLexScore(tBag, hBag, gbap));
+			}
+			if (super.moduleFlags[4]) {
+				scoresVector.add(calculateSingleLexScore(tBag, hBag, glindep));
+			}
+			if (super.moduleFlags[5]) {
+				scoresVector.add(calculateSingleLexScore(tBag, hBag, glinprox));
 			}
 			if (moduleFlags[0]) {
 				scoresVector.add(calculateSingleLexScore(tBag, hBag, dbr));

@@ -22,6 +22,9 @@ import eu.excitementproject.eop.common.exception.BaseException;
 import eu.excitementproject.eop.common.exception.ConfigurationException;
 import eu.excitementproject.eop.core.component.lexicalknowledge.dewakdistributional.GermanDistSim;
 import eu.excitementproject.eop.core.component.lexicalknowledge.dewakdistributional.GermanDistSimNotInstalledException;
+import eu.excitementproject.eop.core.component.lexicalknowledge.germandistsim.GermanBap;
+import eu.excitementproject.eop.core.component.lexicalknowledge.germandistsim.GermanLinDep;
+import eu.excitementproject.eop.core.component.lexicalknowledge.germandistsim.GermanLinProx;
 import eu.excitementproject.eop.core.component.lexicalknowledge.germanet.GermaNetNotInstalledException;
 import eu.excitementproject.eop.core.component.lexicalknowledge.germanet.GermaNetRelation;
 import eu.excitementproject.eop.core.component.lexicalknowledge.germanet.GermaNetWrapper;
@@ -32,8 +35,9 @@ import eu.excitementproject.eop.core.component.lexicalknowledge.transDm.GermanTr
  * The <code>BagOfLexesScoringDE</code> class extends
  * <code>BagOfLemmasScoring</code>. It supports (currently)
  * <code>GermanDistSim</code>, <code>GermaNetWrapper</code>,
- * <code>GermanTransDmResource<code>, and <code>GermanTransDmResource</code>,
- * four lexical resources.
+ * <code>DerivBaseResource</code>, <code>GermanTransDmResource</code>,
+ * <code>GermanBap</code>, <code>GermanLinDep</code>, and <code>GermanLinProx</code>
+ * seven lexical resources.
  * 
  * Both GermaNetWrapper and GermanTransDmResource can be used with or without POS information. 
  * 
@@ -54,13 +58,21 @@ public class BagOfLexesScoringDE extends BagOfLemmasScoring {
 		return numOfFeats;
 	}
 
-	protected boolean[] moduleFlags = new boolean[3];
+	protected boolean[] moduleFlags = new boolean[6];
 
 	protected GermanDistSim gds = null;
 
 	protected GermaNetWrapper gnw = null;
 	
 	protected GermanTransDmResource gtdm = null;
+	
+	protected GermanBap gbap = null;
+	
+	protected GermanLinDep glindep = null;
+	
+	protected GermanLinProx glinprox = null;
+	
+	
 
 	/**
 	 * the constructor using parameters
@@ -75,12 +87,18 @@ public class BagOfLexesScoringDE extends BagOfLemmasScoring {
 	 * @throws ConfigurationException
 	 * @throws LexicalResourceException
 	 */
-	public BagOfLexesScoringDE(boolean isDS, boolean isTDm, String simMeasure, boolean isGN, String[] germaNetRelations, String germaNetFilePath, boolean isDB) throws ConfigurationException, LexicalResourceException{
+	public BagOfLexesScoringDE(boolean isDS, 
+			boolean isTDm, String simMeasure, 
+			boolean isGN, String[] germaNetRelations, String germaNetFilePath, 
+			boolean isDB,
+			boolean isGBap, //TODO: add parameter maxNumOfRetrievedRules x3 later?
+			boolean isGLinDep,
+			boolean isGLinProx) throws ConfigurationException, LexicalResourceException{
 		for (int i = 0; i < moduleFlags.length; i++) {
 			moduleFlags[i] = false;
 		}
 		
-		if (!isDS && !isGN && !isDB && !isTDm) {
+		if (!isDS && !isGN && !isDB && !isTDm && !isGBap && !isGLinDep && !isGLinProx) {
 			throw new ConfigurationException(
 					"Wrong configuation: didn't find any lexical resources for the BagOfLexesScoringDE component");
 		}
@@ -133,6 +151,32 @@ public class BagOfLexesScoringDE extends BagOfLemmasScoring {
 			}
 			logger.info("Load GermaNet done.");
 		}
+		
+		
+		// initialize GermanBap
+		if (isGBap) {
+			gbap = new GermanBap();
+			numOfFeats++;
+			moduleFlags[3] = true;
+			logger.info("Load GermanBap done.");
+		}
+		
+		// initialize GermanLinDep
+		if (isGLinDep) {
+			glindep = new GermanLinDep();
+			numOfFeats++;
+			moduleFlags[4] = true;
+			logger.info("Load GermanLinDep done.");
+		}
+		
+		// initialize GermanLinProx
+		if (isGLinProx) {
+			glinprox = new GermanLinProx();
+			numOfFeats++;
+			moduleFlags[5] = true;
+			logger.info("Load GermanLinProx done.");
+		}
+		
 	}
 	
 	/**
@@ -154,7 +198,11 @@ public class BagOfLexesScoringDE extends BagOfLemmasScoring {
 		if (null == comp.getString("GermanDistSim")
 				&& null == comp.getString("GermaNetWrapper")
 				&& null == comp.getString("GermanTransDmResource")
-				&& null == comp.getString("DerivBaseResource")) {
+				&& null == comp.getString("DerivBaseResource")
+				&& null == comp.getString("GermanBap")
+				&& null == comp.getString("GermanLinDep")
+				&& null == comp.getString("GermanLinProx")
+				) {
 			throw new ConfigurationException(
 					"Wrong configuation: didn't find any lexical resources for the BagOfLexesScoring component");
 		}
@@ -209,6 +257,32 @@ public class BagOfLexesScoringDE extends BagOfLemmasScoring {
 			}
 			logger.info("Load GermaNet done.");
 		}
+		
+		
+		// initialize GermanBap
+		if (null != comp.getString("GermanBap")) {
+			gbap = new GermanBap(); // GermanBap(config); TODO: change as soon as GermanDistSim support ComConfig? 
+			numOfFeats++;
+			moduleFlags[3] = true;
+			logger.info("Load GermanBap done.");
+		}
+		
+		// initialize GermanLinDep
+		if (null != comp.getString("GermanLinDep")) {
+			glindep = new GermanLinDep();
+			numOfFeats++;
+			moduleFlags[4] = true;
+			logger.info("Load GermanLinDep done.");
+		}
+		
+		// initialize GermanLinProx
+		if (null != comp.getString("GermanLinProx")) {
+			glinprox = new GermanLinProx();
+			numOfFeats++;
+			moduleFlags[5] = true;
+			logger.info("Load GermanLinProx done.");
+		}
+		
 	}
 	
 	@Override
@@ -230,6 +304,15 @@ public class BagOfLexesScoringDE extends BagOfLemmasScoring {
 			}
 			if (null != gtdm) {
 				gtdm.close();
+			}
+			if (null != gbap) {
+				gbap.close();
+			}
+			if (null != glindep) {
+				glindep.close();
+			}
+			if (null != glinprox) {
+				glinprox.close();
 			}
 		} catch (LexicalResourceCloseException e) {
 			throw new ScoringComponentException(e.getMessage());
@@ -259,6 +342,16 @@ public class BagOfLexesScoringDE extends BagOfLemmasScoring {
 			if (moduleFlags[2]) {
 				scoresVector.add(calculateSingleLexScore(tBag,hBag, gtdm)); 
 			}
+			if (moduleFlags[3]) {
+				scoresVector.add(calculateSingleLexScore(tBag,hBag, gbap)); 
+			}
+			if (moduleFlags[4]) {
+				scoresVector.add(calculateSingleLexScore(tBag,hBag, glindep)); 
+			}
+			if (moduleFlags[5]) {
+				scoresVector.add(calculateSingleLexScore(tBag,hBag, glinprox)); 
+			}
+			
 		} catch (CASException e) {
 			throw new ScoringComponentException(e.getMessage());
 		}
