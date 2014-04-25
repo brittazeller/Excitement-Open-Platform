@@ -35,7 +35,7 @@
 	
 	<section name="DerivBaseResource">
 	    <property name="useScores">true</property> 
-		<property name="derivationSteps">10</property>
+		<property name="derivationSteps">20</property>
 	</section> 
 	
 	<section name="BagOfDepsPosScoring">

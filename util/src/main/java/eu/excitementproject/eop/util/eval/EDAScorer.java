@@ -183,7 +183,7 @@ public class EDAScorer {
 		
 		/** German */
 		/* Baseline: BagOfWords, BagOfLemmas */
-//		File resultFile = new File("./src/main/resources/results/MaxEntClassificationEDA_Base_DE.xml_Result.txt");
+//		File resultFile = new File("../core/src/main/resources/results/MaxEntClassificationEDA_Base_DE.xml_Result.txt");
 		
 		/* GermaNet: GermaNet without POS */
 //		File resultFile = new File("./src/main/resources/results/MaxEntClassificationEDA_GN_DE.xml_Result.txt");
@@ -201,13 +201,13 @@ public class EDAScorer {
 //		File resultFile = new File("./src/main/resources/results/MaxEntClassificationEDA_DS_DE.xml_Result.txt");
 		
 		/* Baseline + DistSim */
-//		File resultFile = new File("./src/main/resources/results/MaxEntClassificationEDA_Base+DS_DE.xml_Result.txt");
+//		File resultFile = new File("../core/src/main/resources/results/MaxEntClassificationEDA_Base+DS_DE.xml_Result.txt");
 		
 		/* DBPos: DerivBase with POS */
 //		File resultFile = new File("./src/main/resources/results/MaxEntClassificationEDA_DBPos_DE.xml_Result.txt");
 		
 		/* Baseline + DBPos */
-//		File resultFile = new File("./src/main/resources/results/MaxEntClassificationEDA_Base+DBPos_DE.xml_Result.txt");
+//		File resultFile = new File("../core/src/main/resources/results/MaxEntClassificationEDA_Base+DBPos_DE.xml_Result.txt");
 		
 		/* Baseline + GermaNet + DistSim */
 //		File resultFile = new File("./src/main/resources/results/MaxEntClassificationEDA_Base+GN+DS_DE.xml_Result.txt");
@@ -259,7 +259,7 @@ public class EDAScorer {
 		
 		/** English */
 		/* Baseline */
-//		File resultFile = new File("./src/main/resources/results/MaxEntClassificationEDA_Base_EN.xml_Result.txt");
+//		File resultFile = new File("../core/src/main/resources/results/MaxEntClassificationEDA_Base_EN.xml_Result.txt");
 		
 		/* WN: WordNet */
 //		File resultFile = new File("./src/main/resources/results/MaxEntClassificationEDA_WN_EN.xml_Result.txt");
@@ -274,7 +274,7 @@ public class EDAScorer {
 //		File resultFile = new File("./src/main/resources/results/MaxEntClassificationEDA_Base+VO_EN.xml_Result.txt");
 		
 		/* Baseline + WN + VO */
-//		File resultFile = new File("./src/main/resources/results/MaxEntClassificationEDA_Base+WN+VO_EN.xml_Result.txt");
+		File resultFile = new File("../core/src/main/resources/results/MaxEntClassificationEDA_Base+WN+VO_EN.xml_Result.txt");
 		
 		/* Baseline + TP */
 //		File resultFile = new File("./src/main/resources/results/MaxEntClassificationEDA_Base+TP_EN.xml_Result.txt");
@@ -289,7 +289,7 @@ public class EDAScorer {
 //		File resultFile = new File("./src/main/resources/results/MaxEntClassificationEDA_Base+TP+TPPos+TS_EN.xml_Result.txt");
 		
 		/* Baseline + WN + VO + TP + TPPos + TS */
-		File resultFile = new File("./src/main/resources/results/MaxEntClassificationEDA_Base+WN+VO+TP+TPPos+TS_EN.xml_Result.txt");
+//		File resultFile = new File("./src/main/resources/results/MaxEntClassificationEDA_Base+WN+VO+TP+TPPos+TS_EN.xml_Result.txt");
 
 		
 		Assume.assumeTrue(resultFile.exists());
