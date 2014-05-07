@@ -93,9 +93,9 @@ public class MaxEntClassificationEDATest {
 //		0.51125
 		
 		/* Baseline + DBPos */
-//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+DBPos_DE.xml");
-//		0.61375
-		// Rui's POS variant: 0.61375; my POS variant: 0.61125  
+		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+DBPos_DE.xml");
+//		0.61375 on v1.3; 0.6125 on v1.4
+		// my TIE variant: 0.60875 on v1.3; 0.6025 on v1.4   
 		
 		/* Baseline + GermaNet + DistSim */
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+GN+DS_DE.xml");
@@ -221,9 +221,36 @@ public class MaxEntClassificationEDATest {
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+DS+TP+TPPos_DE.xml");
 //		0.62625
 		
+		
+		
 		/* Baseline + DistSim + TP + TPPOS + TS */
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+DS+TP+TPPos+TS_DE.xml");
 //		0.6275
+		
+		/* Baseline + GNPos + TP + TPPOS + TS */ 
+//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+GNPos+TP+TPPos+TS_DE.xml");
+		
+		/* Baseline + DBPos + TP + TPPOS + TS */
+//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+DBPos+TP+TPPos+TS_DE.xml");
+		
+		/* Baseline + GNPos + DBPos + TP + TPPOS + TS */
+//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+GNPos+DBPos+TP+TPPos+TS_DE.xml");
+		
+		/* Baseline + DS + DBPos + TP + TPPOS + TS */
+//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+DS+DBPos+TP+TPPos+TS_DE.xml");
+		
+		
+		/* DBPos on derivational RTE subset -- REQUIRES PATH CHANGES IN THE testParser_DE() AND testLAP_DE()*/
+//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_DBPos_derivset_DE.xml");
+		
+		/* Baseline on derivational RTE subset -- REQUIRES PATH CHANGES IN testParser_DE() AND testLAP_DE()*/
+//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base_derivset_DE.xml");
+		
+		/* Baseline + DBPos on derivational RTE subset -- REQUIRES PATH CHANGES IN testParser_DE() AND testLAP_DE()*/
+//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+DBPos_derivset_DE.xml");
+
+		/* Baseline + DBPos + TS + TP + TPPos on derivational RTE subset -- REQUIRES PATH CHANGES IN testParser_DE() AND testLAP_DE()*/
+//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+DBPos+TP+TPPos+TS_derivset_DE.xml");
 		
 		/**
 		 * START evaluation settings for deliverable in M27 
@@ -237,11 +264,7 @@ public class MaxEntClassificationEDATest {
 		/* Baseline + TDMPOS + DB1.3 + TP + TPPOS + TS */
 //		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+TDMPos+DB13+TP+TPPos+TS_DE.xml");
 //		0.63
-		
-		/* Baseline + TDMPOS + DB1.4 + TP + TPPOS + TS */ // CHANGE PATH IN DERIVBASE INTERNALLY !!!
-//		File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+TDMPos+DB13+TP+TPPos+TS_DE.xml");
-		
-		
+				
 		/* Baseline + TDMPOS + TP + TPPOS + TS */
 //	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+TDMPos+TP+TPPos+TS_DE.xml");
 //		0.635
@@ -249,18 +272,10 @@ public class MaxEntClassificationEDATest {
 		/* Baseline + DB1.3 + TP + TPPOS + TS */
 //	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+DB13+TP+TPPos+TS_DE.xml");
 //		0.625
-		
-		/* Baseline + DB1.4 + TP + TPPOS + TS */  // CHANGE PATH IN DERIVBASE INTERNALLY !!!
-//	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+DB13+TP+TPPos+TS_DE.xml");
-		
-		
+				
 		/* Baseline + GNPos8 + DS + TDMPOS + DB1.3 + TP + TPPOS + TS */
-	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+GNPos8+DS+TDMPos+DB13+TP+TPPos+TS_DE.xml");
-//	 	0.6325
-		
-		/* Baseline + GNPos8 + DS + TDMPOS + DB1.4 + TP + TPPOS + TS */  // CHANGE PATH IN DERIVBASE INTERNALLY !!!
 //	 	File configFile = new File("./src/main/resources/configuration-file/MaxEntClassificationEDA_Base+GNPos8+DS+TDMPos+DB13+TP+TPPos+TS_DE.xml");
-		
+//	 	0.6325
 		
 		/**
 		 * END evaluation settings for deliverable in M27 
@@ -353,14 +368,14 @@ public class MaxEntClassificationEDATest {
 		
 		
 		// Rui: testLAP_EN(), testTraining_EN(), and testTesting_MultiTH_EN() also take long time
-		/* English RTE tests
-		testLAP_EN();
-		testParser_EN("poly");
-		testTraining(config);
-		testTesting_SingleTH(config);
-		testTesting_MultiTH(config);
-		testTesting_MultiTH_AND_Output(config);
-		 */
+		// English RTE tests
+//		testLAP_EN();
+//		testParser_EN("poly");
+//		testTraining(config);
+//		testTesting_SingleTH(config);
+//		testTesting_MultiTH(config);
+//		testTesting_MultiTH_AND_Output(config);
+		 
 	}
 	
 	public void testLAP_DE() {
@@ -370,9 +385,11 @@ public class MaxEntClassificationEDATest {
 		// generate XMI files for the training data
 		inputFile = new File("./src/main/resources/data-set/German_dev.xml");
 		//inputFile = new File("./src/main/resources/data-set/German_social-media_balanced_dev.xml");
+		//inputFile = new File("./src/main/resources/data-set/RTE3-DE-dev-derivational.xml");
 		assertTrue(inputFile.exists());
 		outputDir = new File("./target/DE/dev/");
 		//outputDir = new File("./target/DE_social-media_balanced/dev/");
+		//outputDir = new File("./target/DE_deriv/dev/");
 		if (!outputDir.exists()) {
 			outputDir.mkdirs();
 		}
@@ -390,9 +407,11 @@ public class MaxEntClassificationEDATest {
 		// generate XMI files for the testing data
 		inputFile = new File("./src/main/resources/data-set/German_test.xml");
 		//inputFile = new File("./src/main/resources/data-set/German_social-media_balanced_test.xml");
+		//inputFile = new File("./src/main/resources/data-set/RTE3-DE-test-derivational.xml");
 		assertTrue(inputFile.exists());
 		outputDir = new File("./target/DE/test/");
 		//outputDir = new File("./target/DE_social-media_balanced/test/");
+		//outputDir = new File("./target/DE_deriv/test/");
 		if (!outputDir.exists()) {
 			outputDir.mkdirs();
 		}
@@ -452,9 +471,11 @@ public class MaxEntClassificationEDATest {
 		// generate XMI files for the training data
 		inputFile = new File("./src/main/resources/data-set/German_dev.xml");
 		//inputFile = new File("./src/main/resources/data-set/German_social-media_balanced_dev.xml");
+		//inputFile = new File("./src/main/resources/data-set/RTE3-DE-dev-derivational.xml");
 		assertTrue(inputFile.exists());
 		outputDir = new File("./target/DE/dev/");
 		//outputDir = new File("./target/DE_social-media_balanced/dev/");
+		//outputDir = new File("./target/DE_deriv/dev/");
 		if (!outputDir.exists()) {
 			outputDir.mkdirs();
 		}
@@ -472,9 +493,11 @@ public class MaxEntClassificationEDATest {
 		// generate XMI files for the testing data
 		inputFile = new File("./src/main/resources/data-set/German_test.xml");
 		//inputFile = new File("./src/main/resources/data-set/German_social-media_balanced_test.xml");
+		//inputFile = new File("./src/main/resources/data-set/RTE3-DE-test-derivational.xml");
 		assertTrue(inputFile.exists());
 		outputDir = new File("./target/DE/test/");
 		//outputDir = new File("./target/DE_social-media_balanced/test/");
+		//outputDir = new File("./target/DE_deriv/test/");
 		if (!outputDir.exists()) {
 			outputDir.mkdirs();
 		}

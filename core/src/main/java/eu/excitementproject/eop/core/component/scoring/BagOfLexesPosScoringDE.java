@@ -71,7 +71,9 @@ public class BagOfLexesPosScoringDE extends BagOfLexesScoringDE {
 	 * @throws ConfigurationException
 	 * @throws LexicalResourceException
 	 */
-	public BagOfLexesPosScoringDE(boolean isDS, boolean isTdm, String simMeasure, boolean isGN, String[] germaNetRelations, String germaNetFilePath, boolean isDB, boolean useScores, String derivSteps) throws ConfigurationException, LexicalResourceException{
+	public BagOfLexesPosScoringDE(boolean isDS, boolean isTdm, String simMeasure, boolean isGN, String[] germaNetRelations, 
+			String germaNetFilePath, boolean isDB, boolean useScores, String derivSteps) throws ConfigurationException, LexicalResourceException{
+		
 		super(isDS, isTdm, simMeasure, isGN, germaNetRelations, germaNetFilePath, isDB);
 		numOfFeats = super.getNumOfFeats();
 		
@@ -81,6 +83,7 @@ public class BagOfLexesPosScoringDE extends BagOfLexesScoringDE {
 		
 		// initialize DerivBaseResource
 		if (isDB) {
+			//this.isDB = true;
 			try {
 				dbr = new DerivBaseResource(useScores, derivSteps);
 				numOfFeats++;
@@ -165,15 +168,19 @@ public class BagOfLexesPosScoringDE extends BagOfLexesScoringDE {
 			HashMap<String, Integer> hBag = countTokenPoses(hView);
 
 			if (super.moduleFlags[0]) {
+				//tempHelpCounter = 1;
 				scoresVector.add(calculateSingleLexScore(tBag, hBag, gds));
 			}
 			if (super.moduleFlags[1]) {
+				//tempHelpCounter = 2;
 				scoresVector.add(calculateSingleLexScore(tBag, hBag, gnw));
 			}
 			if (super.moduleFlags[2]) {
+				//tempHelpCounter = 3;
 				scoresVector.add(calculateSingleLexScore(tBag, hBag, gtdm));
 			}
 			if (moduleFlags[0]) {
+				//tempHelpCounter = 4;
 				scoresVector.add(calculateSingleLexScore(tBag, hBag, dbr));
 			}
 		} catch (CASException e) {
@@ -214,6 +221,18 @@ public class BagOfLexesPosScoringDE extends BagOfLexesScoringDE {
 			HashMap<String, Integer> hBag,
 			LexicalResource<? extends RuleInfo> lex)
 			throws ScoringComponentException {
+		
+		// BZ: my stuff for better DB integration:
+		// Make hWordBag in matching format (short POSes, disambiguated lemmas)
+		/*HashMap<String, Integer> hWordBag = new HashMap<String, Integer>();
+		for (String hWord : hBag.keySet()) {
+			String tmpWord = hWord.split(" ### ")[0];
+			if (tmpWord.contains("|")) {
+				tmpWord = tmpWord.split("|")[0];
+			}
+			String tmpPos =  hWord.split(" ### ")[1].substring(0,1);
+			hWordBag.put(tmpWord.concat(" ### ").concat(tmpPos), hBag.get(hWord));
+		}*/
 
 		if (null == lex) {
 			throw new ScoringComponentException(
@@ -223,28 +242,42 @@ public class BagOfLexesPosScoringDE extends BagOfLexesScoringDE {
 		double score = 0.0d;
 		HashMap<String, Integer> tWordBag = new HashMap<String, Integer>();
 		
-		
+		//System.out.println("###\nhBag = " + hWordBag.keySet());
 		for (final Iterator<Entry<String, Integer>> iter = tBag.entrySet()
 				.iterator(); iter.hasNext();) {
 			Entry<String, Integer> entry = iter.next();
-			final String word = entry.getKey();
+			/*final*/ String word = entry.getKey();
+			// BZ: my stuff! the following "if" ensures that no TT amgibuities remain; therefore make "word" non-final 
+			/*if (word.contains("|")) {
+				word = word.substring(0, word.indexOf("|")).concat(" ###").concat(word.substring(word.lastIndexOf(" ")));
+			}*/
 			final int counts = entry.getValue().intValue();
 			try {
-				tWordBag.put(word, counts); //tWordBag.put(word.substring(0, word.lastIndexOf("#") + 3), counts);
+				/*tWordBag.put(word.substring(0, word.lastIndexOf("#") + 3), counts);*/// BZ: my line instead of following! ensure that POS is identical 
+				tWordBag.put(word, counts); 
 				String POS = word.split(" ### ")[1];
-				//System.out.println("---tWordBag :" + tWordBag.toString());
+				//System.out.print("words from LexRule for word '" + word + "': ");
 				for (LexicalRule<? extends RuleInfo> rule : lex
 						.getRulesForLeft(word.split(" ### ")[0],
 								new GermanPartOfSpeech(POS))) {
-					String tokenText = rule.getRLemma() + " ### " + POS; //String tokenText = rule.getRLemma() + " ### " + POS.substring(0, 1);  
-					//System.out.println("tokenText: " + tokenText);
+					/*String tokenText = rule.getRLemma() + " ### " + rule.getRPos();*///BZ: my line instead of following! ensure that POS is identical
+					String tokenText = rule.getRLemma() + " ### " + POS; 
 					if (tWordBag.containsKey(tokenText)) {
 						int tmp = tWordBag.get(tokenText);
 						tWordBag.put(tokenText, tmp + counts); 
 					} else {
-						tWordBag.put(tokenText, counts);  
+						/*if (hWordBag.containsKey(tokenText)) {// BZ: my stuff! ensure expansion only for h-containing words
+							// originally, only "tWordBag.put(tokenText, counts);"
+							tWordBag.put(tokenText, counts + 10);
+							int tmp = hWordBag.get(tokenText);
+							hWordBag.put(tokenText, tmp + 10);
+							System.out.print("\nsomething added!!! \t\t\t");
+						}*/
+						tWordBag.put(tokenText, counts);
 					}
+					/*System.out.print(tokenText + ", ");*/
 				}
+				/*System.out.println();*/
 			} catch (LexicalResourceException e) {
 				throw new ScoringComponentException(e.getMessage());
 			} catch (UnsupportedPosTagStringException e) {
@@ -252,7 +285,50 @@ public class BagOfLexesPosScoringDE extends BagOfLexesScoringDE {
 			}
 		}
 
-		score = calculateSimilarity(tWordBag, hBag).get(0);
+		/*
+		// BZ trial: iterate over hBag and expand it with a complementary resource!
+		//tempHelpCounter ids: 1 = gds, 2 = gnw, 3 = gtdm, 4 = dbr
+		HashMap<String, Integer> hWordBag = new HashMap<String, Integer>();
+		for (final Iterator<Entry<String, Integer>> iter = hBag.entrySet()
+				.iterator(); iter.hasNext();) {
+			Entry<String, Integer> entry = iter.next();
+			final String word = entry.getKey();
+			final int counts = entry.getValue().intValue();
+			try {
+				hWordBag.put(word, counts);
+				String POS = word.split(" ### ")[1];
+				//System.out.println("---tWordBag :" + tWordBag.toString());
+				// instead of "lex" for tBag, choose another resource for hBag
+				if (tempHelpCounter == 1) {
+						lex = dbr;
+				} else if (tempHelpCounter == 2) {
+						lex = dbr;
+				} else if (tempHelpCounter == 3) {
+					 	lex = gtdm;
+				} else if (tempHelpCounter == 4) {
+						lex = gds; //gnw
+				}
+				for (LexicalRule<? extends RuleInfo> rule : lex
+						.getRulesForRight(word.split(" ### ")[0],
+								new GermanPartOfSpeech(POS))) {
+					String tokenText = rule.getLLemma() + " ### " + POS;  
+					//System.out.println("tokenText: " + tokenText);
+					if (hWordBag.containsKey(tokenText)) {
+						int tmp = hWordBag.get(tokenText);
+						hWordBag.put(tokenText, tmp + counts); 
+					} else {
+						hWordBag.put(tokenText, counts);  
+					}
+				}
+			} catch (LexicalResourceException e) {
+				throw new ScoringComponentException(e.getMessage());
+			} catch (UnsupportedPosTagStringException e) {
+				throw new ScoringComponentException(e.getMessage());
+			}
+		}*/
+				
+
+		score = calculateSimilarity(tWordBag, hBag).get(0); //hWordBag).get(0);//
 		
 //		System.out.println("resource: "+lex.toString()+" no of rules: "+numberOfRules);
 
@@ -301,5 +377,17 @@ public class BagOfLexesPosScoringDE extends BagOfLexesScoringDE {
 
 		return score;
 	}
+	
+	/**
+	 * help variable to check whether DB is activated, or not; for
+	 * hypothesis expansion tests.
+	 */
+	//private boolean isDB = false;
+	/**
+	 * help variable to check which resource is being activated at a 
+	 * specific time point; for hypothesis expansion tests.
+	 */
+	//private int tempHelpCounter = 0;
+	
 
 }

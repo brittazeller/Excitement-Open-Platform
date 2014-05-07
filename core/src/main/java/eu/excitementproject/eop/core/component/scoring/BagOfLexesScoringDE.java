@@ -87,6 +87,7 @@ public class BagOfLexesScoringDE extends BagOfLemmasScoring {
 		
 		// initialize GermanDistSim
 		if (isDS) {
+//			this.isDs = true;
 			try {
 				gds = new GermanDistSim();
 				numOfFeats++;
@@ -102,6 +103,7 @@ public class BagOfLexesScoringDE extends BagOfLemmasScoring {
 		
 		// initialize GermanTransDmResource
 		if (isTDm) {
+//			this.isTransDm = true;
 			try {
 				gtdm = new GermanTransDmResource(simMeasure);
 				numOfFeats++;
@@ -117,6 +119,7 @@ public class BagOfLexesScoringDE extends BagOfLemmasScoring {
 
 		// initialize GermaNet
 		if (isGN) {
+//			this.isGnw = true;
 			if (null == germaNetRelations || 0 == germaNetRelations.length) {
 				throw new ConfigurationException(
 						"Wrong configuation: didn't find any relations for the GermaNet");
@@ -378,4 +381,12 @@ public class BagOfLexesScoringDE extends BagOfLemmasScoring {
 
 		return score;
 	}
+	
+	/**
+	 * help variables to check whether DS, GN and transDM areactivated, or not;
+	 * for hypothesis expansion tests.
+	 */
+//	boolean isDs = false;
+//	boolean isTransDm = false;
+//	boolean isGnw = false;
 }

@@ -57,6 +57,8 @@ public class DerivBaseResource implements Component, LexicalResource<DerivBaseIn
 
 	/** DerivBase object. */
 	private DerivBase derivbase;
+	// use DerivBasePairs for version 1.3 of DErivBase:
+	/*private DerivBasePairs derivbasepairs;*/
 
 	
 	/**
@@ -123,7 +125,7 @@ public class DerivBaseResource implements Component, LexicalResource<DerivBaseIn
 		
 		if (!useScores) {
 			System.out.println("Using DErivBase without derivation path info (useScores == false).");
-			derivSteps = 10;
+			derivSteps = 20;
 			
 		} else {
 			
@@ -135,9 +137,9 @@ public class DerivBaseResource implements Component, LexicalResource<DerivBaseIn
 			}
 			
 			if (derivSteps == -1) {
-				System.out.println("Using DErivBase with default derivation path length (derivationSteps == 10).");
+				System.out.println("Using DErivBase with default derivation path length (derivationSteps == 20).");
 				// derivSteps = -1 is possible if configuration is not filled in completely
-				derivSteps = 10;
+				derivSteps = 20;
 			} else {
 				System.out.println("Using DErivBase with #derivationSteps = " + derivSteps + ".");
 			}		
@@ -149,6 +151,7 @@ public class DerivBaseResource implements Component, LexicalResource<DerivBaseIn
 		
 		try {
 			this.derivbase = new DerivBase(useScores, minScore);
+			/*this.derivbasepairs = new DerivBasePairs(useScores, minScore);*/
 		}
 		catch (java.io.FileNotFoundException e) {
 			throw new DerivBaseNotInstalledException("Path to DErivBase is not correct. ", e);
@@ -244,6 +247,7 @@ public class DerivBaseResource implements Component, LexicalResource<DerivBaseIn
 		// --> Get these pairs once without scores...
 		// The information in this List will later be written as additional information into DerivBaseInfo
 		ArrayList<Tuple<String>> related = new ArrayList<Tuple<String>>();
+		
 		if (!derivbase.entries.isEmpty()) {
 			related = derivbase.getRelatedLemmaPosPairs(lemma, derivbasePos);
 		}
@@ -252,6 +256,18 @@ public class DerivBaseResource implements Component, LexicalResource<DerivBaseIn
 		if (!derivbase.entryScores.isEmpty()) {
 			relatedScores = derivbase.getRelatedLemmaPosPairsWithScore(lemma, derivbasePos);
 		}
+
+		/*
+		if (!derivbasepairs.entries.isEmpty()) {
+			related = derivbasepairs.getRelatedLemmaPosPairs(lemma, derivbasePos);
+		}
+		// --> ... and once with scores.
+		ArrayList<HashMap<Tuple<String>, Double>> relatedScores = new ArrayList<HashMap<Tuple<String>, Double>>();
+		if (!derivbasepairs.entryScores.isEmpty()) {
+			relatedScores = derivbasepairs.getRelatedLemmaPosPairsWithScore(lemma, derivbasePos);
+		}
+		*/
+		
 		// Note: ONLY ONE of those two ArrayLists will be filled; if no matches found, both lists are empty.
 		// System.out.println("which one is empty? related: " + related.isEmpty() + ", or relatedScores: " + relatedScores.isEmpty());
 		
