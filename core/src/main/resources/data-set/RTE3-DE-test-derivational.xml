@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<entailment-corpus>
+	<pair id="29" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>Natta war zusammen mit Cossutta stark gegen den Vorschlag von Occhetto, in der historischen "Bolognina-Spaltung" den Namen der Partei zu ändern.</t>
+		<h>Cossutta war ein Gegner von Occhetto.</h>
+	</pair>
+	<pair id="55" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>Dia Japaner kapitulierten am 25. Mai 1945, deshalb wurde Magdalena, wie auch die Philippinen, von der Tyrannei der japanischen Armee befreit.</t>
+		<h>Die Philippinen ergaben sich der japanischen Armee.</h>
+	</pair>
+	<pair id="60" entailment="ENTAILMENT" task="IE" length="short">
+		<t>Als Absolventin der St. Thomas's Hospital Medical School in London, arbeitete Fiona Wood bei einem großen britischen Krankenhaus, bevor sie den in West-Australien geborenen Chirurgen Tony Keirath heiratete und im Jahre 1987 mit ihren ersten beiden Kindern nach Perth auswanderte.</t>
+		<h>Fiona Wood absolvierte die St. Thomas's Hospital Medical School in London.</h>
+	</pair>
+	<pair id="66" entailment="ENTAILMENT" task="IE" length="short">
+		<t>Im Juni 2004 wurde eine Anwendung namens InfiniteCanvas (oder IC) vom Studenten Markus Müller als Versuch veröffentlicht, eine Lösung für die typischen Probleme der 'unendlichen Leinwand' zu finden.</t>
+		<h>InfiniteCanvas wurde von Markus Müller erfunden.</h>
+	</pair>
+	<pair id="73" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>Ullmann war mit Irma Goldberg verheiratet, die von 1905 bis 1910 Assistentin in seinem Labor war.</t>
+		<h>Ullmann und Irma Goldberg heirateten im Jahre 1905.</h>
+	</pair>
+	<pair id="74" entailment="ENTAILMENT" task="IE" length="short">
+		<t>Gegen Ende der 1950er Jahre reichte die Auflösung der Radioteleskope aus, um mit optischen Gegenstücken spezifische Radioquellen identifizieren zu können, was zur Entdeckung der Quasare führte.</t>
+		<h>Quasare wurden Ende der 1950er Jahre entdeckt.</h>
+	</pair>
+	<pair id="75" entailment="ENTAILMENT" task="IE" length="short">
+		<t>Muybridge hatte zuvor eine Erfindung entwickelt, die er Zoopraxiskop nannte.</t>
+		<h>Das Zoopraxiskop wurde von Muybridge erfunden.</h>
+	</pair>
+	<pair id="79" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>Mehr als ein Chronist berichtet über den gewaltsamen Tod, im Jahre 1066, eines französischen Barons namens Geoffroi de Preulli, der nach Aussage seiner Zeitgenossen, "die Turniere erfand".</t>
+		<h>Geoffroi de Preulli wurde während eines Turniers getötet.</h>
+	</pair>
+	<pair id="83" entailment="ENTAILMENT" task="IE" length="long">
+		<t>Celestial Seasonings ist ein Tee-Unternehmen mit Basis in Boulder, Colorado, das auf Kräutertees spezialisiert ist, aber auch grünen und schwarzen Tee (wie auch weißen und Oolong-Blends) verkauft. Seine Gründer Mo Siegel, John Hay und andere begannen im Jahre 1969, Kräuter und Blumen in den Bergen rund um Boulder zu sammeln und sie an lokale Bioläden zu verkaufen.</t>
+		<h>Celestial Seasonings wurde von Mo Siegel und John Hay gegründet.</h>
+	</pair>
+	<pair id="85" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>Mo Siegel ging 1986 in den Ruhestand, und im nächsten Jahr kündigte Kraft den Verkauf von Celestial Seasonings an Lipton an.</t>
+		<h>Im Jahre 1986 verkaufte Kraft Celestial Seasonings an Lipton.</h>
+	</pair>
+	<pair id="86" entailment="ENTAILMENT" task="IE" length="short">
+		<t>Mo Siegel ging 1986 in den Ruhestand, und im nächsten Jahr kündigte Kraft den Verkauf von Celestial Seasonings an Lipton an. Der Verkauf wurde von Bigelow unter Berufung auf die Anti-Trust-Gesetze erfolgreich verhindert, und das lokale Management kaufte im Jahre 1988 das Unternehmen von Kraft zurück.</t>
+		<h>Kraft verkaufte Celestial Seasonings.</h>
+	</pair>
+	<pair id="109" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>Zu Beginn des Jahres 1948 identifizierte das Team von Leloirs die karnukleotiden Zucker, Verbindungen, die im Stoffwechsel der Kohlenhydrate eine fundamentale Rolle spielen - eine Entdeckung, die dem Institut weltweite Anerkennung brachte.</t>
+		<h>Leloir entdeckte den Stoffwechsel von Kohlenhydraten.</h>
+	</pair>
+	<pair id="121" entailment="ENTAILMENT" task="IE" length="short">
+		<t>Als eine Bande von Viehzüchtern unter der Führung von Pedro Quintanar hörte, dass Vater Bátiz getötet worden war, riss sie die lokale Schatzkammer an sich und erklärte sich selbst zur Rebellion.</t>
+		<h>Pedro Quintanar war der Anführer einer Bande von Viehzüchtern.</h>
+	</pair>
+	<pair id="123" entailment="ENTAILMENT" task="IE" length="short">
+		<t>Diese Region wurde zum Hauptaugenmerk der Rebellion unter der Leitung des 27-jährigen René Capistran Garza, Leiter des mexikanischen Verbands der katholischen Jugend.</t>
+		<h>Der mexikanische Verband der katholischen Jugend wurde von René Capistran Garza geleitet.</h>
+	</pair>
+	<pair id="127" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>1833 verließ Van Hasselt Maastricht, das dann durch die belgischen Streitkräfte blockiert wurde und machte sich auf den Weg nach Brüssel, wo er zu einem naturalisierten Belgier wurde und sich der Bibliotheque de Bourgogne anschloss.</t>
+		<h>Van Hasselt stammte aus Belgien.</h>
+	</pair>
+	<pair id="130" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>Metin Kaplan soll die Ermordung seines Rivalen Ibrahim Sofu im Jahre 1996 angeordnet haben.</t>
+		<h>Ibrahim Sofu wurde von Metin Kaplan ermordet.</h>
+	</pair>
+	<pair id="131" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>Anfang Mai 2004 verlor Kaplan seinen Flüchtlingsstatus und wurde mit der Auslieferung an die Türkei konfrontiert, aber bevor die deutsche Polizei ihn verhaften konnte, verschwand Kaplan aus Köln.</t>
+		<h>Kaplan wurde an die Türkei ausgeliefert.</h>
+	</pair>
+	<pair id="147" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>Pinkerton ist ein aktives Mitglied der St.-Bernard-Kirche und hat in einer Vielzahl von Ministerien gearbeitet, darunter den Ministerien für religiöse Bildung, Musik und Justiz.</t>
+		<h>Pinkerton ist ein Minister der St.-Bernard-Kirche.</h>
+	</pair>
+	<pair id="171" entailment="ENTAILMENT" task="IE" length="short">
+		<t>Die jährliche Wallfahrt Indiens zum Ganges, von den Hindus als Göttin Ganga verehrt, ist die weltweit größte Menschenansammlung, die mit rund 70 Millionen Teilnehmern andere religiöse Wallfahrten in den Schatten stellt.</t>
+		<h>Rund 70 Millionen Menschen nehmen an der Wallfahrt zum Ganges teil.</h>
+	</pair>
+	<pair id="174" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>Adam DePrisco, ein 19-Jähriger aus Woodbridge, Ontario, wurde am Samstag in Acapulco, Mexiko, tot aufgefunden.</t>
+		<h>Adam DePrisco wurde in Mexiko getötet.</h>
+	</pair>
+	<pair id="175" entailment="ENTAILMENT" task="IE" length="short">
+		<t>Nach Nancy und Domenic Ianiero, ein ebenfalls aus Woodbridge stammendes Paar, das in einem Luxus-Hotelressort nahe Cancun, auch ein beliebtes Urlaubsziel, erstochen wurde, ist DePrisco der dritte Kanadier, der in letzter Zeit in Mexiko gestorben ist.</t>
+		<h>Nancy und Domenic Ianiero hatten die kanadische Staatsbürgerschaft.</h>
+	</pair>
+	<pair id="199" entailment="ENTAILMENT" task="IE" length="long">
+		<t>In den Vereinigten Staaten wurde ein 15-jähriger Student an der Lincoln-Sudbury Regional High School in Sudbury, Massachusetts, durch einen Messerstich getötet. Der Vorfall ereignete sich um 07:20 Uhr morgens EST, vor Unterrichtsbeginn. Zwischen dem 15-jährigen Opfer, James Alenson und dem 16-jährigen Verdächtigen John Odgren war es in einem Jungenklo der Schule zum Streit gekommen, der dann im Flur weiterging, wo der Messerstich stattfand.</t>
+		<h>John Odgren ist verdächtigt, James Alenson erstochen zu haben.</h>
+	</pair>
+	<pair id="207" entailment="ENTAILMENT" task="IR" length="short">
+		<t>Die gepriesene Drogenpolitik der Niederlande - den öffentlichen Verkauf von Cannabis-Produkten in den mittlerweile berühmten Coffeeshops zu legalisieren und eine allgemein nachsichtige Haltung gegenüber Drogen anzunehmen - hat das Land zur Rauschgift-Hochburg Westeuropas gemacht.</t>
+		<h>Drogen können in Holland einfach gekauft werden.</h>
+	</pair>
+	<pair id="211" entailment="ENTAILMENT" task="IR" length="short">
+		<t>Die Erweiterung der EU auf 25 Länder fand am 1. Mai 2004 statt, als 10 der 12 Kandidaten aufgenommen wurden. Bulgarien und Rumänien folgten am 1. Januar 2007.</t>
+		<h>Die Europäische Union erweitert die Anzahl ihrer Mitglieder.</h>
+	</pair>
+	<pair id="221" entailment="ENTAILMENT" task="IR" length="short">
+		<t>Der Text wurde im Jahre 1996 ordnungsgemäß zur Verfassung der Republik Südafrika und trat im Februar 1997 in Kraft. Seit seiner Verabschiedung wurde er zwölf Mal geändert.</t>
+		<h>In Südafrika wurde eine neue Verfassung verabschiedet.</h>
+	</pair>
+	<pair id="239" entailment="ENTAILMENT" task="IR" length="long">
+		<t>Während die Alliierten beim Golfkrieg auf dem Schlachtfeld siegten, werden Forscher bis heute beim Versuch besiegt, herauszufinden, was so viele der Veteranen krank gemacht hat. Aber zwei neue Studien zeigen, dass Veteranen nicht viel eher sterben oder ins Krankenhaus eingeliefert werden als Soldaten, die nicht in der Region gekämpft haben.</t>
+		<h>Golfkrieg-Soldaten erleiden Erkrankungen.</h>
+	</pair>
+	<pair id="240" entailment="ENTAILMENT" task="IR" length="short">
+		<t>Eine unabhängige Untersuchung hat bestätigt, dass Golfkriegsveteranen behaupten, einige hätten Gesundheitsschäden als Folge ihres Dienstes im Konflikt von 1991 erlitten.</t>
+		<h>Golfkrieg-Soldaten leiden an Erkrankungen.</h>
+	</pair>
+	<pair id="243" entailment="NONENTAILMENT" task="IR" length="long">
+		<t>Ursprünglich bestand die EU aus sechs Ländern: Belgien, Deutschland, Frankreich, Italien, Luxemburg und den Niederlanden. Dänemark, Irland und das Vereinigte Königreich traten im Jahre 1973 bei, Griechenland 1981, Spanien und Portugal 1986, Österreich, Finnland und Schweden 1995. Die größte Erweiterung fand 2004 mit dem Beitritt 10 neuer Länder statt.</t>
+		<h>Der Europäische Wirtschaftsraums weitet sich aus.</h>
+	</pair>
+	<pair id="254" entailment="NONENTAILMENT" task="IR" length="long">
+		<t>Dieser Kurs wurde entwickelt, um den Studenten eine grundlegende Logik-Ausbildung zu geben, so dass sie sich mit den Grundkenntnissen der Logik ausstatten und sich an das logische Denken gewöhnen können. Der Kurs beinhaltet: die Verwendung von Sprache, Deduktion und Induktion.</t>
+		<h>Deduktion und Induktion werden verwendet, um Englisch zu unterrichten.</h>
+	</pair>
+	<pair id="255" entailment="ENTAILMENT" task="IR" length="short">
+		<t>Viele der Wikinger, die nach Schottland und zu anderen Teilen Europas reisten, waren Händler oder friedliche Siedler auf der Suche Land zu bestellen.</t>
+		<h>Die Wikinger landeten in Schottland.</h>
+	</pair>
+	<pair id="264" entailment="ENTAILMENT" task="IR" length="short">
+		<t>Die Manitoba Hydro hat Pläne für zwei neue Wasserkraftwerk-Stationen (GS) in Northern Manitoba angekündigt: die GS Wuskwatim am Fluss Burntwood und die GS Gull (Keeyask) am Fluss Nelson.</t>
+		<h>Es sind neue Wasserkraftwerke geplant.</h>
+	</pair>
+	<pair id="266" entailment="ENTAILMENT" task="IR" length="short">
+		<t>Die CSIRO-Forscher haben festgestellt, dass die Zucht von Wasserpflanzen, Austern oder anderen filtrierenden Organismen in den Landwirtschaft-Abwässer erheblich zur Verbesserung der Wasserqualität führen kann.</t>
+		<h>Meerespflanzen verbessern die Wasserqualität.</h>
+	</pair>
+	<pair id="276" entailment="NONENTAILMENT" task="IR" length="short">
+		<t>An Bord des Expeditionskreuzfahrtschiffes besuchen Sie den Südshetland-Archipel, der aus rund 20 Inseln besteht, darunter die Inseln King George, Half Moon und Livingston, in der Nähe der Antarktischen Halbinsel, bevor wir zum eigentlichen Festlandgebiet weiterfahren.</t>
+		<h>Die Exploration der Antarktis ist international.</h>
+	</pair>
+	<pair id="309" entailment="ENTAILMENT" task="IR" length="long">
+		<t>Lillehammer-Ishockeylubb hat dort ein paar Spiele gespielt, aber die zwei wichtigsten Hockeyturniere, die in der Arena gespielt wurden, waren die Olympiade 1994 (berühmt für das Tor von Peter Forsberg im entscheidenden Elfmeter des Finalspiels) und die Eishockey-Weltmeisterschaft 1999.</t>
+		<h>Lillehammer veranstaltet das olympische Eishockey-Finale.</h>
+	</pair>
+	<pair id="310" entailment="NONENTAILMENT" task="IR" length="short">
+		<t>Die Olympischen Winterspiele 1994, offiziell als XVII Olympische Winterspiele bekannt, wurden 1994 in Lillehammer, Norwegen festlich begangen. Auch die Städte Anchorage, Alaska, USA; Östersund/Åre, Schweden, und Sofia, Bulgarien hatten sich beworben.</t>
+		<h>Lillehammer veranstaltet das olympische Eishockey-Finale.</h>
+	</pair>
+	<pair id="315" entailment="ENTAILMENT" task="IR" length="long">
+		<t>Am 4. November 1995 wurde Rabin von Yigal Amir ermordet - einen rechten jüdischen Radikalen, der Rabins Unterzeichnung des Oslo-Abkommens energisch ablehnte - nachdem er an einer Kundgebung zur Förderung des Oslo-Prozesses am Kings of Israel Square in Tel Aviv (der nach seinem Tod zu Yitzhak Rabin Square umbenannt wurde) teilgenommen hatte.</t>
+		<h>Die Ermordung von Rabin ereignete sich 1995.</h>
+	</pair>
+	<pair id="319" entailment="NONENTAILMENT" task="IR" length="short">
+		<t>Die heutige historische Chance ist, eine Sicherheits- und Stabilitätszone in einer Region zu erschaffen, die von beiden wenig erfahren hat. Andernfalls wird der Balkan zu einem dauerhaften schwarzen Loch im Herzen Europas werden.</t>
+		<h>Ein französischer General erschafft die balkanische Sicherheitszone.</h>
+	</pair>
+	<pair id="326" entailment="ENTAILMENT" task="IR" length="long">
+		<t>Europäische Beamte haben die Verlangsamung der türkischen Reformen kommentiert, die zusammen mit der Zypern-Problematik den EU-Erweiterungskommissar dazu gebracht hat, vor einem erschwerenden 'Zugunglück' in den Verhandlungen mit der Türkei zu warnen. Trotz dieser Rückschläge hat die Türkei im Juni 2006 ihr erstes Kapitel in den Verhandlungen abgeschlossen.</t>
+		<h>Die Türkei verhandelt über ihren EU-Beitritt.</h>
+	</pair>
+	<pair id="338" entailment="NONENTAILMENT" task="IR" length="short">
+		<t>Indem er Sport mit Kultur und Bildung vermischt, versucht der Olympismus, einen Lebensweg zu erschaffen, der auf die Freude an der Anstrengung, den erzieherischen Wert des guten Beispiels und die Achtung fundamentaler und universell gültiger ethischer Prinzipien basiert.</t>
+		<h>Die Olympischen Spiele fördern den Frieden.</h>
+	</pair>
+	<pair id="356" entailment="ENTAILMENT" task="IR" length="long">
+		<t>Christo und Jeanne-Claude sind ein Künstlerpaar, das Umgebungs- und Installationskunst praktiziert. Zu ihren Arbeiten zählen die Verhüllung des Reichstags in Berlin und der Brücke Pont Neuf in Paris, die 24 Meilen lange 'Running Fence' in Marin und Sonoma, Kalifornien, und 'The Gates' im Central Park von New York City.</t>
+		<h>Christo verhüllt den deutschen Reichstag.</h>
+	</pair>
+	<pair id="363" entailment="NONENTAILMENT" task="IR" length="short">
+		<t>In der französischen Sprache wird das Wort Student (étudiant) in der Regel Personen im Hochschulniveau vorbehalten. In Schulen und Gymnasien werden die Schulkinder daher als élèves bezeichnet, was übersetzt Schüler bedeutet.</t>
+		<h>Im Französischen existieren Fremdwörter.</h>
+	</pair>
+	<pair id="368" entailment="ENTAILMENT" task="IR" length="long">
+		<t>Auf Antrag der Food and Drug Administration hat die Fort Dodge Animal Health freiwillig die Produktion von ProHeart 6 eingestellt und alle ProHeart 6 zurückgerufen, die an Tierärzte verteilt worden waren, bis die Bedenken der FDA über die Sicherheit des Medikaments beseitigt sind.</t>
+		<h>Dodge-Produkte wurden zurückgerufen.</h>
+	</pair>
+	<pair id="370" entailment="NONENTAILMENT" task="IR" length="short">
+		<t>Die US-Kommission für die Sicherheit von Konsumprodukten hat kürzlich eine Initiative zur Reduzierung fehlerhafter Produkte und Rückrufe bekanntgegeben.</t>
+		<h>Dodge-Produkte wurden zurückgerufen.</h>
+	</pair>
+	<pair id="371" entailment="ENTAILMENT" task="IR" length="short">
+		<t>Herzkrankheiten und Schlaganfälle sind durch Rauchen verursachte Erkrankungen des Herz-Kreislaufs (Herz und Blutgefäße). Herzkrankheiten und Schlaganfälle sind auch die erst- resp. drittwichtigste Todesursache in den Vereinigten Staaten.</t>
+		<h>Rauchen verursacht Krankheiten.</h>
+	</pair>
+	<pair id="380" entailment="NONENTAILMENT" task="IR" length="short">
+		<t>Daher wurden in der marokkanischen Kultur und Kunst keine türkischen Einflüsse gefunden; sie blickt auf eine lange ungebrochene Tradition zurück, die auf das islamische Spanien zurückgeht.</t>
+		<h>Der Golfkrieg beeinflusst die moderne Kunst.</h>
+	</pair>
+	<pair id="384" entailment="NONENTAILMENT" task="IR" length="short">
+		<t>Mord hat sich dieses Jahr in Russland in mindestens fünf Fällen als die bevorzugte Zensurmethode erwiesen.</t>
+		<h>Anna Politkowskaja wurde ermordet.</h>
+	</pair>
+	<pair id="390" entailment="NONENTAILMENT" task="IR" length="short">
+		<t>NATO-Generalsekretär Willy Claes sagte heute, dass er einen Rücktritt erwäge, nachdem eine belgische Parlamentskommission an diesem Morgen beschlossen hat, zu empfehlen, dass er vom höchsten Gericht des Landes in einem wachsenden Waffenkorruptionsskandal angeklagt wird.</t>
+		<h>NATO-Generalsekretär Willy Claes ist zurückgetreten.</h>
+	</pair>
+	<pair id="393" entailment="NONENTAILMENT" task="IR" length="short" error="yes">
+		<t>Die Eskimos, das Volk von Robbenjägern, das in der Arktis verstreut lebt, streben ein Urteil der Inter-Amerikanischen Kommission für Menschenrechte an, dass die Vereinigten Staaten durch einen wesentlichen Beitrag zur globalen Erwärmung, ihre Existenz bedrohen.</t>
+		<h>Robbenjagt gefährdet Tierarten.</h>
+	</pair>
+	<pair id="401" entailment="ENTAILMENT" task="QA" length="long">
+		<t>Es war der erste offizielle Besuch des iranischen Präsidenten Mahmoud Ahmadinejad in Saudi-Arabien, als er mit dessen Führer, König Abdullah, sprach. Beide Politiker haben ihre Besorgnis über die religiösen Spannungen im Irak zum Ausdruck gebracht, sowie die Furcht, dass sie sich im gesamten Nahen Osten verbreiten könnten.</t>
+		<h>Der Präsident von Iran ist Mahmoud Ahmadinejad.</h>
+	</pair>
+	<pair id="402" entailment="ENTAILMENT" task="QA" length="short">
+		<t>Der iranische Präsident Mahmoud Ahmadinejad traf am Samstag hier in der saudischen Hauptstadt König Abdullah ein, um die im Nahen Osten wachsende religiöse und politische Krise anzugehen.</t>
+		<h>Der Präsident von Iran ist Mahmoud Ahmadinejad.</h>
+	</pair>
+	<pair id="407" entailment="ENTAILMENT" task="QA" length="short">
+		<t>Die kalifornische Demokratin Nancy Pelosi, 66-Jahre alt, wurde mit 233 zu 202 Stimmen zum 60. Sprecher des US-Hauses gewählt. Sie ist der erste weibliche Sprecher des Abgeordnetenhauses in der Geschichte der USA.</t>
+		<h>Nancy Pelosi ist die Sprecherin des US-Hauses.</h>
+	</pair>
+	<pair id="408" entailment="ENTAILMENT" task="QA" length="short">
+		<t>Nancy Pelosi wurde von den Demokraten im US-Repräsentantenhaus gewählt, um am Donnerstag den Titel und die Rolle des Haussprechers anzunehmen. Einstimmig gewählt, wird Pelosi der erste weibliche Sprecher in der Geschichte der USA sein.</t>
+		<h>Nancy Pelosi ist die Sprecherin des US-Repräsentantenhauses.</h>
+	</pair>
+	<pair id="409" entailment="NONENTAILMENT" task="QA" length="long">
+		<t>Waxman erklärte sich ferner damit einverstanden, dass entweder der Sprecher des Hauses oder seine Angestellten das Weiße Haus anrufen, um Präsident Bush vor Unterzeichnung des Gesetzes über die Situation zu informieren. Ein weiterer Brief wurde am 22. März vom Minderheitenführer des Hauses, Nancy Pelosi, und dem Kongressabgeordneten Waxman geschrieben, um das Weiße Haus um eine Reaktion zu bitten.</t>
+		<h>Nancy Pelosi ist die Sprecherin des US-Repräsentantenhauses.</h>
+	</pair>
+	<pair id="421" entailment="ENTAILMENT" task="QA" length="short">
+		<t>Der kanadische Ministerpräsident Stephen Harper wird heute um 11:00 Uhr ET sein Kabinett neu bilden.</t>
+		<h>Stephen Harper ist der Ministerpräsident von Kanada.</h>
+	</pair>
+	<pair id="423" entailment="ENTAILMENT" task="QA" length="short">
+		<t>Ministerpräsident Stephen Harper hat angeblich versäumt, zu erklären, warum dieses Land in Afghanistan kämpft, während die Harper-Regierung die Zustimmung des Parlaments für eine zweijährige Verlängerung der kanadischen Mission gewonnen hat.</t>
+		<h>Stephen Harper ist der Ministerpräsident von Kanada.</h>
+	</pair>
+	<pair id="437" entailment="ENTAILMENT" task="QA" length="short">
+		<t>Indem er den Gnadengesuch ablehnte, sagte der kalifornische Gouverneur Arnold Schwarzenegger: "Ohne Abbitte und Sühne für diese sinnlosen und brutalen Morde kann es keine Erlösung geben."</t>
+		<h>Schwarzenegger ist der Gouverneur von Kalifornien.</h>
+	</pair>
+	<pair id="443" entailment="NONENTAILMENT" task="QA" length="short">
+		<t>Der konservative Oppositionsführer David Cameron kommentierte die Rücktritte mit den Worten, die Regierung sei "aufgeteilt und in Kernschmelze".</t>
+		<h>David Cameron gehört zu der britischen Konservativen Partei.</h>
+	</pair>
+	<pair id="450" entailment="NONENTAILMENT" task="QA" length="short">
+		<t>Nikos Kourkoulos spielte in mehreren Filmen, sowohl in Griechenland als auch im Ausland.</t>
+		<h>Nikos Kourkoulos war ein griechischer Schauspieler.</h>
+	</pair>
+	<pair id="480" entailment="ENTAILMENT" task="QA" length="short">
+		<t>Gabriel Garcia Marquez ist ein Schriftsteller und Gewinner des Literatur-Nobelpreises.</t>
+		<h>Gabriel Garcia Marquez gewann den Literatur-Nobelpreis.</h>
+	</pair>
+	<pair id="498" entailment="NONENTAILMENT" task="QA" length="long">
+		<t>Am 1. März sind es 11 Jahre seit dem Tod des TV-Sprechers Vladislav Listyev, der nur einen Monat nach seiner Ernennung zum Generaldirektor des ORT-Kanals erschossen wurde. Seine Ermordung bleibt ungeklärt, obwohl die Suche nach seinem Mörder weitergeht.</t>
+		<h>Vladislav Listyev wurde in Moskau ermordet.</h>
+	</pair>
+	<pair id="522" entailment="ENTAILMENT" task="QA" length="long">
+		<t>Lien forderte die taiwanische Regierung (ROC), allen voran den zur Unabhängigkeit tendierenden Präsidenten Chen Shui-bian dazu auf, seine Versammlungen mit mehr Anstrengungen für die Friedensschaffung und Unterdrückung der Freiheitsbewegung zu verfolgen. "Ich glaube, dass die Tür geöffnet wurde", sagte Lien.</t>
+		<h>Chen Shui-bian ist der Präsident von Taiwan.</h>
+	</pair>
+	<pair id="530" entailment="ENTAILMENT" task="QA" length="short">
+		<t>In dem Interview sagte er, dass er den brasilianischen Präsidenten Luiz Inácio Lula zum ersten Mal in San Salvador während des Foro de São Paulo traf.</t>
+		<h>Lula ist der Präsident von Brasilien.</h>
+	</pair>
+	<pair id="531" entailment="ENTAILMENT" task="QA" length="short">
+		<t>In 2004 unterbreitete eine Gruppe von Journalisten dem brasilianischen Präsidenten Lula einen Vorschlag, in dem sie um die Gründung eines Prüforganismus zur Kontrolle des Verhaltens der brasilianischen Presse baten.</t>
+		<h>Lula ist der Präsident von Brasilien.</h>
+	</pair>
+	<pair id="532" entailment="NONENTAILMENT" task="QA" length="long">
+		<t>In einem Fall griff ein Abgeordneter der Arbeiterpartei die Glaubwürdigkeit von Jefferson an und nannte ihn einen Lügner, weil er den ehemaligen brasilianischen Präsidenten Fernando Collor de Mello unterstützt hatte, der wegen Korruption zusammen mit dem Schatzmeister Paulo Cesar Fariasdes, der an Collors Kampagne gearbeitet hatte, des Amtes enthoben wurde.</t>
+		<h>Lula ist der Präsident von Brasilien.</h>
+	</pair>
+	<pair id="545" entailment="NONENTAILMENT" task="QA" length="short">
+		<t>Auch über 30 Frauen haben ihre Spuren auf dem höchsten Gipfel der Welt hinterlassen, darunter Junko Tabei aus Japan, die Vorreiterin, die den Aufstieg im Mai 1975 erfolgreich bewältigte.</t>
+		<h>Alison Hargreaves ist die erste Frau, die ohne Sauerstoffgerät den Mount Everest bestiegen hat.</h>
+	</pair>
+	<pair id="554" entailment="NONENTAILMENT" task="QA" length="long">
+		<t>Bis 2015, prophezeite er, wird erwartet, dass Menschen ihr erstes Forschungszentrum auf dem Mond einrichten, das als natürliche Plattform für die Erdbeobachtung, Außenposten für Raumsonden, Transferposten und Versuchszentrum für die Menschheit dienen wird.</t>
+		<h>Der Mond wurde zum ersten Mal im Jahre 1969 von der Menschheit berührt.</h>
+	</pair>
+	<pair id="556" entailment="ENTAILMENT" task="QA" length="short">
+		<t>In seinem ersten Jahr unterstützte er das Jahrzehnt-Hauptziel der Waffenlobby: eine mitreißende Aufhebung der Bundes-Waffengesetze, die nach der Ermordung von Senator Robert F. Kennedy und Rev. Martin Luther King im Jahre 1968 erlassen worden waren.</t>
+		<h>Martin Luther King wurde 1968 ermordet.</h>
+	</pair>
+	<pair id="557" entailment="ENTAILMENT" task="QA" length="short">
+		<t>Zwei Dokumente, von denen ein ehemaliger FBI-Agent sagte, er habe sie im Jahre 1968 aus dem Auto von James Earl Ray nach der Ermordung von Rev. Martin Luther King Jr. genommen, wurden einem wissenschaftlichen Test unterzogen, um festzustellen, ob sie gefälscht sind, sagt ein Bundesbeamter.</t>
+		<h>Martin Luther King wurde 1968 ermordet.</h>
+	</pair>
+	<pair id="558" entailment="NONENTAILMENT" task="QA" length="short">
+		<t>Am 10. März 1969 wurde James Earl Ray zu 99 Jahren Haft in einem Gefängnis in Tennessee verurteilt, nachdem er sich des Mordes an Martin Luther King Jr. schuldig bekannt hatte, doch den Schwarzen konnte dies kaum als Wiedergutmachung erscheinen.</t>
+		<h>Martin Luther King wurde 1968 ermordet.</h>
+	</pair>
+	<pair id="566" entailment="ENTAILMENT" task="QA" length="short">
+		<t>Weimar, in Deutschland, ist die Europäische Kulturhauptstadt 1999, eine Ehre, die mit dem 250. Jahrestag der Geburt eines ihrer berühmtesten Söhne zusammenfällt, des Dichters und Intellektuellen Johann Wolfgang von Goethe.</t>
+		<h>Johann Wolfgang von Goethe wurde in Deutschland geboren.</h>
+	</pair>
+	<pair id="605" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Die Elektro-Lichtbogenöfen verschmelzen Metallschrott zu Stahlschmelze, die in nur zwei Zentimeter dicken Platten geformt wird, welche sofort zu noch dünnerem fertigem Stahl komprimiert werden.</t>
+		<h>Schrott wird in Elektroöfen geschmolzen.</h>
+	</pair>
+	<pair id="606" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Die Elektro-Lichtbogenöfen verschmelzen Metallschrott zu Stahlschmelze, die in nur zwei Zentimeter dicken Platten geformt wird, welche sofort zu noch dünnerem fertigem Stahl komprimiert werden.</t>
+		<h>Fertiger Stahl wird durch Kompression erzeugt.</h>
+	</pair>
+	<pair id="624" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>In den letzten zehn Jahren ist die Verwendung von Hunden für die meisten Strafverfolgungsbehörden vom Novum zur Notwendigkeit eskaliert.</t>
+		<h>Hunde werden in der Strafverfolgung verwendet.</h>
+	</pair>
+	<pair id="625" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Obwohl Hunde in der Polizeiarbeit schon seit Jahren eingesetzt werden, vor allem im Patrouillendienst, fand ihre Verwendung als Drogen-Spürnasen erst um 1980 breite Akzeptanz.</t>
+		<h>Der Einsatz von Hunden zum Aufspüren von Drogen wurde um 1980 üblich.</h>
+	</pair>
+	<pair id="626" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Obwohl Hunde in der Polizeiarbeit schon seit Jahren eingesetzt werden, vor allem im Patrouillendienst, fand ihre Verwendung als Drogen-Spürnasen erst um 1980 breite Akzeptanz.</t>
+		<h>Hunde werden verwendet, um Drogen aufzuspüren.</h>
+	</pair>
+	<pair id="627" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Obwohl Hunde in der Polizeiarbeit schon seit Jahren eingesetzt werden, vor allem im Patrouillendienst, fand ihre Verwendung als Drogen-Spürnasen erst um 1980 breite Akzeptanz.</t>
+		<h>Polizeiabteilungen verwenden Hunde.</h>
+	</pair>
+	<pair id="676" entailment="ENTAILMENT" task="SUM" length="short" com="yes">
+		<t>Libyen war Ziel von US-Luftangriffen im Jahre 1986, als die USA Libyen mit dem Bombenanschlag auf eine berliner Diskothek, die von US-Soldaten frequentiert wurde, in Verbindung brachte.</t>
+		<h>Die USA haben Libyen angegriffen.</h>
+	</pair>
+	<pair id="680" entailment="NONENTAILMENT" task="SUM" length="short">
+		<t>Sie weigerten sich vor 10 Jahren, vor dem Weltgerichtshof zu erscheinen, als Washington die Freilassung der amerikanischen Geiseln in Teheran anstrebte.</t>
+		<h>Amerikanische Geiseln wurden in Teheran freigelassen.</h>
+	</pair>
+	<pair id="685" entailment="NONENTAILMENT" task="SUM" length="short">
+		<t>Einer der frühesten und am längsten stehenden Entscheidungen des IGHs betraf den Vorfall am Korfu-Kanal im Jahre 1946, als zwei britische Zerstörer auf von Albaniern gelegten Minen trafen, während sie ihr Recht ausübten, durch den Korfu-Kanal zu fahren.</t>
+		<h>>Der Streit zwischen Albanien und dem Vereinigten Königreich über den Korfu-Vorfall hielt lange Zeit an.</h>
+	</pair>
+	<pair id="691" entailment="NONENTAILMENT" task="SUM" length="short">
+		<t>Der Stadtrat hat vor kurzem 7.300 Dollar eingeplant, um das Training von Officer Ron Inman und seines Hundes Waldo zu bezahlen.</t>
+		<h>Der Stadtrat hat 7.300 Dollar bezahlt, um einen Hund zu trainieren.</h>
+	</pair>
+	<pair id="693" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Die drei Partner haben ein robotisiertes System entwickelt, um Wissenschaftlern dabei zu helfen, die geklonten Zellen zu produzieren, die für die genetische Forschung erforderlich sind.</t>
+		<h>Roboter helfen den Wissenschaftlern, Zellen zu klonen.</h>
+	</pair>
+	<pair id="698" entailment="NONENTAILMENT" task="SUM" length="short">
+		<t>Eines der innovativsten Merkmale des Thamesport-Systems ist die Steuerung dezentraler Peripheriegeräte.</t>
+		<h>Das Thamesport-System kann keine dezentralen Peripheriegeräte steuern.</h>
+	</pair>
+	<pair id="701" entailment="NONENTAILMENT" task="SUM" length="short">
+		<t>Der Labour-Chef hat vor, ein seit langem geplantes Interview auf BBC Radio für eine starke Verteidigung seiner Pläne zur Einrichtung eines schottischen Parlaments und einer walisischen Versammlung zu nutzen.</t>
+		<h>Die britische Labour-Partei hat die Forderungen von Schottland und Wales nach unabhängigen Versammlungen lange unterstützt.</h>
+	</pair>
+	<pair id="716" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Der tschechischen und der slowakischen Republik ist nicht gelungen, eine politische Grundlage für ihr zukünftiges Zusammenleben in einem einzigen Land zu vereinbaren.</t>
+		<h>Die tschechische und die slowakische Republik wollen nicht in einem einzigen Land zusammenleben.</h>
+	</pair>
+	<pair id="736" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>In einem Fall von Sicherheitsbetrug wurde Michael Milken zu 10 Jahren Haft verurteilt.</t>
+		<h>Milken wurde wegen Sicherheitsbetrugs inhaftiert.</h>
+	</pair>
+	<pair id="741" entailment="NONENTAILMENT" task="SUM" length="short">
+		<t>Die beteiligten Dorfbewohner bekämpfen aktiv die Wilderei, indem sie Schlingen beschlagnahmen, Wildereivorfälle melden und gegen die Waldbrände vorgehen, die dazu verwendet werden, Tiere aufzuspüren, doch die Vegetation zerstören.</t>
+		<h>Sambische Dorfbewohner gründeten einen Sicherheitsausschuss, um Wilderer daran zu hindern, ihre Region zu betreten.</h>
+	</pair>
+	<pair id="750" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Die britische Regierung hat ihre Bereitschaft angedeutet, argentinischen Unternehmen zu erlauben, an der Entwicklung von Ölfeldern in den Hoheitsgewässern der Falkland-Inseln teilzunehmen.</t>
+		<h>Die britische Regierung ist dazu bereit, argentinische Unternehmen an der Entwicklung von Ölfeldern zu beteiligen.</h>
+	</pair>
+	<pair id="755" entailment="NONENTAILMENT" task="SUM" length="short" error="yes">
+		<t>Sollte noch ein weiterer Konflikt entstehen, bevor die Streitkräfte verstärkt werden können, würde es länger dauern, ihn zu bekämpfen und mehr amerikanische Leben kosten als sonst zu erwarten wäre.</t>
+		<h>America wird von zwei andauernden Kriegen beansprucht.</h>
+	</pair>
+	<pair id="764" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Der Streit zwischen den beiden Ländern der ehemaligen Sowjetunion entstand, nachdem Moskau Weißrussland Ende Dezember dazu gezwungen hat, eine große Erhöhung der Kosten für die Gaslieferungen an das Land zu akzeptieren.</t>
+		<h>Moskau erhöhte die Kosten für die Gaslieferungen an Weißrussland.</h>
+	</pair>
+	<pair id="770" entailment="NONENTAILMENT" task="SUM" length="short">
+		<t>Mehr als 1.000 Mitglieder der russischen und ausländischen Medien wurden für die Pressekonferenz akkreditiert, die zu einer jährlichen Veranstaltung geworden ist.</t>
+		<h>Mehr als 1.000 Mitglieder aus Russland sind für die Pressekonferenz akkreditiert.</h>
+	</pair>
+	<pair id="774" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>In Massachusetts haben drei Frauen aus Boston letzten Monat Wal-Mart erfolgreich wegen Verstoßes gegen staatliche Anordnungen verklagt, nach denen die Apotheken alle häufig verschriebenen Medikamente vorrätig haben müssen.</t>
+		<h>Wal-Mart hat gegen staatliche Anordnungen verstoßen.</h>
+	</pair>
+	<pair id="780" entailment="NONENTAILMENT" task="SUM" length="short">
+		<t>Die Polizei untersucht auch einen Einbruch in der Oakmont Baptist Church, die sich weniger als eine Viertelmeile von der Memorial entfernt befindet, teilte der Polizei-Unteroffizier Kip Gaskins mit.</t>
+		<h>Kip Gaskins wollte in der Oakmont Baptist Church einbrechen.</h>
+	</pair>
+	<pair id="781" entailment="NONENTAILMENT" task="SUM" length="short">
+		<t>Clinton, die jede nationale Umfrage über die wahrscheinlichen demokratischen Präsidentschaftskandidaten 2008 führt, wurde von vielen Partei-Aktivisten für ihre Weigerung kritisiert, ihre Stimme für die Genehmigung der Militäraktion von 2002 im Irak zu widerrufen.</t>
+		<h>Clinton erhält Kritik für ihre Genehmigung, im Irak zu intervenieren.</h>
+	</pair>
+	<pair id="784" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Washington hat wiederholt versucht, Russland zu versichern, dass es von dem System nichts zu befürchten hat.</t>
+		<h>Russland fürchtet sich vor dem System.</h>
+	</pair>
+	<pair id="791" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Neben den sexuellen Angelegenheiten, gibt es das spürbare Bedürfnis von Bill Clinton nach Aufmerksamkeit - sogar Lobhudelei -, was mit der Geschichte über seine diesjährige Reise zur Weltmeisterschaft nach Berlin beispielhaft erläutert wird.</t>
+		<h>Clinton reiste zur Weltmeisterschaft nach Berlin.</h>
+	</pair>
+	<pair id="796" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Es hat sich dazu verpflichtet, dem Yuan künftig einen freieren Wechselkurs zu erlauben, sagte aber, dass man etwaige Reformen nicht beschleunigen wird, da man nicht riskieren will, die exportorientierte chinesische Wirtschaft zu destabilisieren.</t>
+		<h>China hat eine exportorientierte Wirtschaft.</h>
+	</pair>
+	<pair id="799" entailment="NONENTAILMENT" task="SUM" length="short">
+		<t>Abseits des Olympiageländes, nahe dem Backstein und Holz der Verbotenen Stadt, ist es, als ob eine außerirdische Präsenz gelandet wäre.</t>
+		<h>Außerirdische wurden in der Nähe der Verbotenen Stadt gesichtet.</h>
+	</pair>
+</entailment-corpus>

@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<entailment-corpus>
+	<pair id="1" entailment="ENTAILMENT" task="IE" length="short">
+		<t>Der Verkauf wurde getätigt, um Yukos Steuerbescheid über 27,5 Milliarden US-Dollar zu bezahlen. Yuganskneftegaz wurde ursprünglich für 9,4 Milliarden US-Dollar an ein kaum bekanntes Unternehmen namens Baikalfinansgroup verkauft, welches später von dem russischen staatseigenen Ölunternehmen Rosneft aufgekauft wurde.</t>
+		<h>Baikalfinansgroup wurde an Rosneft verkauft.</h>
+	</pair>
+	<pair id="16" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>Cauhtemoc Cardenas sagte während einer Nachrichtenkonferenz am siebten Juni, der Besuch des Präsidenten Alfredo Cristiani aus El Salvador nach Mexiko sei der Besuch eines "diktatorischen Herrschers, der einen großen Teil seiner Landsleute unterdrückt."</t>
+		<h>Alfredo Cristiani besucht am siebten Juni Mexiko.</h>
+	</pair>
+	<pair id="23" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>Boris Evelson, Gründer und geschäftsführender Teilhaber von Textra Group, Inc. und Bill Inmon, Präsident von Inmon Data Systems, sind Mitglieder des Kalido Technical Advisory Boards.</t>
+		<h>Boris Evelson hat das Kalido Technical Advisory Board gegründet.</h>
+	</pair>
+	<pair id="39" entailment="ENTAILMENT" task="IE" length="short">
+		<t>Er sagte, "es gibt Beweise dafür, dass Christiani in den Mord an den sechs jesuitischen Priestern verwickelt war", der sich am 16. November in San Salvador ereignete.</t>
+		<h>Cristiani wird die Ermordung von sechs Jesuiten vorgeworfen.</h>
+	</pair>
+	<pair id="41" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>Er sagte, "es gibt Beweise dafür, dass Christiani in den Mord an den sechs jesuitischen Priestern verwickelt war", der sich am 16. November in San Salvador ereignete.</t>
+		<h>Cristiani hat sechs Jesuiten ermordet.</h>
+	</pair>
+	<pair id="45" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>James Kerr war der Leiter von Deane, der Waffenfabrik der Adams and Deane. Robert Adams war Kerrs Cousin, einer der Partner und der Erfinder des Adams-Revolvers.</t>
+		<h>Dean hat einen Revolver erfunden.</h>
+	</pair>
+	<pair id="46" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>Die Aktien von O2 Plc, die diese Woche zugestimmt hat, für 17,7 Milliarden Pfund (31,3 Milliarden Dollar) von der Telefonica SA aufgekauft zu werden, sind gefallen, nachdem die Deutsche Telekom AG bekanntgegeben hat, dass sie kein Gegenangebot machen wird.</t>
+		<h>Deutsche Telekom hat O2 Plc verkauft.</h>
+	</pair>
+	<pair id="47" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>Tim Franks von der BBC sagt, dass frustrierte britische Diplomaten darauf beharren, dass es einige Erfolge gab, aber es besteht kein Zweifel daran, dass die anhaltende Verzögerung bei der Einigung über das EU-Budget alle anderen Diskussionen überschattet.</t>
+		<h>Diplomaten haben sich auf ein EU-Budget geeinigt.</h>
+	</pair>
+	<pair id="50" entailment="ENTAILMENT" task="IE" length="short">
+		<t>Edison entschied sich dafür, "seine" Erfindung Kinetoscope zu nennen. Dies ist eine Zusammensetzung der aus den griechisch-stammenden Wörtern "kineto" (Bewegung) und "scopos" ("sehen").</t>
+		<h>Edison hat das Kinetoscope erfunden.</h>
+	</pair>
+	<pair id="51" entailment="ENTAILMENT" task="IE" length="short">
+		<t>"Ich möchte wieder zurückkehren. Aber ich habe Angst, ehrlich, ich habe Angst. Die Propaganda gegen mich lässt die Menschen glauben, ich sei ein Terrorist", sagte El-Nashar.</t>
+		<h>El-Nashar wird Terrorismus vorgeworfen.</h>
+	</pair>
+	<pair id="55" entailment="ENTAILMENT" task="IE" length="short">
+		<t>Bosniens führende muslimische Tageszeitung Dnevni Avaz schreibt aufgeregt über "eine sensationelle Entdeckung" der "ersten europäischen Pyramide" in der zentralen Stadt Visoko, nördlich von Sarajevo.</t>
+		<h>Europas erste Pyramide wurde in der Nähe von Sarajevo entdeckt.</h>
+	</pair>
+	<pair id="64" entailment="ENTAILMENT" task="IE" length="short">
+		<t>Am Freitag hat GUS sein restliches Homeshopping-Geschäft und den letzten nicht-UK Einzelhandelsbereich entsorgt - durch den Verkauf für 390 Millionen (625 Millionen) des niederländischen Homeshopping-Unternehmens Wehkamp an Industri Kapital, eine Private Equity Firma.</t>
+		<h>GUS hat Wehkamp verkauft.</h>
+	</pair>
+	<pair id="93" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>Der UN-Generalsekretär Kofi Annan teilte mit, dass das irakische Volk sich in Massen versammle, um bei der Wahl am 30. Januar zu stimmen.</t>
+		<h>Kofi Annan wurde bei der Wahl vom 30. Januar gewählt.</h>
+	</pair>
+	<pair id="98" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>Scotts Hinrichtung führte zu Empörung in Ontario und war ein maßgeblicher Grund für die Entstehung der Wolseley-Expedition, die Louis Riel dazu zwang, als Mörder gebrandmarkt, die Siedlung zu verlassen.</t>
+		<h>Louis Riel hat Scott ermordet.</h>
+	</pair>
+	<pair id="111" entailment="NONENTAILMENT" task="IE" length="long">
+		<t>Die US-Bezirksrichterin Leonie Brinkema akzeptierte das Schuldgeständnis des mutmaßlichen Entführers Zacarias Moussaoui zu den sechs Anklagen auf Verschwörung, die gegen ihn wegen seiner Beteiligung an den Anschlägen vom 11. September vorliegen. Moussaoui, der während des Prozesses im Gericht von Alexandria, Virginia, einmal mit Gewalt festgehalten werden musste, war höflich und ruhig am Tag seines Erscheinens vor Gericht.</t>
+		<h>Moussaoui beteiligte sich an den Anschlägen vom 11. Septembers.</h>
+	</pair>
+	<pair id="113" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>Leider muss Herr Browne wegen eines Besuchs von Frau Hobday nach London reisen.</t>
+		<h>Frau Hobday reist in London ab.</h>
+	</pair>
+	<pair id="114" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>In Gesprächen mit Frau Robbins wird klar, dass die Armstrong Environmental Inc. von vergangenen oder gegenwärtigen Eigentümern oder einer Kombination aus diesen Parteien beibehalten wurde.</t>
+		<h>Frau Robbins ist Miteigentümerin von Armstrong Environmental Inc.</h>
+	</pair>
+	<pair id="115" entailment="ENTAILMENT" task="IE" length="short">
+		<t>Ein hellblauer Ford Escort GL von 1975, der einmal Papst Johannes Paul dem Zweiten gehörte, wurde am Samstag für 690.000 Dollar an einen Multimillionär aus Houston verkauft, der sagte, er wolle es in einem Museum ausstellen, das er in seiner Heimatstadt bauen wird.</t>
+		<h>Ein Multimillionär aus Houston kauft den Ford Escort des Papstes.</h>
+	</pair>
+	<pair id="122" entailment="ENTAILMENT" task="IE" length="short">
+		<t>Die Nival wurde 1996 von Sergey Orlovskiy gegründet. Anfang 2005 wurde die Firma für 10 Millionen US-Dollar von der in Florida ansässigen Aktiengesellschaft Ener1 Group aufgekauft.</t>
+		<h>Nival wurde im Jahre 2005 verkauft.</h>
+	</pair>
+	<pair id="131" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>Tieren ist die Einreise in das Vereinigte Königreich ohne Quarantäne nach sechs Monaten gestattet, solange sie in den 24 bis 48 Stunden vor dem Rückflug in das Vereinigte Königreich gegen Zecken, Flöhe und Bandwürmer behandelt wurden.</t>
+		<h>Die Quarantäne ist Pflicht für Tiere, die in das Vereinigte Königreich einreisen wollen.</h>
+	</pair>		
+	<pair id="142" entailment="ENTAILMENT" task="IE" length="long">
+		<t>Sie gaben sich ihren Namen zu Ehren der heiligen Jeanne D'Arc. Die Gruppe begann mit 17 Frauen, wuchs aber schnell auf 135 Mitglieder. Ihre Aufgabe bestand darin, Geld, Waffen, Proviant und Informationen für die kämpfenden Männer aufzutreiben. Viele von ihnen schmuggelten Waffen in die Kampfzone, indem sie diese in mit Getreide oder Zement gefüllten Karren mitführten.</t>
+		<h>Die Gruppe Jeanne D'Arc brachte den Kämpfenden Waffen.</h>
+	</pair>
+	<pair id="158" entailment="ENTAILMENT" task="IE" length="short">
+		<t>Laut COPREFA wurde ein anderer Soldat bei einem Angriff von Bandenkämpfern gegen das Elite Bracamonte Bataillon auf einer Bundesstraße in zentral El Salvador verletzt.</t>
+		<h>Das Bracamonte Bataillon wurde von Bandenkämpfern angegriffen.</h>
+	</pair>
+	<pair id="164" entailment="ENTAILMENT" task="IE" length="short">
+		<t>Das Chicago White Sox Charities bietet auch eine jährliche Unterstützung der bereits laufenden Programme, wie Special Olympics und Inner City Little League.</t>
+		<h>Die Inner City Little League wird von den Chicago White Sox Charities unterstützt.</h>
+	</pair>
+	<pair id="167" entailment="ENTAILMENT" task="IE" length="short">
+		<t>Der Bus, der nach Nairobi in Kenia unterwegs war, verunglückte im Distrikt Kabale von Uganda, in der Nähe der Grenze von Ruanda.</t>
+		<h>Der Kabale-Distrikt grenzt an Ruanda.</h>
+	</pair>
+	<pair id="177" entailment="ENTAILMENT" task="IE" length="short">
+		<t>Die Einnahmen von Tom Online für die drei Monate vor dem 30. Juni 2005 beliefen sich auf 42.780.000 US-Dollar, was einem Anstieg von 38,5% gegenüber dem gleichen Zeitraum in 2004 entspricht.</t>
+		<h>Die Einnahmen von Tom Online sind um 38,5% gestiegen.</h>
+	</pair>
+	<pair id="192" entailment="NONENTAILMENT" task="IE" length="short">
+		<t>Kuwait wird das vierte Golfland, wo sowohl Frauen als auch Männer bei Wahlen stimmen können. Saudi Arabien hält strikt an seinem reinen Männerwahlrecht fest.</t>
+		<h>Frauen dürfen in Saudi Arabien wählen.</h>
+	</pair>
+	<pair id="196" entailment="ENTAILMENT" task="IE" length="short">
+		<t>Einige große russische Öl-Unternehmen, darunter Lukoil, die staatliche Ölgesellschaft Zarubezhneft und der Händler Alpha Eco, wurden im Bericht einbezogen.</t>
+		<h>Zarubezhneft handelt mit Öl.</h>
+	</pair>
+	<pair id="203" entailment="NONENTAILMENT" task="IR" length="short">
+		<t>Die Entscheidung, der im Exil lebenden italienischen königlichen Familie die Rückkehr nach Italien zu erlauben, könnte bewilligt werden, nachdem bekannt wurde, dass das Familienoberhaupt, Prince Vittorio Emanuele, den italienischen Präsidenten korrekt angesprochen hat. Er nannte Präsident Ciampi "unseren Präsidenten, den Präsidenten aller Italiener".</t>
+		<h>Die italienische Königsfamilie kehrt nach Hause zurück.</h>
+	</pair>
+	<pair id="216" entailment="ENTAILMENT" task="IR" length="short">
+		<t>Atomgegner haben am Mittwoch den Transport von radioaktivem Abfall zu einer Müllhalde in Norddeutschland verzögert. Seit er in Deutschland angekommen ist, musste der Zug auf seinem Weg nach Lüneburg vier Mal anhalten.</t>
+		<h>Beim nuklearen Abfalltransport kam es in Deutschland zu Verzögerungen.</h>
+	</pair>
+	<pair id="218" entailment="ENTAILMENT" task="IR" length="long">
+		<t>Rund 130 Flüge wurden bei einem Streik vom 19. Januar und weitere in den folgenden Tagen gestrichen. Als die Flugbegleiter einen weiteren 24-Stunden-Streik am 23. Januar bekannt gaben, warf die italienische Sicherheitsbehörde (Commissione di Garanzia), die Streiks im unverzichtbaren öffentlichen Dienst regelt, der Gewerkschaft vor, (nach den Gesetzen Nr. 194/1990 und Nr. 83/2000) (IT0004266F) gegen die Rechtsvorschrift zu verstoßen, die besagt, dass zwischen zwei Streiks zehn Tage liegen müssen.</t>
+		<h>Die italienischen Flugbegleiter streiken.</h>
+	</pair>
+	<pair id="230" entailment="ENTAILMENT" task="IR" length="long">
+		<t>Die erfolgreichen Besuche von Castro in Harlem und dem Bronx, seine Rede vor der Generalversammlung der Vereinten Nationen, der Aufmarsch von 3000 Gegnern der US-Politik am 21. Oktober sowie die anschließenden Streikposten vor der UN-Mission Kubas zur Verteidigung der Revolution - all diese Ereignisse kontern die fortwährenden Bemühungen der US-Regierung, Kuba auszugrenzen und zu verleumden.</t>
+		<h>Castro besucht die UN.</h>
+	</pair>
+	<pair id="236" entailment="ENTAILMENT" task="IR" length="short">
+		<t>Claes war von 1992 bis 1994 belgischer Außenminister und von 1994 bis 1995 Generalsekretär der NATO, bevor er aufgrund von Korruptionsvorwürfen über unzulässige Verträge mit Agusta helicopters, die von ihm während seines Amtes als Wirtschaftsminister gebilligt wurden, zum Rücktritt gezwungen wurde. Aus diesem Grund verlor er für zahlreiche Jahre seine Bürgerrechte.</t>
+		<h>Der NATO-Generalsekretär Willy Claes ist zurückgetreten.</h>
+	</pair>
+	<pair id="240" entailment="ENTAILMENT" task="IR" length="short">
+		<t>Der Kosmonaut Sergei Avdeyev, der zur Zeit an Bord der Weltraumstation Mir ist, ist der Mensch geworden, der sich bisher am längsten im Weltall aufgehalten hat. Sein Aufenthalt wurde auf 681 Tage gezählt.</t>
+		<h>Die Russen halten den Rekord für den längsten Aufenthalt im Weltraum.</h>
+	</pair>
+	<pair id="249" entailment="NONENTAILMENT" task="IR" length="short">
+		<t>An anderer Stelle gewann Mosambik seine allererste olympische Goldmedaille, als Maria Mutola den 800-Meter-Lauf der Frauen gewann, während der Sieg über die 10.000 Meter der Männer an den Äthiopier Haile Gebrselassie ging.</t>
+		<h>Die Gewinnerin über die zehntausend Meter der Frauen stammt aus Mosambik.</h>
+	</pair>
+	<pair id="278" entailment="ENTAILMENT" task="IR" length="long">
+		<t>Im November 1990 kündigte der Präsident an, dass ab 1991 die Gründung oppositioneller politischer Parteien erlaubt wird. Es entstanden zahlreiche neue Parteien, wie die Demokratische Republikanische Bewegung (MDR), die Liberale Partei (LP), die Demokratische und Sozialistische Partei (PSD) und die Koalition zur Verteidigung der Republik (CDR).</t>
+		<h>Zahlreiche neue Parteien wurden gegründet.</h>
+	</pair>
+	<pair id="291" entailment="NONENTAILMENT" task="IR" length="short">
+		<t>LISSABON, 22. Januar (Xinhuanet) - Der ehemalige Ministerpräsident Anibal Cavaco Silva hat am Sonntag die Präsidentschaftswahl in Portugal gewonnen.</t>
+		<h>Der neue portugiesische Ministerpräsident wurde gewählt.</h>
+	</pair>
+	<pair id="305" entailment="NONENTAILMENT" task="IR" length="short">
+		<t>Streiks der Northwest: Was bedeutet es für die Reisenden, wenn die Flugbegleiter der Northwest am 15. streiken? Ich habe einen Flug für den 24. gebucht. Wird uns NW auf andere Fluggesellschaften umbuchen?</t>
+		<h>Die italienischen Flugbegleiter streiken.</h>
+	</pair>
+	<pair id="317" entailment="ENTAILMENT" task="IR" length="short">
+		<t>Präsident Fujimori wurde 1990 zum ersten Mal gewählt, und 1995 unter einer neuen Verfassung wiedergewählt.</t>
+		<h>Präsident Fujimori wurde 1995 wiedergewählt.</h>
+	</pair>
+	<pair id="318" entailment="ENTAILMENT" task="IR" length="short">
+		<t>Präsident Vladimir Putin versprach am Montag, die Mörder von Anna Politkovskaya aufzuspüren, während ihre Kollegen an der Novaya Gazeta sich dazu verpflichteten, ihre Arbeit trotz der Gefahren fortzusetzen.</t>
+		<h>Anna Politkovskaya wurde ermordet.</h>
+	</pair>
+	<pair id="321" entailment="ENTAILMENT" task="IR" length="short">
+		<t>Das Tollwut-Virus greift das zentrale Nervensystem an, was eine Enzephalopathie und den sofortigen Tod zur Folge hat. Die frühen Symptome von Tollwut sind bei Menschen unspezifisch, da sie aus Fieber, Kopfschmerzen und allgemeinem Unwohlsein bestehen.</t>
+		<h>Tollwut ist für Menschen tödlich.</h>
+	</pair>
+	<pair id="332" entailment="ENTAILMENT" task="IR" length="short">
+		<t>Stony Brook, New York (1/10/02)- Die Entdeckung altsteinzeitlicher Kunst in einer Höhle in Südafrika bewegt die Forscher dazu, eine ältere und weniger Europa-zentrierte Sicht der Entstehung dessen in Betracht zu ziehen, was als 'modernes Verhalten' gilt.</t>
+		<h>Prähistorische Kunst wurde in Südafrika entdeckt.</h>
+	</pair>
+	<pair id="341" entailment="NONENTAILMENT" task="IR" length="short">
+		<t>Die Entdeckung basiert auf der Messung der Geschwindigkeit eines Wirbels aus heißem Gas, der das schwarze Loch umkreist.</t>
+		<h>Hubble entdeckt schwarze Löcher.</h>
+	</pair>
+	<pair id="361" entailment="NONENTAILMENT" task="IR" length="long">
+		<t>Die längste Mission, die die russischen Salyuts unterstützt haben, ging über 63 Tage. Die zweite Generation Salyuts wird viel längere Missionen fliegen und von Zeit zu Zeit wieder versorgt werden müssen; daher war eine Versorgungsfähre entscheidend, um einen voll funktionsfähigen Salyut zwei Jahre lang mit 40.000 Pfund Treibstoff, Nahrung, Kleidung und Wasser zu versorgen.</t>
+		<h>Die Russen halten den Rekord für den längsten Aufenthalt im Weltraum.</h>
+	</pair>
+	<pair id="366" entailment="NONENTAILMENT" task="IR" length="long">
+		<t>Das norwegische Nobel-Komitee ist für die Auswahl der Kandidaten und die Wahl der Friedensnobelpreisträger verantwortlich. Das Komitee besteht aus fünf Mitgliedern, die vom Storting (dem norwegischen Parlament) ernannt werden. Der Friedenspreis wird in Oslo, Norwegen vergeben und nicht in Stockholm, Schweden, wie die anderen Nobelpreise.</t>
+		<h>Die Friedensnobelpreis-Kandidaten wurden gewählt.</h>
+	</pair>
+	<pair id="376" entailment="ENTAILMENT" task="IR" length="short">
+		<t>Der Sohn des letzten Königs Italiens kehrte am Montag in seine Heimat zurück und beendete damit mehr als ein halbes Jahrhundert Exil. Victor Emmanuel und seine Familie landeten mit einem privaten Flugzeug auf einem militärischen Flughafen in Rom und brach sofort zu einer Audienz bei Papst Johannes Paul II auf.</t>
+		<h>Die italienische Königsfamilie kehrt nach Hause zurück.</h>
+	</pair>
+	<pair id="377" entailment="ENTAILMENT" task="IR" length="short">
+		<t>Die Ausbreitung von AIDS in Afrika wird nicht durch ungeschützten Geschlechtsverkehr angetrieben, sondern durch eine unsichere medizinische Praxis, wie eine letzte Woche veröffentlichte Studie behauptet.</t>
+		<h>AIDS verbreitet sich in Afrika.</h>
+	</pair>
+	<pair id="388" entailment="ENTAILMENT" task="IR" length="short">
+		<t>Zwei der größten finanziellen Institutionen Japans kündigten am Freitag an, dass sie zu fusionieren planen, um die weltweit größte Bank zu erschaffen, und unterstrichen das wachsenden Gefühl, dass die für lange Zeit unruhigen Bankensysteme des Landes sich deutlich verbessert haben.</t>
+		<h>Aus der Fusion japanischer Banken entsteht die weltweit größte Bank.</h>
+	</pair>
+	<pair id="390" entailment="ENTAILMENT" task="IR" length="short">
+		<t>Der Taifun Xangsane peitschte am Donnerstag die philippinische Hauptstadt auf und verursachte die Landung von Flügen, die Unterbrechung des Schiffsverkehrs und die Schließung von Schulen und Märkten, nachdem er tödliche Sturzfluten in der Mitte des Landes ausgelöst hatte.</t>
+		<h>Ein Taifun schlägt auf die Philippinen ein.</h>
+	</pair>
+	<pair id="393" entailment="NONENTAILMENT" task="IR" length="short">
+		<t>Die UFJ Holdings Inc. sagte, sie will mit Mitsubishi Tokyo Financial Group Inc. fusionieren - eine Kombination, die die Citigroup Inc. als weltweit größte Bank übertreffen und die Versuche Japans, faule Kredite zu bereinigen, beschleunigen würde.</t>
+		<h>Aus der Fusion japanischer Banken entsteht die weltweit größte Bank.</h>
+	</pair>
+	<pair id="406" entailment="ENTAILMENT" task="QA" length="long">
+		<t>Das kyrillische Alphabet wird in vielen ostslawischen und südslawischen Sprachen (Weißrussisch, Bulgarisch, Mazedonisch, Russisch, Rusynisch, Serbisch und Ukrainisch) und in vielen anderen Sprachen der ehemaligen Sovietunion, Asiens und Osteuropas verwendet. In der Vergangenheit wurde es auch in anderen Sprachen benutzt. Nicht alle Buchstaben des kyrillischen Alphabets werden in jeder Sprache benutzt, die dieses Alphabet verwendet.</t>
+		<h>Kyrillisch ist ein Alphabet für bestimmte slawische Sprachen, wie Russisch.</h>
+	</pair>
+	<pair id="427" entailment="NONENTAILMENT" task="QA" length="long">
+		<t>Ein Bericht, der von einer fünfköpfigen UN-Kommission angefertigt wurde, stellte "die Tötung von Zivilisten, deren erzwungenes Verschwinden, die Zerstörung von Dörfern, Vergewaltigung und andere Formen sexuellen Missbrauchs, Plünderung und Vertreibung in ganz Darfur" fest und nannte die geheimen Namen von vermeintlichen Kriegsverbrechern, die vor das ICC treten sollten.</t>
+		<h>Mehr als 200.000 Menschen wurden beim Luftangriff auf die Region von Dafur getötet.</h>
+	</pair>	<pair id="430" entailment="NONENTAILMENT" task="QA" length="long">
+		<t>Tausende Rumänen nahmen am Montag an Kundgebungen teil, um sich für die Freilassung von drei rumänischen Journalisten einzusetzen, die letzten Monat im Irak entführt wurden. Die Menschenmenge hatte nach kleineren Kundgebungen am Wochenende, die von rumänischen Medienvertretern und der arabischen Gemeinde Rumäniens gesponsert wurden, an Größe zugenommen.</t>
+		<h>Rumänien hat 730 Truppen in den Irak geschickt.</h>
+	</pair>
+	<pair id="459" entailment="NONENTAILMENT" task="QA" length="short">
+		<t>Felipe González Márquez (geboren am 5. März 1942) ist ein spanischer sozialistischer Politiker. Er war von 1974 bis 1997 der Generalsekretär der Spanischen Sozialistischen Arbeiterpartei (PSOE).</t>
+		<h>Felipe González ist der Präsident Spaniens.</h>
+	</pair>
+	<pair id="460" entailment="NONENTAILMENT" task="QA" length="short">
+		<t>Felipe González Márquez ist ein spanischer politischer Führer. Nach dem Beitritt der damaligen spanischen Sozialistischen Arbeiterpartei wurde González ihr Generalsekretär und riss sie von der sterbenden Position, in die sie unter Franco gefallen war.</t>
+		<h>Felipe González ist der Präsident Spaniens.</h>
+	</pair>
+	<pair id="464" entailment="NONENTAILMENT" task="QA" length="short">
+		<t>Qin (von dem der Name China stammt) etablierte die ungefähren Grenzen und das grundlegende administrative System, das alle nachfolgenden Dynastien folgen sollten.</t>
+		<h>Qin Shi Huang war der erste chinesische Kaiser.</h>
+	</pair>
+	<pair id="472" entailment="ENTAILMENT" task="QA" length="short">
+		<t>1867 erhielt Nobel ein Patent auf eine spezielle Art von Nitroglycerin, die er "Dynamit" nannte. Die Erfindung erwies schnell ihre Nützlichkeit im Bau- und Konstruktionswesen vieler Länder.</t>
+		<h>Alfred Nobel ist der Erfinder des Dynamits.</h>
+	</pair>
+	<pair id="494" entailment="NONENTAILMENT" task="QA" length="short">
+		<t>1944 übergab Victor Emmanuel III die meisten seiner Befugnisse an seinen Sohn Umberto II, als Umberto zum Generalleutnant des Reichs ernannt wurde, und dankte schließlich 1946 ab.</t>
+		<h>Victor Emmanuel III war König von Italien von 1900 bis 1946.</h>
+	</pair>
+	<pair id="495" entailment="ENTAILMENT" task="QA" length="short">
+		<t>Victor Emmanuel III (1869-1947), König von Italien (1900-1946), Kaiser von Äthiopien (1936-1943), König von Albanien (1939-1943), Sohn und Nachfolger von Humbert I.</t>
+		<h>Victor Emmanuel III war König von Italien von 1900 bis 1946.</h>
+	</pair>
+	<pair id="516" entailment="ENTAILMENT" task="QA" length="short">
+		<t>Die größte Zeitung Norwegens, Verdens Gang, druckt einen Brief an den Herausgeber, der von Joe Harrington und mir geschrieben wurde.</t>
+		<h>Verdens Gang ist eine norwegische Zeitung.</h>
+	</pair>
+	<pair id="546" entailment="NONENTAILMENT" task="QA" length="short">
+		<t>Heaney war 'einer ausgezeichneten Gruppe von Iren' beigetreten, 'die mit diesem Preis für ihren Beitrag zur irischen Literatur des zwanzigsten Jahrhunderts geehrt wurden.'</t>
+		<h>Heaney wurde 1995 mit dem Literatur-Nobelpreis ausgezeichnet.</h>
+	</pair>
+	<pair id="550" entailment="ENTAILMENT" task="QA" length="short">
+		<t>Bukowski erregte die Aufmerksamkeit von John Martin, der im Jahre 1965 die Black Sparrow Press mit dem erklärten Ziel gründete, ihn zu veröffentlichen.</t>
+		<h>John Martin ist der Gründer der Black Sparrow Press.</h>
+	</pair>
+	<pair id="554" entailment="NONENTAILMENT" task="QA" length="short">
+		<t>Der nepalesische Bergsteiger Ang Rita Sherpa brach letzte Woche seinen eigenen Rekord über die Anzahl der Aufstiege auf den Everest.</t>
+		<h>Alison Hargreaves ist die erste Frau, die ohne Sauerstoffgerät den Mount Everest bestiegen hat.</h>
+	</pair>
+	<pair id="562" entailment="ENTAILMENT" task="QA" length="short">
+		<t>In "Killing the Dream: James Earl Ray und die Ermordung von Martin Luther King, JR." von Gerald Posner (Harvest/Harcourt Brace, $15), übernimmt der Schriftsteller, der in "Case Closed" bereits Kennedys Verschwörungstheorien angegriffen hatte, Rays Unschuldsbeteuerung im Mord an King von 1968.</t>
+		<h>Martin Luther King wurde 1968 ermordet.</h>
+	</pair>
+	<pair id="595" entailment="NONENTAILMENT" task="QA" length="short">
+		<t>Unter den eifrigsten Parteigängern von Stellafane zählt auch David H. Levy, Mitentdecker eines Kometen zusammen mit Dr. Eugene Shoemaker , der nach den beiden benannt wurde und im Jahre 1994, als er in Richtung Jupiter angezogen wurde, auseinander brach und ein Feuerwerk hervorbrachte, das man von der Erde aus sehen konnte.</t>
+		<h>Der Komet Shoemaker-Levy wurde von Shoemaker, seiner Frau Carolyn und dem Astronomen David H. Levy entdeckt.</h>
+	</pair>
+	<pair id="616" entailment="NONENTAILMENT" task="SUM" length="short">
+		<t>Volkswagen sollte beginnen, bei den Ermittlungen der Staatsanwaltschaft über den angeblichen Diebstahl geheimer Dokumente von General Motors voll zu kooperieren.</t>
+		<h>Deutsche Beamte haben begonnen, gegen VW wegen Diebstahls zu ermitteln.</h>
+	</pair>
+	<pair id="633" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Ein belgischer Polizist, der sich in Brüssel für einen Kunsthändler ausgegeben hatte, hat drei Schweden festgenommen.</t>
+		<h>Drei Schweden wurden in einer verdeckten Operation der belgischen Polizei verhaftet.</h>
+	</pair>
+	<pair id="637" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>In Frankreich sind Kunsthändler gesetzlich dazu verpflichtet, alle Einkäufe zu registrieren, mit Ausnahme derer aus öffentlichen Versteigerungen.</t>
+		<h>In Frankreich sind Kunstwerke, die in einer öffentlichen Versteigerung gekauft werden, von der Registrierung ausgenommen.</h>
+	</pair>
+	<pair id="653" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Die argentinische Kampagne, sich als vertrauenswürdiger Handelspartner neu zu etablieren, wurde gestern durch die Unterzeichnung eines Käuferkredits über 9,5 Millionen Dollar seitens des britischen Export Credit Guarantee Departments angekurbelt.</t>
+		<h>Das britische Export Credit Guarantee Department unterzeichnet für Kredite an Argentinien.</h>
+	</pair>
+	<pair id="667" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Die britische Regierung hat ihre Bereitschaft angedeutet, argentinischen Unternehmen zu erlauben, an der Entwicklung von Ölfeldern im territorialen Gewässer der Falkland-Inseln teilzunehmen - sofern sie bestätigen, dass das extrahierte Öl Großbritannien gehört.</t>
+		<h>Die Briten sind dazu bereit, argentinischen Unternehmen zu erlauben, an der Entwicklung von Ölfeldern teilzunehmen.</h>
+	</pair>
+	<pair id="681" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Fischer, die das Gift Natriumzyanid verwenden, haben dazu beigetragen, schätzungsweise 70% der Riffe zu zerstören.</t>
+		<h>Die Fischerei mit Zyaniden ist mit der Zerstörung des Riffgebietes verbunden.</h>
+	</pair>
+	<pair id="689" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Ein Vergoldungsunternehmen, das Tausende von Gallonen zyanidverseuchter Abwässer in die Kanalisation von Los Angeles ausschüttete, wurde schuldig gesprochen</t>
+		<h>Ein Vergoldungsunternehmen schüttete zyanidverseuchte Abwässer in die Kanalisation von Los Angeles.</h>
+	</pair>
+	<pair id="698" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Zyanid wird auch von den Fischern Muru-ami auf den Philippinen verwendet, um Fische aus den Korallenriffen zu ködern.</t>
+		<h>Philippinische Fischer nutzen Zyanid in der Fischerei.</h>
+	</pair>
+	<pair id="704" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Beim Fall Libyens gegen Großbritannien und den USA geht es um den Streit über ihre Forderung nach Auslieferung der Libyer, die beschuldigt werden, im Jahre 1988 einen Pan Am-Jet über Lockerbie in die Luft gejagt zu haben.</t>
+		<h>Ein Fall betraf die Auslieferung von libyschen Verdächtigen im Pan-Am-Attentat von Lockerbie.</h>
+	</pair>
+	<pair id="706" entailment="NONENTAILMENT" task="SUM" length="short">
+		<t>Touristen zahlen jährlich Millionen Dollar, um die Tierwelt Afrikas zu sehen, und Schmuggler zahlen noch mehr Millionen für streng illegale Käufe von Elfenbein und Nashorn-Hörnern von Wilderern.</t>
+		<h>Afrikanische Länder animieren dazu, die Tiere leben zu lassen, um Touristen anzuziehen.</h>
+	</pair>
+	<pair id="707" entailment="NONENTAILMENT" task="SUM" length="long">
+		<t>Die Eigentümer von Phinda, der Naturschutz-Gesellschaft mit Sitz in Südafrika, hätten keine bessere Werbung für ihre Naturschutz-Philosophie bezahlen können: einen personenorientierten Erhaltungsansatz, der in Afrika langsam an Boden gewinnt, da die Wildreservate einer immer größeren Bedrohungen durch die hungrige, arme und wütende lokale Bevölkerung ausgesetzt sind.</t>
+		<h>Die Naturschutz-Gesellschaft mit Sitz in Südafrika bedroht die lokale Bevölkerung.</h>
+	</pair>
+	<pair id="718" entailment="NONENTAILMENT" task="SUM" length="short">
+		<t>Dennoch sagen selbst die eifrigsten Chirurgen, dass es wahrscheinlich mehrere Jahre dauern wird, bis sie es in Betracht ziehen, einen Roboter selbständig Operationen durchführen zu lassen.</t>
+		<h>Roboter werden zur Unterstützung einer Reihe von chirurgischen Vorgängen verwendet.</h>
+	</pair>
+	<pair id="722" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Da Fiat seine robotisierten Inventarbestände in Glanzwerbung vorstellt und IBM die Lichter in seinem automatisierten Lager in Greenock abschaltet, ist es klar, dass dieser Aschenputtel-Betrieb eine neue Garnitur von High-Tech Festgewändern hat.</t>
+		<h>Insbesondere Fiat nutzt Roboter für das Lagermanagement.</h>
+	</pair>
+	<pair id="724" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Jetzt hat GMFanuc Robotics eine Roboter-Lösung perfektioniert, die dreimal schneller als manuelles Sprühen ist, ein Sprühbild mit einer Genauigkeit von 0,03 Zoll reproduzieren und einfach programmiert werden kann, um eine breite Palette an Bekleidungen zu behandeln.</t>
+		<h>Roboter werden verwendet, um Farbe auf Kleidung zu sprühen.</h>
+	</pair>
+	<pair id="762" entailment="NONENTAILMENT" task="SUM" length="short">
+		<t>Paracetamol ist als der Wirkstoff bekannt, der in den unter der Marke Tylenol verkauften Produkten enthalten ist, ist aber oft auch in meistens günstigeren generischen Versionen verbreitet.</t>
+		<h>Paracetamol wird von Tylenol produziert.</h>
+	</pair>
+	<pair id="766" entailment="NONENTAILMENT" task="SUM" length="short">
+		<t>Molly Walsh, 21, eine Studentin an der George Washington University, die in einer CVS-Apotheke in Washington, DC, einkauft, sagte, sie habe nicht die Absicht, eines der Eigenmarken-Medikamente zu Hause wegzuwerfen, die sie gekauft hatte, um Geld zu sparen. Auch habe sie auch nicht vor, aufzuhören, Generika zu kaufen.</t>
+		<h>Molly Walsh will aufhören, generische Produkte zu kaufen.</h>
+	</pair>
+	<pair id="768" entailment="NONENTAILMENT" task="SUM" length="short">
+		<t>Die FDA wollte nicht sagen, in welchen Staaten die Pillen verkauft worden waren, sondern empfahl den Kunden, zu ermitteln, ob die Produkte, die sie gekauft haben, zurückgerufen wurden, indem sie die Shop-Liste auf der FDA-Website und die Chargen-Liste überprüfen. Die Chargen-Nummern befinden sich auf dem Etikett des Behälters.</t>
+		<h>Die FDA hat eine Liste der Staaten zur Verfügung gestellt, in denen die Pillen verkauft worden sind.</h>
+	</pair>
+	<pair id="777" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Das Hercules-Transportflugzeug, das aus der ersten Runde der Reise nach Pakistan direkt hierher flog, landete, und dann war es nur ein flotter Spaziergang von 100 Metern bis zu den Handshakes.</t>
+		<h>Das Hercules-Transportflugzeug machte einen Flug nach Pakistan.</h>
+	</pair>
+	<pair id="784" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Drei Krankenschwestern in einem der ältesten Krankenhäuser Wiens sind wegen des Verdachts festgenommen worden, 35 Patienten getötet zu haben.</t>
+		<h>Drei Krankenschwestern aus Wien sind verdächtigt, Patienten getötet zu haben.</h>
+	</pair>
+	<pair id="790" entailment="NONENTAILMENT" task="SUM" length="short">
+		<t>Fünfundvierzig Prozent der untersuchten Gesetzesentwürfe waren überparteilich, und 85 Prozent der überarbeiteten Gesetzesentwürfe hatten republikanische Hauptreferenten. 8221; Die Kleinunternehmer sind enttäuscht über die republikanische Erfolgsbilanz, insbesondere über die mangelnde Produktivität im Senat.</t>
+		<h>Der Senat ist am wenigsten produktiv.</h>
+	</pair>
+	<pair id="794" entailment="ENTAILMENT" task="SUM" length="short">
+		<t>Die tödlichen Schüsse gegen Steven Charles Jenkins, einem todkranken AIDS-Patienten, die von seinem Freund Philip Lee Saylor am Cedars-Sinai Medical Center abgefeuert wurden, haben wieder die Aufmerksamkeit auf die Probleme des Todes und Sterbens in unserer Gesellschaft konzentriert.</t>
+		<h>Steven Jenkins wurde von einem Freund erschossen.</h>
+	</pair>
+</entailment-corpus>
